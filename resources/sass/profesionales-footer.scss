@@ -1,0 +1,1005 @@
+#reveal-wrap {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 0;
+}
+//Ed
+.footerSiempreAbajo{
+    position: relative;
+    bottom: 0;
+    padding: 0;
+}
+#reveal-wrap2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 0;
+}
+#reveal-wrap .hidden-div {
+    display: none;
+}
+#reveal-wrap2 .hidden-div2 {
+    display: none;
+}
+.active {
+    border-radius: 50px 50px 0px 0px;
+    border: 1px solid block;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #434142;
+}
+.active2 {
+    border-radius: 50px 50px 0px 0px;
+    border: 1px solid block;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #434142;
+}
+
+.hidden-div {
+    width: 100%;
+    background: #e8e8e8;
+    color: #434142;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+}
+.hidden-div a {
+    color: #434142;
+    text-decoration: none;
+}
+.hidden-div2 a {
+    color: #434142;
+    text-decoration: none;
+}
+.content-botonVerMas-chevron-footer {
+    padding: 0;
+    margin: auto;
+    margin-bottom: .5%;
+    display: flex;
+    flex-direction: column;
+}
+.botonVerMas-chevron-despliegue-footer {
+    color: #1558d6;
+    line-height: 2 !important;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.hidden-div2 {
+    background: #f5f5f5;
+}
+////FOOTER VERSION ESCRITORIO jfk
+.tipografiaVerMas {
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: #434142;
+}
+.container-principal-sections-footerDesk {
+    display: flex;
+    padding: 0;
+}
+.content-textInfo-input-footerePC {
+    background: #e8e8e8;
+    display: flex;
+    padding: 0;
+    height: 11vh;
+    margin: auto;
+}
+.section-textInfo-footerPC {
+    padding: 0;
+    display: block;
+    margin-top: 1%;
+}
+.section-input-footerPC {
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+.section-option-textos-footerPC {
+    padding: 0;
+    text-align: initial;
+}
+.titulo-texto-suscribete-footerDesk {
+    padding: 0;
+    margin: 0;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #434142;
+}
+.titulo-texto-hazParte-footerDesk {
+    padding: 0;
+    font-size: .97em;
+    font-weight: bold;
+    color: #434142;
+}
+.input-cajadTexto-footerDesk {
+    border-radius: 5px;
+    border: none;
+    height: 4vh;
+    width: 75%;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    font-family: 'Quicksand';
+}
+.boton-input-enviar-footerDesk {
+    color: #ffffff;
+    margin-left: 0;
+    border: none;
+    border-radius: 5px;
+    background: #f77f00;
+    font-size: .75em;
+    height: 4vh;
+    width: 23%;
+    padding: 0;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.checkBox-teryCond-footerDesk {
+    width: 3.5%;
+    height: 2vh;
+}
+.section-teryCond-texto-footerDesk {
+    padding: 0;
+    text-align: initial;
+    display: flex;
+    line-height: .9;
+    margin-top: 2%;
+    margin-left: .5%;
+}
+.section-option-teryCond-footerDesk {
+    padding: 0;
+    padding-left: 1%;
+}
+.sections-options-texto-acepto-footerDesk {
+    font-size: .7em;
+    color: #434142;
+    font-weight: bold;
+    margin: 0;
+}
+.content-principal-sections-infoZaabra-footerDesk {
+    padding: 1% 0;
+    margin: 0;
+    background: #f5f5f5;
+    justify-content: center;
+}
+.seccion-logo-contactenos-footerDesk {
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+    padding: 0;
+    height: 5vh;
+    margin: 1% 0;
+}
+.logo-footerDeskt {
+    height: 90%;
+    width: 50%;
+    padding: 0%;
+}
+.section-titulo-contactanos-footerDesk {
+    padding: 0;
+    margin-top: 0;
+}
+.sections-titulo-contactanos-texto-footerDesk {
+    font-size: 1em;
+    font-weight: bold;
+    color: #434142;
+    margin: 0;
+    text-align: initial;
+}
+.sections-titulos-texto-footerDesk {
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    color: #434142;
+    margin: 0;
+    text-align: center;
+}
+.section-correoZaabra-footerDesk {
+    padding: 0 0%;
+    text-align: initial;
+}
+.text-correoZaabra-footerDesk {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0;
+    color: #434142;
+}
+.contente-iconos-redes-footerDesk {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 69%;
+    margin-left: 0;
+}
+.icono-footerDesk {
+    width: 100%;
+}
+.content-sections-infoZaabra-footerDesk {
+    margin-top: auto;
+    padding: 0;
+    text-align: initial;
+    line-height: 1.32;
+}
+.sections-options-texto-footerDesk {
+    font-size: .7em;
+    color: #434142;
+}
+.content-option-texto-footerDesk {
+    height: 3vh;
+    padding: 0;
+}
+.section-option-mediodPago-footerDesk {
+    padding: 0;
+}
+.content-sections-mediosdPago-footerDesk {
+    margin-top: auto;
+    padding: 0;
+    text-align: end;
+}
+
+.content-section-Pagos-FooterDesk {
+    border: none;
+    background: #f5f5f5;
+    padding: 0;
+    height: 11vh;
+    text-align: initial;
+}
+.content-img-icon-big-footerDesk {
+    padding: 0;
+    height: 11vh; 
+    margin-left: auto;
+
+}
+.img-icon-mediodPago-metodos-footerDesk {
+    height: 100%;
+    width: 60%;
+}
+.section-copyRight-FooterDesk {
+  
+    font-weight: bold;
+    background: #e8e8e8;
+    color: #434142;
+    text-align: center;
+}
+.texto-copyRight-footerDesk {
+    font-size: .75em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+///// SECCION FOOTER Version celular jfk
+.container-principal-cabecera-footerCell {
+    background: #e8e8e8;
+    color: #434241;
+}
+.cabecera-seccion-logo-footerCell {
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+    padding: 0;
+    height: 8vh;
+}
+.logo-footerCell {
+    height: 80%;
+    width: 90%;
+    padding: 0%;
+}
+.content-logo-textInfo-footerCell {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 5% 0 0 0;
+    margin-bottom: 2%;
+}
+.content-cabecera-textosInfo-footerCell {
+    padding: 0% 0% 0% 0%;
+    text-align: initial;
+    line-height: .9;
+}
+.seccion-texto-suscribete-footerCell {
+    padding: 0;
+}
+.texto-suscribete-estilos-footerCell {
+    font-size: .8em;
+    font-weight: bold;
+}
+.seccion-texto-escribenos-footerCell {
+    padding: 0;
+}
+.texto-escribenos-estilos-footerCell {
+    font-size: .625em;
+    font-weight: bold;
+}
+.content-cabecera-textosInfo-footerCell {
+    padding: 0% 0% 0% 3%;
+    text-align: initial;
+}
+.section-inputi-footerCell {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.input-cajadTexto-footerCell {
+    border: 0.5px;
+    padding: 0 5%;
+    height: 5vh;
+    width: 70%;
+    font-size: .75em;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.boton-enviar-footerCell {
+    border: 0.5px;
+    border-radius: 5px;
+    background: #f77f00;
+    margin-left: 2%;
+    height: 5vh;
+    width: 30%;
+    font-size: .75em;
+    color: #ffffff;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.section-checkBox-footerCell {
+    margin: auto;
+    padding: 3% 0;
+    display: flex;
+}
+.boton-checkBox-footerCell {
+    width: 9%;
+    height: 3vh;
+}
+.texto-terminos-estilos-footerCell {
+    font-weight: bold;
+    font-size: .625em;
+    line-height: 1;
+    padding-left: 2%;
+    text-align: initial;
+}
+.texto-contactanos-footerCell {
+    font-size: .75em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.correoZaabra-footerCell {
+    font-size: .625em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+}
+.content-section-mail-icons-footerCell {
+    text-align: center;
+    padding: 2% 0;
+    background: #f5f5f5;
+}
+.content-img-icon-footerCell {
+    padding: 0;
+    height: 4vh;
+}
+.content-icons-contactanos-footerCell {
+    height: 6vh;
+    width: 50%;
+    padding: 2% 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #f5f5f5;
+}
+.iconos-redes-footerCell {
+    height: 90%;
+}
+.positionChevronfooterCell {
+    float: right;
+    color: #f77f00;
+    line-height: 2 !important;
+}
+.seccionRedesFooter {
+    background: #f5f5f5;
+    padding: 0;
+    text-align: initial;
+    margin: auto;
+}
+.boton-acerca-titulo-footerCell {
+    text-align: initial;
+    padding: 0%;
+    border: none;
+    background: #f5f5f5;
+    color: #434142;
+}
+.boton-politicas-titulo-footerCell {
+    text-align: initial;
+    padding: 0%;
+    border: none;
+    background: #f5f5f5;
+    color: #434142;
+}
+.boton-pagos-titulo-footerCell {
+    text-align: initial;
+    padding: 0%;
+    border: none;
+    background: #f5f5f5;
+    color: #434142;
+}
+.sections-desplegables-texto-footerCell {
+    font-size: .75em;
+    font-weight: bold;
+}
+.section-option-Acerca-footerCell {
+    background: #f5f5f5;
+    border: none;
+    padding: 0 0 0 5%;
+}
+.section-option-politicas-footerCell {
+    background: #f5f5f5;
+    border: none;
+    padding: 0 0 0 5%;
+}
+.secction-interna-option-desplegable-footerCell {
+    height: 14vh;
+    padding: 0;
+    line-height: 1.2;
+}
+.fontInternaFootMovl {
+    font-size: .625em;
+    font-weight: bold;
+    color: #434142;
+}
+.content-mediosdPagos-footerCell {
+    height: 12vh;
+    border: none;
+    background: #f5f5f5;
+    padding: 0%;
+    margin: auto;
+}
+.content-imagenes-icons-footerDesk {
+    height: 12vh;
+    padding: 0;
+    border: none;
+}
+.section-copyRight-footerCell {
+    font-size: .625rem;
+    background: #e8e8e8;
+    color: #434142;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+}
+.rotacion {
+    -moz-transition: all 0.25s ease-out;
+    -ms-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s ease-out;
+}
+.rotacionBtn:hover .rotacion {
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+// vista vertical celular //
+@media (min-width: 320px) and (orientation: portrait) {
+    .footer-visible-en-pc {
+        display: none;
+    }
+    .footer-visible-en-cel {
+        display: block;
+    }
+}
+
+// vista horizontal celular
+@media (min-width: 320px) and (orientation: landscape) {
+    .footer-visible-en-pc {
+        display: none;
+    }
+    .footer-visible-en-cel {
+        display: block;
+    }
+}
+// vista horizontal celular
+@media (min-width: 360px) and (orientation: portrait) {
+    .footer-visible-en-pc {
+        display: none;
+    }
+    .footer-visible-en-cel {
+        display: block;
+    }
+}
+
+// vista vertical celular//
+@media (min-width: 375px) and (orientation: portrait) {
+    .footer-visible-en-pc {
+        display: none;
+    }
+    .footer-visible-en-cel {
+        display: block;
+    }
+    .texto-suscribete-estilos-footerCell {
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+    .content-cabecera-textosInfo-footerCell {
+        padding: 0% 0% 0% 3%;
+        text-align: initial;
+    }
+    .boton-checkBox-footerCell {
+        width: 6%;
+        height: 3vh;
+    }   
+    .texto-terminos-estilos-footerCell {
+        font-weight: bold;
+        font-size: .625em;
+        line-height: 1.2;
+        padding-left: 2%;
+    }
+    .correoZaabra-footerCell {
+        font-size: .75em;
+        font-weight: bold;
+        text-align: center;
+        padding: 0;
+    }
+    .secction-interna-option-desplegable-footerCell {
+        height: 12vh;
+        padding: 0;
+        line-height: 1.2;
+    }
+    .content-imagenes-icons-footerDesk {
+        height: 12vh;
+        padding: 0;
+        border: none;
+    }
+    .content-mediosdPagos-footerCell {
+        height: 12vh;
+        border: none;
+        background: #f5f5f5;
+        padding: 0%;
+        margin: auto;
+    }
+}
+
+// vista horizontal celular 
+@media (min-width: 375px) and (orientation: landscape) {
+    .footer-visible-en-pc {
+        display: none;
+    }
+    .footer-visible-en-cel {
+        display: block;
+    }
+    
+}
+// vista vertical celular//
+@media (min-width: 400px) and (orientation: portrait) {
+    .footer-visible-en-pc {
+        display: none;
+    }
+    .footer-visible-en-cel {
+        display: block;
+    }
+    .logo-footerCell {
+        height: 85%;
+        width: 100%;
+        padding: 0%;
+    }
+    .texto-suscribete-estilos-footerCell {
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .texto-escribenos-estilos-footerCell {
+        font-size: .7em;
+        font-weight: bold;
+    }
+    .boton-checkBox-footerCell {
+        width: 6%;
+        height: 3vh;
+    }
+    .content-icons-contactanos-footerCell {
+        height: 6vh;
+        width: 46%;
+    }
+    .iconos-redes-footerCell {
+        height: 85%;
+    }
+    .content-mediosdPagos-footerCell {
+        height: 12vh;
+        border: none;
+        background: #f5f5f5;
+        padding: 0%;
+        margin: auto;
+    }
+    .content-imagenes-icons-footerDesk {
+        height: 12vh;
+        padding: 0;
+        border: none;
+    }
+    .secction-interna-option-desplegable-footerCell {
+        height: 12vh;
+        padding: 0;
+        line-height: 1.2;
+    }
+}
+// vista vertical celular
+@media (min-width: 425px) and (orientation: portrait) {
+    .footer-visible-en-pc {
+        display: none;
+    }
+    .footer-visible-en-cel {
+        display: block;
+    }
+}
+
+// vista horizontal celular//
+@media (min-width: 425px) and (orientation: landscape) {
+    .footer-visible-en-pc {
+        display: none;
+    }
+    .footer-visible-en-cel {
+        display: block;
+    }  
+}
+
+// vista vertical celular
+@media (min-width: 600px) and (orientation: portrait) {
+    .footer-visible-en-pc {
+        display: none;
+    }
+    .footer-visible-en-cel {
+        display: block;
+    }
+}
+
+// vista vertical celular
+@media (min-width: 768px) and (orientation: portrait) {
+    .footer-visible-en-pc {
+        display: none;
+    }
+    .footer-visible-en-cel {
+        display: block;
+    }
+
+    .cabecera-seccion-logo-footerCell {
+        display: flex;
+        align-items: center;
+        justify-content: initial;
+        padding: 0;
+        height: 9vh;
+    }    
+    .content-cabecera-textosInfo-footerCell {
+        padding: 0;
+        text-align: initial;
+        line-height: 1.1;
+        margin-left: -3%;
+    }
+    .content-logo-textInfo-footerCell {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        padding: 1% 0 0 0;
+        margin-bottom: 0;
+    }
+    .logo-footerCell {
+        height: 60%;
+        width: 60%;
+        padding: 0%;
+    }
+    .texto-suscribete-estilos-footerCell {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .texto-escribenos-estilos-footerCell {
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .input-cajadTexto-footerCell {
+        font-size: 1em;
+        height: 4vh;
+    }
+    .boton-enviar-footerCell {
+        font-size: 1em;
+        height: 4vh;
+    }
+    .boton-checkBox-footerCell {
+        width: 4%;
+        height: 2vh;
+    }
+    .texto-terminos-estilos-footerCell {
+        font-size: 1em;
+    } 
+    .texto-contactanos-footerCell {
+        font-size: 1em;
+    }
+    .correoZaabra-footerCell {
+        font-size: 1em;
+    }
+    .content-icons-contactanos-footerCell {
+        height: 6vh;
+        width: 34%;
+        padding: 2% 0;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background: #f5f5f5;
+    }
+    .content-img-icon-footerCell {
+        padding: 0;
+        height: 3vh;
+    }
+    .iconos-redes-footerCell {
+        height: 90%;
+    }
+    .sections-desplegables-texto-footerCell {
+        font-size: 1em;
+    }
+    .secction-interna-option-desplegable-footerCell {
+        height: 12vh;
+        line-height: 1.6;
+    }
+    .content-mediosdPagos-footerCell {
+        height: 12vh;
+    }
+    .content-imagenes-icons-footerDesk {
+        height: 12vh;
+    }
+    .img-icon-mediodPago-metodos-footerDesk {
+        height: 95%;
+        width: 40%;
+    }
+    .fontInternaFootMovl {
+        font-size: 1em;
+    }
+    .section-copyRight-footerCell {
+        font-size: .9em;
+    }
+}
+
+// vista horizontal tablec//
+@media (min-width: 768px) and (orientation: landscape) {
+    .footer-visible-en-pc {
+        display: none;
+    }
+    .footer-visible-en-cel {
+        display: block;
+    }
+}
+
+// vista horizontal tablec
+@media (min-width: 1024px) {
+    .footer-visible-en-pc {
+        display: block;
+    }
+    .footer-visible-en-cel {
+        display: none;
+    }
+}
+
+// vista horizontal tablec
+@media (min-width: 1200px) {
+    .section-input-footerPC {
+        padding: 0;
+        margin-top: 1.2%;
+        display: block;
+    }
+    .section-copyRight-FooterDesk {
+        font-size: .8em;
+    }
+    .content-textInfo-input-footerePC {
+        background: #e8e8e8;
+        display: flex;
+        padding: 0;
+        height: 12vh;
+        margin: auto;
+    }
+    .section-titulo-contactanos-footerDesk {
+        padding: 0;
+        margin-top: 1%;
+    }
+    .seccion-logo-contactenos-footerDesk {
+        margin: 0;
+    }
+    .logo-footerDeskt {
+        height: 85%;
+        width: 40%;
+        padding: 0%;
+    }
+    .titulo-texto-hazParte-footerDesk {
+        font-size: 1em;
+    }
+    .checkBox-teryCond-footerDesk {
+        width: 2.6%;
+        height: 2vh;
+    }
+    .section-option-teryCond-footerDesk {
+        padding: 0;
+        padding-left: 1%;
+        padding-right: 4%;
+    }
+    .sections-options-texto-acepto-footerDesk {
+        font-size: .8em;
+    }
+
+    .contente-iconos-redes-footerDesk {
+        width: 55%;
+    }
+    .content-section-Pagos-FooterDesk {
+        text-align: center;
+    }
+    .img-icon-mediodPago-metodos-footerDesk {
+        height: 100%;
+        width: 55%;
+    }
+    
+}
+
+// vista horizontal tablec
+@media (min-width: 1300px) {
+    .footer-visible-en-pc {
+        display: block;
+    }
+    .footer-visible-en-cel {
+        display: none;
+    }
+    .content-textInfo-input-footerePC {
+        height: 13vh;
+    }
+    .section-option-teryCond-footerDesk {
+        padding: 0;
+        padding-left: 1%;
+        padding-right: 9%;
+    }
+    .checkBox-teryCond-footerDesk {
+        width: 2.5%;
+        height: 2vh;
+    }
+    .logo-footerDeskt {
+        height: 85%;
+        width: 36%;
+        padding: 0%;
+    }
+    .content-sections-infoZaabra-footerDesk {
+        line-height: 1.3;
+    }
+    .contente-iconos-redes-footerDesk {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 50%;
+        margin-left: 0;
+    }
+    .img-icon-mediodPago-metodos-footerDesk {
+        height: 100%;
+        width: 47%;
+    }
+
+}
+
+// vista horizontal tablec
+@media (min-width: 1440px) {
+    .footer-visible-en-pc {
+        display: block;
+    }
+    .footer-visible-en-cel {
+        display: none;
+    }
+    .content-textInfo-input-footerePC {
+        height: 12vh;
+    }
+    .img-icon-mediodPago-metodos-footerDesk {
+        height: 100%;
+        width: 54%;
+    }
+    .contente-iconos-redes-footerDesk {
+        width: 48%;
+    }
+    .content-section-Pagos-FooterDesk {
+        height: 10vh;
+    }
+    .content-img-icon-big-footerDesk {
+        height: 10vh;
+    }
+    .section-teryCond-texto-footerDesk {
+        margin-left: 0.7%;
+    }
+    .section-option-mediodPago-footerDesk {
+        padding: 0;
+        padding-right: 5%;
+    }
+    .section-input-footerPC {
+        padding-right: 1%;
+    }
+    .content-sections-infoZaabra-footerDesk {
+        line-height: 1.4;
+    }
+    .logo-footerDeskt {
+        height: 80%;
+        width: 34%;
+        padding: 0%;
+    }
+}
+
+// vista horizontal tablec
+@media (min-width: 1500px) {
+    .footer-visible-en-pc {
+        display: block;
+    }
+    .footer-visible-en-cel {
+        display: none;
+    }
+    .content-textInfo-input-footerePC {
+        height: 10vh;
+    }
+    .section-textInfo-footerPC {
+        padding: 0;
+        display: block;
+        margin-top: 1%;
+    }
+    .section-input-footerPC {
+        padding: 0;
+        display: block;
+        margin: auto;
+    }
+    .titulo-texto-suscribete-footerDesk {
+        font-size: 1.5em;
+    }
+    .titulo-texto-hazParte-footerDesk {
+        font-size: 1.2em;
+    }
+    .content-principal-sections-infoZaabra-footerDesk {
+        padding: .5% 0;
+        margin: 0;
+        background: #f5f5f5;
+        justify-content: center;
+    }
+    .logo-footerDeskt {
+        height: 80%;
+        width: 28%;
+        padding: 0%;
+    }
+    .boton-input-enviar-footerDesk {
+        font-size: 1em;
+    }
+    .checkBox-teryCond-footerDesk {
+        width: 3%;
+        height: 1.8vh;
+    }
+    .sections-options-texto-acepto-footerDesk {
+        font-size: 1em;
+    }
+    .contente-iconos-redes-footerDesk {
+        width: 37%;
+    }
+    .img-icon-mediodPago-metodos-footerDesk {
+        height: 100%;
+        width: 39%;
+    }
+    .content-img-icon-big-footerDesk {
+        padding: 0;
+        height: 11vh;
+        margin-left: 40%;
+    }
+    .sections-options-texto-footerDesk {
+        font-size: .8em;
+        color: #434142;
+    }
+    .texto-copyRight-footerDesk {
+        font-size: .8em;
+        font-family: "Quicksand", sans-serif;
+    }
+    .content-section-Pagos-FooterDesk {
+        height: 10vh;
+    }
+    .content-img-icon-big-footerDesk {
+        padding: 0;
+        height: 10vh;
+        margin-left: 40%;
+    }
+}
+
+// vista horizontal tablec
+@media (min-width: 2560px) {
+}

@@ -1,0 +1,1590 @@
+.font-sizetitulos {
+    font-size: 2em;
+}
+.font-sizesubtitulos {
+    font-size: 1.3em;
+}
+.font-sizesubtitulos2 {
+    font-size: 1.4em;
+}
+.font-sizetexto {
+    font-size: 1.1em;
+}
+.margon-top5 {
+    margin-top: 5%;
+}
+.slide-in {
+    z-index: 1;
+    /* to position it in front of the other content */
+    position: absolute;
+    overflow: hidden;
+    /* to prevent scrollbar appearing */
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.contenedor-left {
+    background: #fcfafa !important;
+}
+
+.sombraleft-contenido-carrusel {
+    -webkit-box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.16);
+}
+
+.slide-in.from-left {
+    left: 0;
+}
+
+.slide-in.from-right {
+    right: 0;
+}
+.ContendTestiInfoProf {
+    height: 25vh;
+    overflow: scroll;
+}
+.ContendTestiInfoProf::-webkit-scrollbar {
+    display: none;
+}
+
+.imgEstrellitas {
+    width: 32px;
+    height: 32px;
+}
+
+.slide-in.from-left .slide-in-content {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+.slide-in.from-right .slide-in-content {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+}
+
+.slide-in.show .slide-in-content {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+.img-info-profesional {
+    width: 100%;
+}
+.margin-top-info {
+    margin-top: 5%;
+}
+
+.img-lading-cel {
+    width: 100%;
+}
+.contenedor-img-carrusel-info > img {
+    width: 100%;
+    height: 100%;
+    padding-right: 8%;
+}
+.contenedor-procedimientos {
+    margin-top: 5%;
+    background-color: #f5f5f5;
+    height: 20vh;
+    padding-top: 3%;
+}
+.contenedor-span-landing {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 1%;
+}
+.contenedor-span-landing > ul {
+    list-style-type: disc !important;
+}
+.contenedor-span-landing > ul > li {
+    margin-right: 5%;
+}
+
+.border {
+    border: 2px solid #1558d6 !important;
+}
+.borderButtom {
+    border-bottom: 2px solid #1558d6 !important;
+}
+.border-right {
+    border-right: 2px solid #1558d6 !important;
+}
+.oculto {
+    position: fixed;
+    top: -9999px;
+}
+
+.contenedor-botones-carruseles {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.icono-verificado {
+    width: 30px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contenedor-botones-carruseles > a {
+    color: black;
+    -webkit-box-shadow: 7px 5px 5px 0px rgba(232, 232, 232, 1);
+    -moz-box-shadow: 7px 5px 5px 0px rgba(232, 232, 232, 1);
+    box-shadow: 7px 5px 5px 0px rgba(232, 232, 232, 1);
+    padding: 6px;
+}
+.boton-carrusel-hover {
+    -webkit-box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    background: #1558d6;
+    color: white !important;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.margin-rightnone {
+    margin-right: 0% !important;
+    padding-right: 0% !important;
+}
+.margin-leftnone {
+    margin-left: 0% !important;
+    padding-left: 0% !important;
+}
+.margin-topButon {
+    margin-left: 0% !important;
+    padding-left: 0% !important;
+}
+.img-info-profesional-cel {
+    width: 100%;
+}
+
+.font-size08 {
+    font-size: 0.8em;
+}
+.hr {
+    border: 1px solid #1558d6;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+}
+.ocultarBanner {
+    display: none;
+}
+.review__rating {
+    input {
+        display: none;
+        &:checked {
+            & ~ label {
+                color: #aaa;
+            }
+        }
+    }
+
+    label {
+        color: #1558d6;
+        font-size: 2rem;
+    }
+}
+.opcionTipoLaborLanding > ul > li {
+    display: flex;
+    align-items: center;
+}
+.opcionTipoLaborLanding > ul > li::before {
+    /* Añadimos contenido antes de cada elemento de la lista */
+    content: "\2022"; /* Insertamos el marcador */
+    padding-right: 8px; /* Establecemos el espacio entre las viñetas y el list item */
+    color: #05908b; /* Coloreamos la viñeta */
+    font-size: 3em;
+}
+.contTestimonLanding::-webkit-scrollbar {
+    display: none;
+}
+.oculta-img-landing {
+    display: none;
+}
+.img-banner-hijo-landing {
+    width: 100%;
+}
+/* Estilos arrows slider mobile*/
+#carousel-estudios-cel {
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 25vh;
+}
+#carousel-estudios-cel .slick-prev {
+    border: 0;
+    left: 0;
+    font-size: 0.9em;
+    color: #fff0;
+    background: url($urlZaabra+"img/areas/flecha-atras.svg");
+    background-size: contain;
+    position: absolute;
+}
+#carousel-estudios-cel .slick-next {
+    border: 0;
+    right: 0;
+    font-size: 0.9em;
+    color: #fff0;
+    background: url($urlZaabra+"img/areas/flecha-adelante.svg");
+    background-size: contain;
+    position: absolute;
+}
+#carousel-estudios-cel .slick-arrow {
+    position: absolute;
+    top: 48%;
+    z-index: 1;
+    width: 10px;
+    height: 15px;
+    font-size: 0;
+    background-size: 100% 100%;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+#carousel-certificados-cel {
+    padding-right: 5px;
+    padding-left: 10px;
+}
+#carousel-certificados-cel .slick-prev {
+    border: 0;
+    left: 0;
+    font-size: 0.9em;
+    color: #fff0;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAA8CAYAAABxVAqfAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G/yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUAoOnaV/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCBKrBBG/TBGCzABhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q/pH5Z/YkGWcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+BZ7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nvnl+F30N/I/9k/3r/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3SPVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADqYAAAOpgAABdvkl/FRgAAA01JREFUeNq82VuI1VUUx/HPnIl5GIOpAfOhgaAJAqnwIZsukN2szKgsYywi70hEBVb0UpEVPUTR7aGLE9EFKzW7aWVaSAWiSHShgggTNIIsaF4G7Da9rAOHP+vUmZn/nvW41jnny//svdfvt/a/a3Bw0DTFCjyEX3HjUdMIHUEXZmGkMQ3Qa/FcQJtxWmnwAryC7kr+25Lgc7EZPZX8GFaXAp+Od9Bbyf+BRdhTAjwb76Gvkv8b1+FDqBt8IrZjZiU/jpXY0kzUCT4+oANJ7Ta82JqoCzwT7+OkpHYPnqom6wD3YStOTWqP4sHsS1MF9+JNnJHU1uPOdl+cCrgHr+P8pPYabopNVSu4OzbL5UltK5bG8VEnuAtPY0lS24XhaBTqBj+M1Ul+L66Klqhu8N24I8l/HX/7aKc/NBHwLXggyf8QKnR4Ik/QKXgpnkjyh3AJfproenUCvhrPV4RcPOGl2D+ZY/F/4Pl4NRHyUVyGbybbBP4LfDbeaiPkV2DfVFpeO/Cc0NRMyBfjk6k2+Ax8coh1JuQ3hAqpG3wCdrYR8jXYVJd4t4JnBTQT8ttjZ6sbfCx2tBHydXisbmPWwNGxbpmQP477StjQBp7EUFJ7AWtLme5GHI9qbA4FGi8Jbqe5RaPR5ohc0zLdFYnu/v7+j3Bhcozm4Bh8UAr8Z6zpwjjLrXFm/Cu7Sq3x77goRL0a95bY3a2b6xdcEOJejUewquSuPhjrfTjZ5c+Egyx2nL4PAzCaeOmXwgAUO8dfhoEbS6aHTZhXCgy7cWViznvxNuaWAguZHE7GkT5swymlwMJ3LU/6dnMmHiwFhpdxa5IfiM42MJnO1eln9+KvOOut0Y+Lo/uNlQDDp5iBcyr543AeNuJIiaEN7sKzSX5u7PbeUuBx3IwNSW1ePHVPCXDTYy/Hu0ltYXS47hLg5lSxBB8nteHo7V0lwM05ahH2JLVVoWq17OosjsSV04LESJyFf7JZq66bvd9iQM+MxP1Z86nzLvPnkNNDbQaDZaXAcCC6WGYkRsK9FgHDd3FFkRmJDbEkSt3Qfx7XT5mR2IKhku8kPouLm8xIrC/9FmY7rk+MxOzpeO/0RjSTViPxVR0NpJP4Inb8EH7Ein8HAFEsoS5GQs3zAAAAAElFTkSuQmCC")
+        no-repeat 50% 50%;
+    background-size: contain;
+    position: absolute;
+}
+#carousel-certificados-cel .slick-next {
+    border: 0;
+    right: 0;
+    font-size: 0.9em;
+    color: #fff0;
+    background: url("data:image/png;base64,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")
+        no-repeat 50% 50%;
+    background-size: contain;
+    position: absolute;
+}
+#carousel-certificados-cel .slick-arrow {
+    position: absolute;
+    top: 48%;
+    z-index: 1;
+    width: 10px;
+    height: 20px;
+    font-size: 0;
+    background-size: 100% 100%;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+#carousel-publicaciones-cel {
+    padding-right: 5px;
+    padding-left: 10px;
+}
+#carousel-publicaciones-cel .slick-prev {
+    border: 0;
+    left: 0;
+    font-size: 0.9em;
+    color: #fff0;
+    background: url("data:image/png;base64,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")
+        no-repeat 50% 50%;
+    background-size: contain;
+    position: absolute;
+}
+#carousel-publicaciones-cel .slick-next {
+    border: 0;
+    right: 0;
+    font-size: 0.9em;
+    color: #fff0;
+    background: url("data:image/png;base64,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")
+        no-repeat 50% 50%;
+    background-size: contain;
+    position: absolute;
+}
+#carousel-publicaciones-cel .slick-arrow {
+    position: absolute;
+    top: 48%;
+    z-index: 1;
+    width: 10px;
+    height: 20px;
+    font-size: 0;
+    background-size: 100% 100%;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.btn-cerrar {
+    position: absolute;
+    z-index: 15;
+    background-color: #c0c3c300;
+    color: #8c8484;
+    border: 1px solid transparent;
+    padding: 6px;
+    font-size: 1.2rem;
+    line-height: 1;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.nombre-profesional-landing {
+    margin-bottom: 0px;
+    margin-right: 1%;
+}
+.icono-ubicacion-landin {
+    color: #1558d6;
+    margin-bottom: 8%;
+}
+.ciudad-profesional-landing {
+    margin-right: 2%;
+}
+
+.margin-right-btn-landing {
+    margin-right: 5%;
+}
+.contenedor-img-info-profesional-cel > .fas{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 1.2em;
+}
+.solid-corazon{
+    font-weight: 100;
+}
+.color-azul-landing-Prof {
+    color: #1558d6;
+    font-size: calc(1em + 1vw);
+    margin-bottom: 5%;
+}
+.contains-menu-landing li{
+    display: flex;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45px;
+    background-position: center;
+}
+.contains-menu-landing li:nth-child(1){
+    background-image: url($urlZaabra+"img/infoProfesionales/perfil-profesional-blanco.svg");
+}
+.contains-menu-landing li:nth-child(2){
+    background-image: url($urlZaabra+"img/infoProfesionales/educacion-blanco.svg");
+}
+.contains-menu-landing li:nth-child(3){
+    background-image: url($urlZaabra+"img/infoProfesionales/publicaciones-blanco.svg");
+}
+.contains-menu-landing li:nth-child(4){
+    background-image: url($urlZaabra+"img/infoProfesionales/galeria-blanco.svg");
+}
+.contains-menu-landing li:nth-child(5){
+    background-image: url($urlZaabra+"img/infoProfesionales/testimonios-blanco.svg");
+}
+
+.contains-menu-landing li:hover:nth-child(1){
+    background-image: url($urlZaabra+"img/infoProfesionales/perfil-profesional-azul.svg");
+}
+.contains-menu-landing li:hover:nth-child(2){
+    background-image: url($urlZaabra+"img/infoProfesionales/educacion-azul.svg");
+}
+.contains-menu-landing li:hover:nth-child(3){
+    background-image: url($urlZaabra+"img/infoProfesionales/publicaciones-azul.svg");
+}
+.contains-menu-landing li:hover:nth-child(4){
+    background-image: url($urlZaabra+"img/infoProfesionales/galeria-azul.svg");
+}
+.contains-menu-landing li:hover:nth-child(5){
+    background-image: url($urlZaabra+"img/infoProfesionales/testimonios-azul.svg");
+}
+/* End estilos arrows slider*/
+// vista vertical celular //
+@media (min-width: 320px) {
+    .contenedor-img-info-profesional-cel {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 50vh;
+    }
+    .triangulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-image: url($urlZaabra+"img/infoProfesionales/triangulo.svg");
+        background-position: center top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .info-visible-en-pc {
+        display: none;
+    }
+    .info-visible-en-cel {
+        display: block;
+    }
+    ///seccion Imagen Principal
+    .margin-top-info {
+        margin: 0%;
+        padding: 0%;
+    }
+    .container-cel-landin {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .contenedor-iconos-redes {
+        padding-bottom: 5%;
+    }
+    .container-cel-landin > .icono-redes-cel {
+        margin-right: 7%;
+    }
+    .contenedor-img-carrusel-info > img {
+        width: 100%;
+        height: 100%;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    .contenedor-galeria-Prof-cel > .draggable {
+        height: 10vh;
+    }
+    .contenedor-galeria-Prof-cel > .draggable > .slick-track > .slick-slide {
+        height: 10vh;
+    }
+    .contenedor-galeria-Prof-cel {
+        height: 10vh;
+        margin-top: 4%;
+    }
+    ///Seccion Datos Personales
+    .font-sizetitulos {
+        font-size: 1.4em;
+    }
+    .fontEspecialidadLanding {
+        font-size: 1em;
+    }
+    .fontCiudadLanding {
+        font-size: 1em;
+    }
+
+    .font-sizetexto {
+        font-size: 1em;
+    }
+    .seccDatosPersonLanding {
+        padding: 4%;
+        display: block;
+    }
+    .icono-verificado {
+        width: 25px;
+        height: 25px;
+        padding-bottom: 0;
+        margin-left: 2%;
+    }
+    .fontTituloCajaTextLanding {
+        font-size: 1.2rem;
+        padding: 3% 0.5%;
+        text-align: left;
+        font-weight: bold;
+        color: #000000;
+    }
+    ///Carrusel de certificados y estudios
+    .contenedor-botones-carruseles {
+        padding: 2%;
+        padding-left: 3.5%;
+        margin: 0px;
+    }
+    .fontTituloTipoPeticionLanding {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #000000;
+    }
+    .contenedor-botones-carruseles > a {
+        text-decoration: none;
+    }
+    .imagen-carrusel-cel {
+        width: 100%;
+        height: 30vh;
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
+    .lista-iconos-cel {
+        width: 21px;
+        height: 21px;
+    }
+    .boton-carrusel {
+        width: 32% !important;
+        margin-left: 1%;
+        margin-bottom: 1%;
+    }
+    .btnInferiorLanding {
+        padding: 3%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ///SECCION TIPO CONSULTA
+    .contFavoritoHeartLanding {
+        display: flex;
+        align-items: baseline;
+        margin: 0%;
+    }
+    .alinFavInferiorLanding {
+        padding-right: 2%;
+    }
+    ///Estilos Boton Agendar Cita
+    .btn-agendar {
+        height: 5.5vh;
+        background: #1558d6;
+        border-radius: 5px;
+        color: #ffffff;
+        border: none;
+        padding: 2%;
+        font-size: 0.8em !important;
+    }
+    .btn-pagar {
+        height: 5.5vh;
+        background: #f77f00;
+        border-radius: 5px;
+        color: #ffffff;
+        border: none;
+        padding: 2%;
+        font-size: 0.8em !important;
+    }
+    .span-procedimientos {
+        margin-right: 10%;
+        display: list-item;
+    }
+    .img-info-profesional-cel {
+        height: 40vh;
+        border-radius: 50%;
+        width: 40vh;
+    }
+    .lista-iconos {
+        width: 20px;
+        height: 20px;
+    }
+    .span-btn-landing {
+        font-size: 0.8em;
+    }
+    .nombre-profesional-landin {
+        font-size: 1.2em;
+    }
+    .especialidad-landing {
+        font-size: 0.8em;
+        margin-bottom: 0;
+    }
+    .ciudad-landing {
+        font-size: 0.8em;
+        margin: 0;
+        text-transform: capitalize;
+    }
+    .direccion-landing {
+        font-size: 0.8em;
+        margin: 0;
+        text-transform: lowercase;
+    }
+    .logo-ubicacion{
+        padding-bottom: 1%;
+    }
+    .contains-tipo-consulta{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .contains-tipo-consulta > h6{
+        font-family: "Roboto";
+        font-weight: 600;
+        color: #434142;
+        margin-bottom: 0;
+        font-size: calc(0.6em + 1vw);
+    }
+    .opcionTipoLaborLanding > ul{
+        display: flex;
+    }
+    .contains-tipo-consulta > span{
+        color: #1558d6; 
+        font-weight: 600;
+    }
+    .contains-menu-landing > ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        height: 14vh;
+        margin-bottom: 5vh;
+        border: none;
+    }
+    .contains-menu-landing span{
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        font-size: 0.5em;
+        font-family: "Quicksand";
+        max-width: 20%;
+        line-height: 0.9em;
+        font-weight: bolder;
+        color: #434242;
+    }
+    .contains-perfil-profesional h4{
+        font-size: 1.1em;
+        color: #1558d6;
+    }
+    .contains-perfil-profesional p{
+        font-size: 0.8em;
+        line-height: 1.1em;
+    }
+    .contains-texto-educacion{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .alturacontenedorcarrusel-cel h4{
+        font-size: 1em;
+        color: #1558d6;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .contains-texto-educacion label{
+        font-family: 'Quicksand';
+        color: #434142;
+        font-size: 0.7em;
+    }
+    #contains-testimonios .textTareaTestimonLanding{
+        border-radius: 5px;
+        height: 17vh;
+    }
+    .contains-stars{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .contains-stars span{
+        color: #989896;
+    }
+    .contains-stars .agregarComentario{
+        background-color: #1558d6;
+        border: none;
+        border-radius: 5px;
+        height: 5vh;
+        color: #ffff;
+        font-family: 'Quicksand';
+        font-size: 0.72em;
+    }
+    #contains-testimonios .contComentarioHechoLanding h5{
+        font-size: 0.75em;
+        text-transform: uppercase;
+        color: #434241;
+        margin-top: 3%;
+        margin-bottom: 0;
+    }
+    #contains-testimonios .contComentarioHechoLanding span{
+        font-size: 0.8em;
+    }
+    #contains-testimonios .contComentarioHechoLanding .agregarComentario2{
+        background-color: #1558d600;
+        border: none;
+        border-radius: 5px;
+        height: 5vh;
+        color: #1558d6;
+        font-family: "Quicksand";
+        font-size: 0.9em;
+        width: 70%;
+        text-decoration: underline;
+    }
+    #contenedor-estudios-cel{
+        height: 50vh;
+    }
+    #carousel-estudios-cel .slick-arrow{
+        top: 100%;
+    } 
+}
+
+// vista vertical celular//
+@media (min-width: 375px) {
+    ///SECCION IMAGEN Y CARRUSEL PRINCIPAL
+    .contenedor-img-carrusel-info > img {
+        width: 100%;
+        height: 100%;
+        padding-right: 8%;
+    }
+    .contenedor-galeria-Prof-cel > .draggable {
+        height: 10vh;
+    }
+    .contenedor-galeria-Prof-cel > .draggable > .slick-track > .slick-slide {
+        height: 10vh;
+    }
+    .contenedor-galeria-Prof-cel {
+        height: 11vh;
+        margin-top: 4%;
+    }
+    //SEFCCION DATOS PERSONALES
+    .icono-verificado {
+        width: 25px;
+        height: 25px;
+        padding-bottom: 0;
+    }
+    .fontEspecialidadLanding {
+        font-size: 1.25em;
+    }
+    .fontCiudadLanding {
+        font-size: 1.25em;
+    }
+    .info-visible-en-pc {
+        display: none;
+    }
+    .info-visible-en-cel {
+        display: block;
+    }
+    .lista-iconos-cel {
+        width: 24px;
+        height: 24px;
+    }
+    .lista-iconos-cel {
+        width: 26px;
+        height: 26px;
+    }
+    .boton-carrusel {
+        width: 111px !important;
+        margin-left: 1%;
+        margin-bottom: 1%;
+    }
+    ///SECCION DATOS PERSONALES
+    .font-sizetitulos {
+        font-size: 1.6em;
+    }
+}
+
+// vista vertical celular
+@media (min-width: 425px) {
+    .info-visible-en-pc {
+        display: none;
+    }
+    .info-visible-en-cel {
+        display: block;
+    }
+    ///seccion Imagen Principal
+    .margin-top-info {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .contenedor-img-carrusel-info > img {
+        width: 100%;
+        height: 100%;
+        padding-right: 8%;
+    }
+    .contenedor-galeria-Prof-cel > .draggable {
+        height: 10vh;
+    }
+    .contenedor-galeria-Prof-cel > .draggable > .slick-track > .slick-slide {
+        height: 10vh;
+    }
+    .contenedor-galeria-Prof-cel {
+        height: 13vh;
+        margin-top: 4%;
+    }
+    ///Seccion Datos Personales
+    .font-sizetitulos {
+        font-size: 1.8em;
+    }
+    .fontEspecialidadLanding {
+        font-size: 1.25em;
+    }
+    .fontCiudadLanding {
+        font-size: 1.25em;
+    }
+
+    .font-sizetexto {
+        font-size: 1.1em;
+    }
+    .seccDatosPersonLanding {
+        padding: 3%;
+        display: block;
+    }
+    .icono-verificado {
+        width: 30px;
+        height: 33px;
+        padding-bottom: 1%;
+    }
+    .fontTituloCajaTextLanding {
+        font-size: 1.5rem;
+        padding: 3% 0.5%;
+        text-align: left;
+        font-weight: bold;
+        color: #000000;
+    }
+    ///Carrusel de certificados y estudios
+    .contenedor-botones-carruseles {
+        padding: 2%;
+        padding-left: 3.5%;
+        margin: 0px;
+    }
+    .fontTituloTipoPeticionLanding {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #000000;
+    }
+    .contenedor-galeria-Prof-cel > .draggable {
+        height: 11vh;
+    }
+    .contenedor-galeria-Prof-cel > .draggable > .slick-track > .slick-slide {
+        height: 11vh;
+    }
+    .lista-iconos-cel {
+        width: 30px;
+        height: 30px;
+    }
+    .img-info-profesional-cel {
+        height: 43vh;
+    }
+    .contenedor-img-info-profesional-cel {
+        height: 43vh;
+    }
+    .boton-carrusel {
+        width: 94px !important;
+        margin-left: 1%;
+        margin-bottom: 1%;
+    }
+    .btnInferiorLanding {
+        padding: 4% 3%;
+    }
+    .btnAgendarCita {
+        background-color: #1558d6 !important;
+        color: white;
+        height: 55px !important;
+        font-size: 2em;
+        padding-top: 0%;
+    }
+    .contFavoritoHeartLanding {
+        display: flex;
+        align-items: baseline;
+        margin: 0%;
+    }
+    .alinFavInferiorLanding {
+        padding-right: 2%;
+    }
+}
+
+// vista vertical tablec
+@media (min-width: 768px) {
+    ///SECCION IMAGEN PRINCIPAL
+    .contImgPrincipalLanding {
+        margin-top: -2%;
+    }
+    ///SECCION DATOS PERSONALES
+    .seccDatosPersonLanding {
+        padding: 2%;
+        display: block;
+    }
+    .font-sizetitulos {
+        font-size: 3em;
+    }
+    .fontEspecialidadLanding {
+        font-size: 1.8em;
+    }
+    .fontCiudadLanding {
+        font-size: 1.8em;
+    }
+    ///SECCION PERFIL PROFESIONAL
+
+    .font-sizetexto {
+        font-size: 1.3em;
+    }
+    ///SECCION PROCEDIMIENTOS
+    .fontTituloCajaTextLanding {
+        font-size: 1.8rem;
+        padding: 0% 0% 2% 1%;
+    }
+
+    .fontProced768Landing {
+        font-size: 1em !important;
+    }
+    .contenedor-botones-carruseles {
+        padding: 2%;
+        padding-left: 1%;
+        margin: 0px;
+    }
+    .fontOptionLanding {
+        font-size: 1.25em;
+    }
+    ///SECCION TIPO DE CONSULTA
+    .opcionTipoLaborLanding {
+        font-size: 1.3em;
+    }
+    .fontContactIconsLanding {
+        font-size: 1.3em;
+    }
+    .alinFavInferiorLanding {
+        padding-right: 2%;
+        font-size: 1.3em;
+    }
+    .alinIconsBottLanding {
+        padding-left: 13%;
+    }
+    ///BOTON INFERIOR AGENDAR CITA
+    .btnAgendarCita {
+        background-color: #1558d6 !important;
+        color: white;
+        height: 75px !important;
+        font-size: 2.5em;
+        padding-top: 0%;
+    }
+
+    .contenedor-galeria-Prof-cel {
+        height: 20vh;
+    }
+    .info-visible-en-pc {
+        display: block;
+    }
+    .info-visible-en-cel {
+        display: none;
+    }
+    .img-info-profesional-cel {
+        height: 79vh;
+    }
+    .contenedor-galeria-Prof-cel > .draggable {
+        height: 17vh;
+    }
+    .contenedor-galeria-Prof-cel > .draggable > .slick-track > .slick-slide {
+        height: 17vh;
+    }
+    .imagen-carrusel-cel {
+        width: 100%;
+        height: 26vh;
+    }
+    .alturacontenedorcarrusel-cel > .draggable {
+        height: 26vh;
+    }
+    .margin-top-info {
+        margin-top: 2%;
+    }
+    .lista-iconos-cel {
+        width: 50px;
+        height: 50px;
+    }
+    .boton-carrusel {
+        width: 177px !important;
+        margin-left: 1%;
+        margin-bottom: 1%;
+    }
+    .lista-iconos {
+        width: 37px;
+        height: 37px;
+    }
+    .contenedor-img-info-profesional-pc > .fas{
+        position: absolute;
+        top: 8%;
+        right: 8%;
+        color: #ffffff;
+        font-weight: 100;
+        font-size: 1.4em;
+    }
+    .contenedor-img-info-profesional-pc {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 30vh;
+    }
+
+    .img-info-profesional-pc {
+        height: 20vh;
+        border-radius: 50%;
+        width: 20vh;
+    }
+    .contImgPrincipalLanding-pc .triangulo{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        height: 100%;
+        background-image: url(http://portal-test.zaabra.local/img/infoProfesionales/triangulo.svg);
+        background-position: center top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 10%;
+    }
+    .info-visible-en-pc .contains-left {
+        padding-top: 6% !important;
+        padding-left: 5% !important;
+        height: 100%;
+    }
+    .contains-left .logomedico{
+        width: 100%;
+    }
+    .contains-left .nombre-profesional-landing {
+        margin-bottom: 0px;
+        margin-right: 1%;
+        font-size: calc(1.29em + 1vw);
+    }
+    .contains-left .icono-verificado {
+        width: 30px;
+        height: 33px;
+        padding-top: 0;
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+    .contains-left .especialidad-profesional-vs-port{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .contains-left .logo-ubicacion {
+        padding-bottom: 1%;
+        width: 7%;
+    }
+    .contains-cabecera{
+        height: 22vh;
+    }
+    .contains-cabecera .contImgPrincipalLanding-pc{
+        height: 100%;
+    }
+    .contenedor-procedimientos-pc {
+        margin-top: 7%;
+        background-color: #f5f5f5;
+        height: 11vh;
+        padding-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenedor-procedimientos-pc .color-azul-landing-Prof{
+        color: #1558d6;
+        font-size: calc(0.9em + 1vw);
+        margin-bottom: 0;
+        justify-content: center;
+    }
+    .contenedor-procedimientos-pc .text-center{
+        text-align: center!important;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor-procedimientos-pc .contains-tipo-consulta {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor-procedimientos-pc .opcionTipoLaborLanding > ul {
+        display: flex;
+        height: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 4%;
+    }
+    .contains-left > .btnInferiorLanding{
+        margin-top: 5% !important;
+    }
+    .contains-left > .btnInferiorLanding .btn-agendar, .btn-pagar{
+        height: 4.5vh;
+        font-size: 1.2em !important;
+    }
+    .contenedor-procedimientos-pc .contains-tipo-consulta > h6{
+        font-size: calc(0.4em + 1vw);
+    }
+    .info-visible-en-pc .contains-menu-landing > ul {
+        width: 85%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        height: 14vh;
+        margin-bottom: 5vh;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .info-visible-en-pc .contains-menu-landing li{
+        display: flex;
+        justify-content: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 65px;
+        background-position: center;
+    }
+    .info-visible-en-pc .contains-menu-landing span{
+        position: absolute;
+        bottom: 10%;
+        text-align: center;
+        font-size: 0.9em;
+        font-family: "Quicksand";
+        max-width: 20%;
+        line-height: 0.9em;
+        font-weight: bolder;
+        color: #434242;
+    } 
+}
+
+// vista horizontal tablec
+@media (min-width: 1024px) {
+    .info-visible-en-pc {
+        display: block;
+    }
+    .info-visible-en-cel {
+        display: none;
+    }
+    ///SECCION IMAGEN Y CARRUSEL PRINCIPAL
+    .alinContImgPrinCarrusLanding {
+        padding: 10% 1% 6% 1% !important;
+    }
+    .img-info-profesional {
+        height: 55vh;
+    }
+    .img-banner-hijo-landing {
+        height: 55vh;
+    }
+    .contenedor-img-info-profesional {
+        height: 55vh;
+    }
+    .carrusel-landing-Prof {
+        margin-top: 15%;
+    }
+    .carrusel-landing-Prof > .draggable > .slick-track > .slick-slide {
+        height: 17vh;
+    }
+    .contenedor-img-carrusel-info > img {
+        width: 100%;
+        height: 100%;
+        padding-right: 8%;
+    }
+    ///SECCION DATOS PERSONALES
+    .icono-verificado {
+        width: 22px;
+        height: 22px;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 0%;
+        margin-top: 2%;
+    }
+    .font-sizetitulos {
+        font-size: 1.8em;
+    }
+    .font1024Landing {
+        font-size: 1.5em;
+    }
+    .font-sizesubtitulosTop {
+        font-size: 1.2em;
+    }
+    ///SECCION PERFIL PERSONAL
+    .font-sizesubtitulos2 {
+        font-size: 1.25em;
+    }
+    .font-sizetexto {
+        font-size: 1em;
+    }
+    //SERVICIOS AREAS DE EXPERIENCIA
+    .font-sizesubtitulos {
+        font-size: 1em;
+    }
+    .font-size08 {
+        font-size: 0.85em !important;
+    }
+    .imagen-carrusel {
+        width: 100%;
+        height: 20vh;
+    }
+    ///TESTIMONIOS
+    .secTextAreaTestimonLanding {
+        padding-left: 0;
+        padding-right: 3%;
+    }
+    .contenedor-botones-carruseles {
+        padding: 0%;
+        margin-top: 1%;
+    }
+    .contComentarioHechoLanding {
+        padding: 0%;
+    }
+    .ContendTestiInfoProf {
+        height: 14vh;
+        overflow: scroll;
+    }
+    .textTareaTestimonLanding {
+        width: 100%;
+        height: 10vh;
+    }
+    .agregarComentario {
+        background-color: #1558d6 !important;
+        color: white;
+        border: 1px solid;
+        border-radius: 8px;
+        float: right;
+        margin-top: -8%;
+    }
+
+    .lineBottStartLanding {
+        margin: 2% 0%;
+        border: 1px solid;
+        width: 100%;
+        color: #1558d6;
+    }
+    .contTestimonLanding {
+        margin: 0;
+        padding: 1%;
+        height: 20vh;
+    }
+
+    .agregarComentario2 {
+        background-color: #1558d6 !important;
+        color: white;
+        border: 1px solid;
+        border-radius: 8px;
+        float: right;
+        width: 25%;
+    }
+    ///SECCION ICONOS Y BOTON INFERIOR
+    .contIconsBtnBottLanding {
+        margin-top: auto;
+        bottom: 1%;
+        position: fixed;
+        display: flex;
+        align-items: flex-end;
+    }
+    .btnAgendarCita {
+        background-color: #1558d6 !important;
+        color: white;
+        height: 45px !important;
+        font-size: 1.7em;
+        padding-top: 0%;
+    }
+    .contenedor-iconos-redes {
+        padding-bottom: 1%;
+    }
+    .lista-iconos {
+        width: 22px;
+        height: 22px;
+    }
+    ///////////////////////
+    /*.carrusel-landing-Prof{
+        margin-top: 9%;
+    }*/
+    /*.carrusel-landing-Prof > .draggable > .slick-track>.slick-slide {
+        height: 14vh;
+    }*/
+
+    .contenedor-carruseles > .draggable > .slick-track > .slick-slide {
+        height: 20vh;
+    }
+    .div-boton-pc {
+        position: absolute;
+        bottom: 1%;
+        padding-left: 0px;
+        padding-right: 10%;
+        text-align: -webkit-right;
+    }
+    .boton-carrusel {
+        width: 23% !important;
+    }
+    .slide-in-content {
+        padding: 5% 5%;
+        transition: transform 3s ease;
+        height: 100vh;
+    }
+    .titulo-h-landing {
+        margin-bottom: 0%;
+    }
+    .span-procedimientos {
+        margin-right: 5%;
+        display: list-item;
+    }
+    .btn-agendar {
+        background: #1558d6;
+        border-radius: 5px;
+        color: #ffffff;
+        border-color: #1558d6;
+        padding: 2%;
+        font-size: 1.3em !important;
+    }
+    .btn-pagar {
+        background: #f77f00;
+        border-radius: 5px;
+        color: #ffffff;
+        border-color: #f77f00;
+        padding: 2%;
+        font-size: 1.3em !important;
+    }
+}
+// vista horizontal tablec
+@media (min-width: 1440px) {
+    .info-visible-en-pc {
+        display: block;
+    }
+    .info-visible-en-cel {
+        display: none;
+    }
+    ///SECCION IMAGEN Y CARRUSEL PRINCIPAL
+    .alinContImgPrinCarrusLanding {
+        padding: 6% 2% 6% 2% !important;
+    }
+    .img-info-profesional {
+        height: 65vh;
+    }
+    .img-banner-hijo-landing {
+        height: 65vh;
+    }
+    .contenedor-img-info-profesional {
+        height: 65vh;
+    }
+    .carrusel-landing-Prof {
+        margin-top: 10%;
+    }
+    .carrusel-landing-Prof > .draggable > .slick-track > .slick-slide {
+        height: 17vh;
+    }
+    ///SECCION DATOS PERSONALES
+    .icono-verificado {
+        width: 22px;
+        height: 22px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .font-sizetitulos {
+        font-size: 2.2em;
+    }
+    .font-sizesubtitulos {
+        font-size: 1.1em;
+    }
+    .font-sizesubtitulosTop {
+        font-size: 1.3em;
+    }
+    ///SECCION PERFIL PERSONAL
+    .font-sizesubtitulos2 {
+        font-size: 1.6em;
+    }
+    .font-sizetexto {
+        font-size: 1.1em;
+    }
+    //SERVICIOS AREAS DE EXPERIENCIA
+    .font-size08 {
+        font-size: 1em !important;
+    }
+
+    ///SECCION TESTIMONIOS
+    .contenedor-carruseles > .draggable > .slick-track > .slick-slide {
+        height: 27vh;
+    }
+    .imagen-carrusel {
+        width: 100%;
+        height: 27vh;
+    }
+    .boton-carrusel {
+        width: 18.8% !important;
+    }
+    .secTextAreaTestimonLanding {
+        padding-left: 0;
+        padding-right: 3%;
+    }
+    .contTestimonLanding {
+        margin: 0;
+        padding: 1%;
+        height: 27vh;
+    }
+    .agregarComentario {
+        margin-top: -6%;
+    }
+    .textTareaTestimonLanding {
+        width: inherit;
+        height: 15vh;
+    }
+    .agregarComentario2 {
+        width: 17.8%;
+    }
+    ///SECCION ICONOS Y BOTON INFERIOR
+    .contIconsBtnBottLanding {
+        margin-top: auto;
+        bottom: 1%;
+        position: fixed;
+        display: flex;
+        align-items: flex-end;
+    }
+    .btnAgendarCita {
+        background-color: #1558d6 !important;
+        color: white;
+        height: 55px !important;
+        font-size: 2em;
+        padding-top: 0%;
+    }
+    .contenedor-iconos-redes {
+        padding-bottom: 1%;
+    }
+    .lista-iconos {
+        width: 25px;
+        height: 25px;
+    }
+
+    .contenedor-carruseles > .draggable > .slick-track > .slick-slide {
+        height: 25vh;
+    }
+
+    .slide-in-content {
+        padding: 3% 5%;
+        transition: transform 3s ease;
+        height: 100vh;
+    }
+    .titulo-h-landing {
+        margin-bottom: 1%;
+    }
+    .btn-agendar {
+        background: #1558d6;
+        border-radius: 5px;
+        color: #ffffff;
+        border-color: #1558d6;
+        padding: 2%;
+        font-size: 1.3em !important;
+    }
+    .btn-pagar {
+        background: #f77f00;
+        border-radius: 5px;
+        color: #ffffff;
+        border-color: #f77f00;
+        padding: 2%;
+        font-size: 1.3em !important;
+    }
+    .nombre-profesional-vs-port {
+        font-size: 1.75rem;
+    }
+    .especialidad-profesional-vs-port {
+        font-size: 1.5rem;
+    }
+    .titulo-perfil-landig-port {
+        font-size: 1.5rem;
+    }
+}
+
+// vista horizontal tablec
+@media (min-width: 1500px) {
+    ///DATOS PERSONALES
+    .icono-verificado {
+        width: 25px;
+        height: 25px;
+        padding: 0%;
+    }
+    .font-sizetitulos {
+        font-size: 2.5em;
+    }
+    .font-sizesubtitulosTop {
+        font-size: 2em;
+    }
+    .font-sizesubtitulos2 {
+        font-size: 1.6em;
+    }
+    .font-sizetexto {
+        font-size: 1.2em;
+    }
+    ///SERVICIOS O AREAS DE EXPERIENCIA
+    .font-size08 {
+        font-size: 1.1em !important;
+    }
+    .font-sizesubtitulos {
+        font-size: 1.2em;
+    }
+    ///CARRUSEL INFERIOR ITEMS ESTUDIOS
+    .contenedor-carruseles > .draggable > .slick-track > .slick-slide {
+        height: 31vh;
+    }
+    .imagen-carrusel {
+        width: 100%;
+        height: 31vh;
+    }
+    ///TESTIMONIOS
+    .secTextAreaTestimonLanding {
+        padding-left: 0;
+        padding-right: 0.5%;
+    }
+    .textTareaTestimonLanding {
+        width: inherit;
+        height: 18vh;
+    }
+    .agregarComentario {
+        margin-top: -4%;
+    }
+    .contTestimonLanding {
+        height: 31vh;
+    }
+    .agregarComentario2 {
+        width: 12.5%;
+    }
+
+    .info-visible-en-pc {
+        display: block;
+    }
+    .info-visible-en-cel {
+        display: none;
+    }
+    .img-info-profesional {
+        height: 72vh;
+    }
+    .img-banner-hijo-landing {
+        height: 72vh;
+    }
+    .contenedor-img-info-profesional {
+        height: 72vh;
+    }
+    .carrusel-landing-Prof > .draggable > .slick-track > .slick-slide {
+        height: 17vh;
+    }
+    .contenedor-carruseles > .draggable > .slick-track > .slick-slide {
+        height: 34vh;
+    }
+    .carrusel-landing-Prof {
+        margin-top: 3%;
+    }
+    .div-boton-pc {
+        position: absolute;
+        bottom: 1%;
+        padding-left: 0px;
+        padding-right: 6%;
+        text-align: -webkit-right;
+    }
+    .boton-carrusel {
+        width: 18.8% !important;
+    }
+    .slide-in-content {
+        padding: 5px 37px;
+        transition: transform 3s ease;
+        height: 100vh;
+    }
+    .slide-in-content {
+        padding: 5% 5%;
+    }
+}
+// vista horizontal tablec
+@media (min-width: 2500px) {
+    .info-visible-en-pc {
+        display: block;
+    }
+    .info-visible-en-cel {
+        display: none;
+    }
+    .img-info-profesional {
+        height: 100vh;
+    }
+    .img-banner-hijo-landing {
+        height: 100vh;
+    }
+    .contenedor-img-info-profesional {
+        height: 100vh;
+    }
+    .carrusel-landing-Prof > .draggable > .slick-track > .slick-slide {
+        height: 20vh;
+    }
+    .imagen-carrusel {
+        width: 100%;
+        height: 32vh;
+    }
+    .contenedor-carruseles > .draggable > .slick-track > .slick-slide {
+        height: 32vh;
+    }
+    .carrusel-landing-Prof {
+        margin-top: -13%;
+    }
+    .div-boton-pc {
+        position: absolute;
+        bottom: 1%;
+        padding-left: 0px;
+        padding-right: 4%;
+        text-align: -webkit-right;
+    }
+}

@@ -1,0 +1,426 @@
+.tipografiaInicioSesionRegister {
+  font-size: 30pt;
+  color: #8e8e8e;
+  margin-bottom: 0px;
+  padding-top: 2%;
+  text-transform: uppercase;
+}
+.lineaInicioSesionRegister {
+  width: 100%;
+  border-bottom: 5px solid #8e8e8e;
+}
+.tipografiaCrearCuentaRegister {
+  font-size: 30pt;
+  margin-bottom: 0px;
+  padding-top: 2%;
+  color: #1558d6;
+  text-transform: uppercase;
+}
+.propiedadesLineaHrRegister {
+  padding: 0%;
+}
+.aliniacionRegister {
+  text-align: center;
+  border-bottom: 4px solid  #8e8e8e;
+}
+.aliniacionRegister2 {
+  text-align: center;
+  border-bottom: 4px solid #1558d6;
+}
+.aliniacionRegister, .aliniacionRegister2 > a {
+  text-decoration: none;
+}
+.aliniacionRegister {
+  text-align: center;
+}
+.aliniacionRegister > a {
+  text-decoration: none;
+}
+.divBtnRegister {
+  text-align: center;
+}
+.propiedadesBtnRegister {
+  color: black;
+  border: solid 0.1em #adacac;
+  width: 50%;
+  height: 100%;
+  padding: 6px 12px !important;  
+}
+.btn-primary :hover {
+  color: #ffffff;
+  background-color: #1558d6 !important;
+  border: #adacac;
+}
+.casillasVerificacion {
+  padding: 3% 0%;
+  height: 17vh;
+}
+.cajaTerminoCondicion{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.tipografiaTerminosCondiciones {
+  width: 95%;
+  display: inline-block;
+  height: 50%;
+  font-size: calc(0.3em + 1vh);
+  margin-bottom: 0;
+  color: #434142;
+  text-align: left;
+}
+.tipografiaTerminosCondiciones > a {
+  text-decoration: none;
+  color: #1558d6 !important;
+}
+.contain-check{
+    width: 5%;
+    height: 55%;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.margenRespectoFooter {
+  margin-bottom: 15%;
+}
+.XCerrar {
+  padding-right: 3rem !important;
+}
+.XCerrar {
+  font-size: 4rem;
+}
+.XCerrar :hover {
+  color: #1558d6;
+}
+.btnPoliticas {
+  color: black;
+  border: solid 0.1em #adacac;
+  border-radius: 15px;
+  width: 50%;
+  height: 10%;
+  padding: 6px 12px !important; 
+}
+
+.anchoCajaNameRegister {
+    display: block;
+    width: 100%;
+    height: 4.2vh;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 1px rgba(136, 136, 136, 0.49);
+  }	
+
+.anchoCajaMailRegister {
+    display: block;
+    width: 100%;
+    height: 4.2vh;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 1px rgba(136, 136, 136, 0.49);
+}
+
+.anchoCajaPasswordRegister {
+    display: block;
+    width: 100%;
+    height: 4.2vh;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 1px rgba(136, 136, 136, 0.49);
+  }
+
+.anchoCajaConfirPaswordRegister {
+   display: block;
+    width: 100%;
+    height: 4.2vh;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 1px rgba(136, 136, 136, 0.49);
+}
+.anchoCajaNameRegister::placeholder, .anchoCajaMailRegister::placeholder, 
+.anchoCajaPasswordRegister::placeholder, .anchoCajaConfirPaswordRegister::placeholder{
+  font-size: calc(0.55em + 0.55vh);
+  color: #8E8E8E;
+  font-family: 'Quicksand';
+  font-weight: bolder;
+}
+.padTamVerDesk {
+  padding: 0%;
+}
+.lineaRegister {
+  margin-top: 0%;
+  width: 100%;
+  border-bottom: 2px solid #8e8e8e;
+}
+.contSeccRegister {
+  background: #ffffff;
+  margin: 0%;
+  margin-bottom: 4.5%;
+  padding-left: 0%;
+  padding-right: 0%;
+  border: none;
+}
+.botonRegistro {
+  height: 8.5vh;
+  padding: 0% 0% 3% 0%;
+}
+.propiedadesCardRegister {
+  border: none;
+}
+.padLateralesVerCelularRegister{
+  flex: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: auto;
+}
+.contenedorHeaderRegister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 100%;
+  max-width: 100%;
+  background: #ffffff;
+  margin: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4.5%;
+  padding-left: 0%;
+  padding-right: 0%;
+  border: none;
+}
+
+.tipografiaPalabrasRegister{
+    font-size: 1em;
+    font-weight: bolder;
+    color: #434142;
+    font-family: "Quicksand";
+    padding-left: 1%;
+}
+.contain-mobile{
+  display: none;
+}
+// vista vertical celular
+@media (min-width: 320px) and (orientation: portrait) {
+  .padTamCelularRegister  {
+      padding: 0%;
+  }
+  .contSeccRegister {
+      margin-bottom: 0%;
+      padding-top: 10.5%;
+      padding-bottom: 0%;
+  }
+  .padContRegisterVerMobl {
+      padding: 7% 3% 0% 3% ;
+  }
+  .palabraServicioLogin {
+      font-size: 1rem;
+  }
+  .palabraProfesionalesLogin {
+      font-size: 1rem;
+  }
+  .propiedadesCardRegister {
+      padding-top: 4.5%;
+      border: none;
+  }
+  .tipografiaInicioSesionRegister {
+      font-size: 1.3rem;
+  }
+  .tipografiaCrearCuentaRegister {
+      font-size: 1.3rem;
+  }
+  .padRigHrTopFaceRegister {
+      padding-top: 2%;
+      padding-left: 0%;
+      padding-right: 0%;
+  }
+  .padRigHrTopGooRegister {
+      padding-top: 2%;
+      padding-left: 0%;
+      padding-right: 0%
+  }
+  .tipografiaInicioSesion {
+      font-size: calc(0.8em + 0.8vh);
+  }
+  .tipografiaCrearCuenta {
+      font-size: calc(0.8em + 0.8vh);
+  }
+  .contenedorHeaderRegister {
+    display: flex;
+    margin-bottom: 0%;
+    padding-top: 0;
+    padding-bottom: 0%;
+    justify-content: center;
+    align-items: center;
+  }
+  .contain-check{
+    margin-right: 1%;
+  }
+  .container-carusel-profesionales{
+      width: 100%;
+  }
+}
+// vista vertical celular
+@media (min-width: 375px) and (orientation: portrait) {
+ 
+}
+// vista vertical celular
+@media (min-width: 425px) and (orientation: portrait) {
+  .padTamCelularRegister  {
+      padding: 0%;
+  }
+  .palabraServicioLogin {
+      font-size: 1.14rem;
+  }
+  .palabraProfesionalesLogin {
+      font-size: 1.14rem;
+  }
+  .tipografiaInicioSesionRegister {
+      font-size: 1.5rem;
+  }
+  .tipografiaCrearCuentaRegister {
+      font-size: 1.5rem;
+  }
+  .contSeccRegister {
+      padding-top: 10.7%;
+  }
+  .propiedadesCardRegister {
+      padding-top: 4.9%;
+      border: none;
+  }
+  .anchoCajaNameRegister {
+      font-size: 1rem;
+  }
+  .anchoCajaMailRegister {
+      font-size: 1rem;
+  }
+  .anchoCajaPasswordRegister {
+      font-size: 1rem;
+  }
+  .anchoCajaConfirPaswordRegister {
+      font-size: 1rem;
+  }
+}
+// vista vertical celular
+@media (min-width: 768px){
+  .padTamCelularRegister {
+      padding: 4.8% 0% 0% 0%;
+  } 
+  .padContRegisterVerMobl {
+      padding: 0% 0% 0% 0%;
+  }
+  .palabraServicioLogin {
+      font-size: 1.7rem;
+  }
+    .palabraProfesionalesLogin {
+      font-size: 1.7rem;
+  }
+  .tipografiaInicioSesionRegister {
+      font-size: 1.6667rem;
+  }
+  .tipografiaCrearCuentaRegister {
+      font-size: 1.6667rem;
+  }
+  .contSeccRegister {
+      padding-top: 7.7%;
+  }
+  .padTopContRegister {
+      padding-top: 2.5%;
+  }
+  .padRigHrTopFaceRegister {
+      padding: 1.5% 0% 3% 0%;;
+  }
+  .padRigHrTopGooRegister {
+      padding: 1.5% 0% 3% 0%;
+  }
+  .contenedorHeaderRegister {
+    padding-top: 11.7%;
+  }
+}
+// vista vertical celular
+@media (min-width: 1024px){
+  .palabraServicioLogin {
+      font-size: 2.0833rem;
+  }
+    .palabraProfesionalesLogin {
+      font-size: 2.0833rem;
+  }
+  .tipografiaInicioSesionRegister {
+      font-size: 2.0833rem;
+  }
+  .tipografiaCrearCuentaRegister {
+      font-size: 2.0833rem;
+  }
+  .padTopContRegister {
+      padding-top: 3%;
+  }
+  .padTamCelularRegister {
+      padding: 3.5% 0% 0% 0%;
+  }
+  .contSeccRegister {
+      margin-bottom: 0%;
+  }
+  .contenedorHeaderRegister {
+    padding-top: 1.9%;
+    margin-bottom: 1%;
+  }
+}
+// vista vertical celular
+@media (min-width: 1440px){
+  .containerPrincipalHeader {
+      padding-top: 3%;
+  }
+  .tipografiaInicioSesionRegister {
+      padding-top: 2.8%;
+  }
+  
+  .alineSerHeaderLoginMob {
+      line-height: 110%;
+  }
+  .alineProfHeaderLoginMob {
+      line-height: 169%;
+  }
+  .padTopContRegister {
+      padding-top: 2.8%;
+  }
+  .padTamCelularRegister {
+      padding: 0%;
+  }
+  .contSeccRegister {
+      padding-top: 3.1%;
+      margin-bottom: 0%;
+  }
+  .tipografiaInicioSesionRegister {
+      font-size: 2.5rem;
+  }
+  .tipografiaCrearCuentaRegister {
+      font-size: 2.5rem;
+  }
+  .contenedorHeaderRegister {
+    padding-top: 1.7%;
+    margin-bottom: 1.2%;
+  }
+}
+// vista vertical celular
+@media (min-width: 1500px){
+  .containerPrincipalHeader {
+      padding-top: 5%;
+  }
+  .contSeccRegister {
+      padding-top: 9.2%;
+      margin-bottom: 0%;
+  }
+  .padTopContRegister {
+      padding-top: 2.6%;
+  }
+}

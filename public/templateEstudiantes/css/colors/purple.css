@@ -1,0 +1,139 @@
+.bg-primary,
+.btn-primary,
+.btn-soft-primary:hover, 
+.btn-soft-primary:focus, 
+.btn-soft-primary:active, 
+.btn-soft-primary.active, 
+.btn-soft-primary.focus,
+.btn-outline-primary:hover, 
+.btn-outline-primary:focus, 
+.btn-outline-primary:active, 
+.btn-outline-primary.active, 
+.btn-outline-primary.focus, 
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.home-shape-arrow i:hover,
+.custom-control-input:checked ~ .custom-control-label:before,
+.social-icon li a:hover,
+#topnav .navbar-toggle.open span:hover,
+.owl-theme .owl-dots .owl-dot span,
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots.clickable .owl-dot:hover span,
+.work-container.work-modern .icons .work-icon:hover,
+.watch-video a .play-icon-circle {
+    background-color: #7952B3 !important;
+}
+
+.btn-primary,
+.btn-soft-primary:hover, 
+.btn-soft-primary:focus, 
+.btn-soft-primary:active, 
+.btn-soft-primary.active, 
+.btn-soft-primary.focus,
+.btn-outline-primary,
+.btn-outline-primary:hover, 
+.btn-outline-primary:focus, 
+.btn-outline-primary:active, 
+.btn-outline-primary.active, 
+.btn-outline-primary.focus, 
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.form-group .form-control:focus, 
+.form-group .form-control.active,
+.custom-control-input:checked ~ .custom-control-label:before,
+.custom-control-input:focus ~ .custom-control-label::before,
+.form-control:focus,
+.social-icon li a:hover,
+#topnav .has-submenu.active.active .menu-arrow,
+#topnav.scroll .navigation-menu > li:hover > .menu-arrow, 
+#topnav.scroll .navigation-menu > li.active > .menu-arrow,
+#topnav.nav-sticky .navigation-menu.nav-light > li:hover > .menu-arrow, 
+#topnav.nav-sticky .navigation-menu.nav-light > li.active > .menu-arrow,
+#topnav .navigation-menu > li:hover > .menu-arrow,
+.counter-border {
+    border-color: #7952B3 !important;
+}
+
+.text-primary,
+.btn-soft-primary,
+.btn-outline-primary,
+#topnav .has-submenu.active .submenu li.active > a,
+#topnav .navigation-menu > li > a:hover, 
+#topnav .navigation-menu > li > a:active,
+#topnav .navigation-menu > li:hover > a,
+#topnav .navigation-menu > li.active > a,
+#topnav.scroll .navigation-menu > li:hover > a, 
+#topnav.scroll .navigation-menu > li.active > a,
+#topnav.nav-sticky .navigation-menu.nav-light > li.active > a,
+#topnav.nav-sticky .navigation-menu.nav-light > li:hover > a, 
+#topnav.nav-sticky .navigation-menu.nav-light > li.active > a,
+#topnav .navigation-menu > li .submenu li a:hover,
+#topnav .navigation-menu > li > a:hover,
+#topnav .navigation-menu > li .submenu li a:hover,
+#topnav .navigation-menu > li.has-submenu.open > a,
+#topnav .has-submenu.active a,
+.features .title:hover,
+.work-container.work-classic .content .title:hover, 
+.work-container.work-grid .content .title:hover, 
+.work-container.work-modern .content .title:hover,
+.blog-post .title:hover {
+    color: #7952B3 !important;
+}
+
+.btn-primary,
+.btn-soft-primary:hover, 
+.btn-soft-primary:focus, 
+.btn-soft-primary:active, 
+.btn-soft-primary.active, 
+.btn-soft-primary.focus,
+.btn-outline-primary:hover, 
+.btn-outline-primary:focus, 
+.btn-outline-primary:active, 
+.btn-outline-primary.active, 
+.btn-outline-primary.focus, 
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+    box-shadow: 0 3px 7px rgba(121, 82, 179, 0.5);
+}
+
+a.text-primary:hover, a.text-primary:focus {
+    color: #6d48a4 !important;
+}
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.btn-primary.focus {
+    background-color: #6d48a4 !important;
+    border-color: #6d48a4 !important;
+}
+
+.bg-soft-primary {
+    background-color: rgba(121, 82, 179, 0.2) !important;
+}
+
+.btn-soft-primary {
+    background-color: rgba(121, 82, 179, 0.15) !important;
+    border: 1px solid rgba(121, 82, 179, 0.1) !important;
+    box-shadow: 0 3px 7px rgba(121, 82, 179, 0.2);
+}
+
+.social-icon li a:hover .fea-social {
+    fill: #6d48a4;
+}
+
+.owl-theme .owl-dots .owl-dot span,
+.container-filter .categories:after {
+    background-color: rgba(121, 82, 179, 0.4) !important;
+}
+
+.play-icon i,
+.play-icon i:hover {
+    -webkit-text-stroke: 2px #7952B3;
+}
+  
+.play-icon i:hover {
+    -webkit-text-fill-color: #7952B3;
+}
+
+.features .icons {
+    background: rgba(121, 82, 179, 0.1);
+}

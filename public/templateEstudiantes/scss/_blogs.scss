@@ -1,0 +1,20 @@
+//
+// blogs.scss
+//
+
+/************************
+    11.  Blogs
+************************/
+.blog-post {
+    transition: all 0.5s ease;
+    .title {
+        transition: all 0.5s ease;
+        &:hover {
+            color: $primary !important;
+        }
+    }
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: $shadow-md !important;
+    }
+}

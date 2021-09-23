@@ -1,0 +1,1365 @@
+//animaciones menu home
+.animate__animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animate__backInDown {
+    -webkit-animation-name: backInDown;
+    animation-name: backInDown;
+}
+.container-imagen-index {
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+    background-position: center top !important;
+    padding: 0;
+    margin-bottom: 10%;
+}
+.container-color {
+    display: block;
+    width: 100%;
+    height: 15vh;
+    background-color: #004691;
+    position: absolute;
+    top: 0;
+}
+.margenRespectoHeader {
+    margin-top: 4%;
+}
+.container-padre-carrusel {
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 0;
+    height: 45vh;
+    justify-content: space-evenly;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.opacidadContCarruselAreasHome {
+    border: 0;
+}
+
+.divSpanDescProf {
+    height: auto !important;
+}
+.texto-carrousel-home {
+    border: none;
+    background: #fff;
+    color: #434142;
+    width: 100%;
+    font-weight: bolder;
+    height: 130px;
+    font-size: 1.6667rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+}
+.divNomArea {
+    text-align: center;
+}
+.tamano-contenedor-profesiones {
+    position: fixed !important;
+    width: 95% !important;
+}
+
+#pop1 {
+    display: none;
+    position: absolute;
+    z-index: 99999;
+    padding: 10px;
+    background: #3ab9ae;
+    border: 1px solid #a2adbc;
+    margin: 0px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+    box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+}
+
+.center {
+    text-align: center;
+}
+
+.container-carrusel-profesional {
+    height: 50vh;
+    margin-bottom: 6%;
+}
+
+.container-imagen-parallax {
+    margin-top: 0;
+}
+
+.parallax {
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 10vh;
+}
+
+.bg {
+    background: white;
+}
+
+.filtroHome {
+    align-self: center;
+}
+
+.btnFiltroHome {
+    border: 1px solid grey;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+}
+
+.filtroArea {
+    align-self: center;
+    margin-bottom: 0%;
+    padding: 0%;
+}
+
+.seccionArea {
+    width: 90%;
+    border-radius: 15px;
+    padding: 3px 4px;
+}
+.filtroProfesion {
+    align-self: center;
+    width: 80%;
+    margin-bottom: 0%;
+    padding: 0%;
+}
+
+.seccionProfesion {
+    width: 97%;
+    border-radius: 15px;
+    padding: 3px 4px;
+}
+
+.filtroespecialidad {
+    align-self: center;
+    margin-bottom: 0%;
+    padding: 0%;
+}
+
+.seccionEspecialidad {
+    width: 97%;
+    border-radius: 15px;
+    padding: 3px 0px;
+}
+.menuArea {
+    border: solid #8e8e8e8e;
+}
+.option {
+    background: #ffffff;
+}
+.filtroArea > option:hover {
+    color: #ffffff !important;
+    background: #ffffff !important;
+}
+.btnBuscadorHome {
+    width: 19px;
+}
+
+select {
+    outline: none;
+}
+
+:focus {
+    outline: none !important;
+}
+
+.profesionalDestacadoHome {
+    padding: 0;
+    border-bottom: 0px;
+    width: 100%;
+    border-top-left-radius: 50px;
+}
+
+.divNombreProfesion {
+    text-align: center;
+    width: 310px !important;
+}
+
+.cajaNombreProfesion {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    justify-content: center;
+    background-color: #f5f5f5;
+    align-items: center;
+}
+.cajaNombreProfesion > .btn-primary {
+    line-height: 0.9em;
+    font-weight: bolder;
+    background-color: #186BD9;
+    border-color: #186BD9;
+}
+.noTextDecoration > a {
+    text-decoration: none;
+}
+.contenido-dropdown-home {
+    background: #fff;
+}
+.seccionProfesionales {
+    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tipografiaProfesionalDestacadoHome {
+    font-size: calc(0.6em + 1vw);
+    line-height: 1em;
+    font-weight: bold;
+    color: #434241;
+    margin-bottom: 0.5vh;
+    font-family: "Quicksand";
+}
+.tipografiaProfesionalDestacadoHome:hover {
+    box-shadow: none;
+}
+.tipografiaEspecialidadDestacadoHome {
+    font-size: calc(0.55em + 0.55vw);
+    color: #434241;
+    font-weight: bold;
+    margin-bottom: 1.5vh;
+    font-family: "Quicksand";
+}
+/*Menu Despleglable Profesiones*/
+.menuDesplegableProfesion {
+    margin-left: 0%;
+}
+.contenedor-nombre-area {
+    max-width: 48%;
+    height: 70px;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: inherit;
+    background: #434142;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.contenedor-nombre-area a {
+    color: white !important;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.propiedadesMenuDesplegable {
+    width: 99%;
+    padding: 1% 1% 0% 1%;
+    height: 188px;
+    float: none;
+}
+.menuDesplegableProfesion {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0%;
+}
+.scrollContainerArea {
+    display: block;
+    width: 200%;
+    height: 151px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+#carrousel-areas-home .slick-initialized .slick-slide {
+    display: block;
+}
+/*.oculta-contenedor-profesiones-home{
+    display: none;
+}*/
+/*#contenedor-areas-home1, #contenedor-areas-home2, #contenedor-areas-home3, #contenedor-areas-home4, #contenedor-areas-home5, #contenedor-areas-home6{
+    display: none;
+}*/
+.stylos-contenedor-areas-home {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background: #ffff;
+    z-index: 100;
+    position: relative;
+    margin: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: auto;
+    margin-bottom: 0;
+    border-radius: 20px;
+}
+
+.stylos-contenedor-areas-home .col-4 {
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+    padding: 0;
+    height: 6vh;
+}
+.stylos-contenedor-areas-home .hoverSubItemsMenuCarruselAreaHome a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    top: 0;
+    color: #515457;
+    text-decoration: none;
+}
+.hoverSubItemsMenuCarruselAreaHome:hover,
+.hoverSubItemsMenuCarruselAreaHome a:hover {
+    background-color: #1558d6;
+    color: #ffff;
+    border: 0;
+}
+.stylos-contenedor-areas-home::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(82 86 89 / 0.25);
+    opacity: 0.5;
+}
+.stylos-contenedor-areas-home::-webkit-scrollbar-track {
+    width: 15px;
+}
+.stylos-contenedor-areas-home::-webkit-scrollbar-track-piece {
+    width: 15px;
+}
+.stylos-contenedor-areas-home::-webkit-scrollbar-thumb {
+    width: 15px;
+    background-color: #525659;
+}
+.contenedor-carrusel-publicidad-home {
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-subitem {
+    width: 80%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#carrousel-areas-home {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.image-height {
+    height: 25vh;
+}
+.titulo-carousel {
+    color: #1558d6;
+    font-weight: bold;
+}
+.palabraIngresarUsuario {
+    display: flex;
+    font-size: calc(0.1em + 1vw);
+    color: #8e8e8e;
+    vertical-align: bottom;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 6%;
+}
+.contenedor-filtros {
+    padding-top: 9vh;
+    background-color: white;
+    height: 15vh;
+}
+.contains-filtro {
+    height: 100%;
+}
+.padContFiltros {
+    width: 100%;
+    font-family: "Quicksand";
+    display: flex;
+    margin-right: 0;
+    margin-left: auto;
+}
+.container-carrusel-publicidad {
+    background-image: url($urlZaabra+"img/areas/forma-fondo.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.hoverSubItemsMenuCarruselAreaHome:hover,
+.hoverSubItemsMenuCarruselAreaHome a:hover {
+    background-color: #1558d6;
+    color: #ffff;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 6px 6px 10px -4px rgba(0, 0, 0, 0.45);
+}
+.stylos-contenedor-areas-home .col-4 a {
+    text-align: center;
+    font-weight: bolder;
+}
+.seccionEspecialidad,
+.seccionProfesion,
+.seccionArea {
+    font-weight: bolder;
+    color: #434142;
+}
+.letraBlanco {
+    font-weight: bolder;
+    font-family: "Quicksand";
+}
+.titulo-subitem {
+    color: #1558d6;
+}
+.container-logowhat{
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    z-index: 50;
+    bottom: 8%;
+    right: 1%;
+}
+.logo-what{
+    width: 100%;
+    height: 100%;
+}
+.seccionArea, .seccionEspecialidad, .seccionProfesion{
+    background-color: #ffff;
+}
+#carrousel-areas-home .slick-arrow {
+    position: absolute;
+    top: 25%;
+    z-index: 1;
+    width: 10px;
+    height: 16px;
+    font-size: 0;
+    background-size: 100% 100%;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+#carrousel-areas-home .slick-prev {
+    border: 0;
+    left: -30px;
+    font-size: 0.9em;
+    color: #fff0;
+    background: url($urlZaabra+"img/areas/flecha-atras.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#carrousel-areas-home .slick-next {
+    border: 0;
+    right: -30px;
+    font-size: 0.9em;
+    color: #fff0;
+    background: url($urlZaabra+"img/areas/flecha-adelante.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#carrousel-profesionales-home .slick-arrow {
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    width: 10px;
+    height: 16px;
+    font-size: 0;
+    background-size: 100% 100%;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+#carrousel-profesionales-home .slick-prev {
+    border: 0;
+    left: 5%;
+    font-size: 0.9em;
+    color: #fff0;
+    background: url($urlZaabra+"img/areas/flecha-atras.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#carrousel-profesionales-home .slick-next {
+    border: 0;
+    right: 5%;
+    font-size: 0.9em;
+    color: #fff0;
+    background: url($urlZaabra+"img/areas/flecha-adelante.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+@media (min-width: 320px) {
+    .padContFiltros {
+        max-width: 85%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contenedor-filtros {
+        padding-top: 0;
+        margin-top: 12vh;
+        margin-left: auto;
+        background-color: white;
+        height: 10vh;
+    }
+    .container-imagen-index {
+        height: 55vh;
+        margin-bottom: 25%;
+    }
+    .titulo-carousel {
+        font-size: calc(0.65em + 1vh);
+    }
+    .container-padre-carrusel {
+        height: 50vh;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .stylos-contenedor-areas-home .col-4 {
+        flex: 47%;
+        max-width: 47%;
+        height: 15%;
+        margin-bottom: 5%;
+    }
+    .stylos-contenedor-areas-home .col-4 a {
+        font-size: calc(0.5em + 0.5vh);
+    }
+    .parallax {
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        margin-bottom: 0;
+    }
+    .seccionProfesionales{
+        margin-top: 0;
+    }
+    .container-subitem {
+        width: 90%;
+        position: absolute;
+        top: 39%;
+        height: 48vh;
+        left: 0;
+        right: 0;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+    }
+    .texto-carrousel-home {
+        font-size: calc(0.7em + 1vw);
+        height: 8vh;
+    }
+    .seccionEspecialidad,
+    .seccionProfesion,
+    .seccionArea {
+        font-size: calc(0.7em + 1vw);
+        border: none;
+        color: #cacaca;
+    }
+    .profesionalDestacadoHome {
+        height: 55vh;
+        border-top-left-radius: 0;
+    }
+    .container-carrusel-publicidad {
+        padding-top: 22%;
+        height: 35vh;
+        margin-bottom: 10%;
+        background-position: right;
+    }
+    .imagenCarruUniversidad {
+        width: 15vh;
+        height: 15vh !important;
+        padding: 5px;
+    }
+    .cajaNombreProfesion > .btn-primary {
+        width: 38%;
+        font-size: calc(0.7em + 1vw);
+        height: 25%;
+    }
+    #carrusel-publicidad-Pago > .slick-list {
+        width: 97%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #carrousel-areas-home {
+        width: 100vw;
+        margin: auto;
+    }
+    #carrousel-areas-home .slick-slide{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .image-height {
+        height: 40vh;
+    }
+    .tipografiaProfesionalDestacadoHome {
+        font-size: calc(1.25em + 1vw);
+    }
+    .tipografiaEspecialidadDestacadoHome {
+        font-size: calc(0.6em + 1vw);
+        margin-bottom: 1.59vh;
+    }
+    .titulo-subitem{
+        padding-top: 5vh;
+        font-size: calc(0.7em + 1vw);
+    }
+    .imagen-carrusel-home {
+        padding-right: 0px !important;
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 40px;
+        -o-object-fit: fill;
+        object-fit: fill;
+    }
+}
+    // vista vertical celular
+    @media (min-width: 375px) {
+    .container-subitem {
+        width: 90%;
+        position: absolute;
+        top: 38%;
+        left: 0;
+        right: 0;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #carrousel-areas-home {
+        width: 100vw;
+        margin: auto;
+    }
+
+    .imagen-carrusel-home {
+        height: 100%;
+    }
+    .margenRespectoHeader {
+        margin-top: 18%;
+    }
+    .seccionArea {
+        width: 96%;
+    }
+    .seccionProfesion {
+        width: 96%;
+    }
+    .seccionEspecialidad {
+        width: 96%;
+    }
+    .contenedor-filtros .filtroArea .seccionArea {
+        align-self: center;
+        margin-bottom: 0;
+    }
+    .contenedor-filtros .filtroArea .seccionProfesion {
+        align-self: center;
+        padding: 0%;
+        margin-bottom: 0;
+    }
+    .texto-carrousel-home {
+        width: 100%;
+        height: 4.7rem;
+        font-size: 0.8333rem;
+    }
+    .margin-con-respecto-footer-2 {
+        margin-bottom: 9%;
+    }
+    .contenedor-filtros {
+        padding-top: 2vh;
+        background-color: white;
+        height: 10vh;
+    }
+    .container-imagen-index {
+        height: 45vh;
+        background-position: center bottom !important;
+        margin-bottom: 25%;
+    }
+    #carrusel-publicidad-Pago > .slick-list {
+        width: 95%;
+    }
+}
+
+// vista vertical celular
+@media (min-width: 410px) {
+    .container-subitem {
+        top: 38%;
+    }
+}
+
+// vista vertical celular
+@media (min-width: 480px) and (orientation: portrait) {
+    .texto-carrousel-home {
+        width: 100%;
+        height: 58px;
+        font-size: 0.9167rem;
+    }
+}
+
+// vista vertical tablec
+@media (min-width: 768px) and (orientation: portrait) {
+    .seccionArea {
+        width: 100%;
+    }
+    .contenedor-nombre-area a {
+        font-size: 0.8333rem;
+    }
+    .contenedor-nombre-area {
+        max-width: 47.6%;
+        height: 47px;
+    }
+    .tipografiaProfesionalDestacadoHome {
+        font-size: calc(0.9em + 1vw);
+    }
+    .tipografiaEspecialidadDestacadoHome {
+        font-size: calc(0.35em + 1vw);
+    }
+    .seccionProfesionales {
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    .container-subitem {
+        top: 36%;
+        height: 20vh;
+    }
+    #carrousel-areas-home {
+        width: 100%;
+        margin: auto;
+    }
+    .container-imagen-index {
+        height: 45vh;
+        background-position: center bottom !important;
+        margin-bottom: 15%;
+    }
+    .margenRespectoHeader {
+        margin-top: 15%;
+    }
+    .contenedor-filtros {
+        padding-top: 0;
+        margin-top: 11vh;
+        height: 6vh;
+    }
+    .image-height {
+        height: 15vh;
+    }
+    .container-padre-carrusel {
+        height: 25vh;
+    }
+    .parallax {
+        height: 35vh;
+    }
+    .profesionalDestacadoHome {
+        height: 25vh;
+    }
+    .stylos-contenedor-areas-home .col-4 a {
+        width: 100%;
+        height: 100%;
+    }
+    .stylos-contenedor-areas-home .col-4 {
+        flex: 24%;
+        max-width: 24%;
+        margin-bottom: 3%;
+    }
+    .cajaNombreProfesion {
+        height: 15vh;
+    }
+    .imagenCarruUniversidad {
+        height: 11vh !important;
+    }
+    .padContFiltros {
+        max-width: 40%;
+        display: flex;
+        margin-right: 0;
+        margin-left: auto;
+    }
+    .seccionEspecialidad,
+    .seccionProfesion,
+    .seccionArea {
+        font-size: calc(0.6em + 0.6vw);
+        border: none;
+        color: #434142;
+    }
+    .profesionalDestacadoHome {
+        border-top-left-radius: 25px;
+    }
+    #carrousel-areas-home .slick-slide {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .divSpanDescProf {
+        padding-left: calc(0.1vh + 1vw);
+        padding-right: calc(0.1vh + 1vw);
+    }
+    .titulo-subitem{
+        padding-top: 0;
+    }
+    .cajaNombreProfesion > .btn-primary {
+        width: 55%;
+        font-size: calc(0.4em + 1vw);
+        height: 25%;
+    }
+    .container-carrusel-publicidad {
+        padding-top: 15%;
+        height: 30vh;
+        margin-bottom: 10%;
+        background-position: right;
+    }
+    .stylos-contenedor-areas-home .col-4 a {
+        font-size: calc(0.1em + 1vh);
+    }
+}
+
+// vista horizontal tablec
+@media (min-width: 768px) and (orientation: landscape) {
+    .texto-carrousel-home {
+        height: 80px;
+        font-size: 1.0833rem;
+    }
+    .cajaNombreProfesion {
+        height: 15vh;
+    }
+}
+
+// For 1024 Tablets and mobile Devices
+@media (min-width: 1024px) {
+    .seccionArea {
+        width: 100%;
+    }
+    .contenedor-nombre-area a {
+        font-size: 0.8333rem;
+    }
+    .contenedor-nombre-area {
+        max-width: 47.6%;
+        height: 47px;
+    }
+    .tipografiaProfesionalDestacadoHome {
+        font-size: calc(0.9em + 1vw);
+    }
+    .tipografiaEspecialidadDestacadoHome {
+        font-size: calc(0.35em + 1vw);
+    }
+    .seccionProfesionales {
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    .container-subitem {
+        top: 40%;
+        height: 20vh;
+    }
+    #carrousel-areas-home {
+        width: 100%;
+        margin: auto;
+    }
+    .container-imagen-index {
+        height: 45vh;
+        background-position: center bottom !important;
+        margin-bottom: 15%;
+    }
+    .margenRespectoHeader {
+        margin-top: 15%;
+    }
+    .image-height {
+        height: 15vh;
+    }
+    .container-padre-carrusel {
+        height: 25vh;
+    }
+    .parallax {
+        height: 35vh;
+    }
+    .profesionalDestacadoHome {
+        height: 20vh;
+    }
+    .stylos-contenedor-areas-home .col-4 a {
+        width: 100%;
+        height: 100%;
+    }
+    .stylos-contenedor-areas-home .col-4 {
+        flex: 24%;
+        max-width: 24%;
+        margin-bottom: 3%;
+    }
+    .cajaNombreProfesion {
+        height: 13vh;
+    }
+    .imagenCarruUniversidad {
+        height: 11vh !important;
+    }
+    .padContFiltros {
+        max-width: 40%;
+        display: flex;
+        margin-right: 0;
+        margin-left: auto;
+    }
+    .seccionEspecialidad,
+    .seccionProfesion,
+    .seccionArea {
+        font-size: calc(0.6em + 0.6vw);
+        border: none;
+        color: #434142;
+    }
+    .profesionalDestacadoHome {
+        border-top-left-radius: 25px;
+    }
+    #carrousel-areas-home .slick-slide {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .divSpanDescProf {
+        padding-left: calc(0.1vh + 1vw);
+        padding-right: calc(0.1vh + 1vw);
+    }
+    .titulo-subitem{
+        padding-top: 0;
+    }
+    .cajaNombreProfesion > .btn-primary {
+        width: 55%;
+        font-size: calc(0.4em + 1vw);
+        height: 25%;
+    }
+    .container-carrusel-publicidad {
+        padding-top: 15%;
+        height: 30vh;
+        margin-bottom: 10%;
+        background-position: right;
+    }
+    .contenedor-filtros {
+        margin-top: 11vh;
+        height: 7vh;
+    }
+    #carrousel-profesionales-home .slick-arrow{
+        visibility: hidden;
+    }
+}
+// For 1024 laptops and desktop
+@media (min-width: 1024px) and (max-height: 800px) {
+    .divSpanDescProf {
+        flex: 0 0 35%;
+        max-width: 35%;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    .stylos-contenedor-areas-home .col-4 {
+        flex: 24%;
+        max-width: 24%;
+        height: 5vh;
+        margin-right: 1%;
+        margin-bottom: 2%;
+    }
+    .container-subitem {
+        width: 80%;
+        top: 44%;
+        height: 20vh;
+        overflow: auto;
+    }
+    .container-imagen-index {
+        height: 75vh;
+    }
+    .image-height {
+        height: 22vh;
+    }
+    .container-padre-carrusel {
+        height: 40vh;
+    }
+    .profesionalDestacadoHome {
+        height: calc(27vh + 1vw);
+    }
+    .cajaNombreProfesion {
+        height: 15vh;
+    }
+    .seccionProfesionales {
+        margin-top: 7vh;
+        margin-bottom: 0;
+        height: 46vh;
+    }
+    .container-imagen-index {
+        margin-bottom: 10%;
+    }
+    .parallax {
+        height: 45vh;
+    }
+    .contenedor-filtros {
+        padding-top: 0vh;
+        height: 7vh;
+        margin-top: 10vh;
+    }
+    .imagenCarruUniversidad {
+        height: 13vh !important;
+        width: 10vw;
+        padding: 10px;
+    }
+    .titulo-carousel {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        font-size: calc(0.95em + 1vw);
+    }
+    .padContFiltros {
+        max-width: 30%;
+        display: flex;
+        margin-right: 2%;
+    }
+    #carrousel-areas-home {
+        width: 105vh;
+        margin: auto;
+    }
+    .container-carrusel-publicidad {
+        padding-top: 10vh;
+        height: 40vh;
+        background-position: top center;
+        margin-bottom: 3%;
+    }
+    #carrusel-publicidad-Pago > .slick-list {
+        width: 95%;
+    }
+    #carrousel-profesionales-home > .slick-list {
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cajaNombreProfesion > .btn-primary {
+        font-size: calc(0.05em + 1vw);
+        width: 45%;
+        height: 25%;
+    }
+    .imagen-carrusel-home {
+        padding-right: 0px !important;
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        object-fit: fill;
+    }
+    #carrousel-areas-home .slick-slide {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tipografiaProfesionalDestacadoHome {
+        font-size: calc(0.65em + 1vw);
+    }
+    .tipografiaEspecialidadDestacadoHome {
+        font-size: calc(0.1em + 1vw);
+        margin-bottom: 1.59vh;
+    }
+    .seccionEspecialidad, .seccionProfesion, .seccionArea{
+        font-size: calc(0.2em + 1vw);
+    }
+    .stylos-contenedor-areas-home .col-4 a {
+        font-size: calc(0.2em + 1vh);
+    }
+    .texto-carrousel-home{
+        font-size: calc(1em + 1vw);
+    }
+    .texto-carrousel-home {
+        height: 10vh;
+        font-size: calc(0.3em + 1vw);
+    }
+    .titulo-subitem {
+        padding-top: 0vh;
+        font-size: calc(0.7em + 1vw);
+        margin-bottom: 2%;
+        margin-top: 5%;
+    }
+    #carrousel-profesionales-home .slick-arrow{
+        visibility: visible;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .container-subitem {
+        width: 70%;
+        position: absolute;
+        top: 44%;
+        left: 0;
+        right: 0;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .titulo-subitem{
+        margin-top: 6%;
+    }
+    .stylos-contenedor-areas-home .col-4 {
+        flex: 24%;
+        max-width: 24%;
+    }
+    .container-imagen-index {
+        height: 80vh;
+    }
+    .cajaNombreProfesion {
+        height: 20vh;
+    }
+    #carrusel-publicidad-Pago > .slick-list {
+        width: 95%;
+        height: 19vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imagenCarruUniversidad {
+        height: 15vh !important;
+        width: 10vw;
+        padding: 10px;
+    }
+    .container-carrusel-publicidad {
+        margin-bottom: 3vh;
+        padding-top: 9%;
+        height: 50vh;
+    }
+    .padContFiltros {
+        max-width: 30%;
+        display: flex;
+        margin-right: 2%;
+    }
+    .seccionProfesionales {
+        margin-top: 7vh;
+        height: 50vh;
+    }
+    .titulo-carousel {
+        margin-bottom: 3vh;
+    }
+    .seccionEspecialidad,
+    .seccionProfesion,
+    .seccionArea {
+        font-size: calc(0.7em + 0.7vw);
+    }
+    .image-height {
+        height: 26vh;
+    }
+    #carrusel-publicidad-Pago > .slick-list {
+        width: 90%;
+    }
+    #carrousel-profesionales-home > .slick-list {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .divSpanDescProf {
+        padding-left: calc(0.3vh + 1vw);
+        padding-right: calc(0.3vh + 1vw);
+    }
+    .imagen-carrusel-home {
+        padding-right: 0px !important;
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        object-fit: fill;
+    }
+    #carrousel-areas-home .slick-slide {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .profesionalDestacadoHome {
+        height: calc(27vh + 1vw);
+    }
+    .tipografiaEspecialidadDestacadoHome {
+        font-size: calc(0.1em + 1vw);
+        margin-bottom: 1.59vh;
+    }
+    .cajaNombreProfesion > .btn-primary {
+        font-size: calc(0.05em + 1vw);
+        width: 50%;
+        height: 25%;
+    }
+    .tipografiaProfesionalDestacadoHome {
+        font-size: calc(0.65em + 1vw);
+    }
+    .texto-carrousel-home {
+        height: 10vh;
+        font-size: calc(0.3em + 1vw);
+    }
+    .seccionEspecialidad, .seccionProfesion, .seccionArea {
+        font-size: calc(0.2em + 1vw);
+    }
+    #carrousel-areas-home .slick-arrow{
+        top: 30%;
+    }
+    #carrousel-profesionales-home .slick-arrow{
+        visibility: visible;
+    }
+    #carrousel-profesionales-home .slick-next{
+        right: 8%;
+    }
+    #carrousel-profesionales-home .slick-prev{
+        left: 8%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .scrollContainerArea {
+        height: 118px;
+    }
+    .scrollContainerArea {
+        height: 109px;
+    }
+    .contenedor-nombre-area {
+        font-size: 0.1rem;
+        max-width: 47.5%;
+        height: 48.6px;
+    }
+    .contenedor-nombre-area a {
+        font-size: 1rem;
+    }
+    .seccionArea {
+        width: 97%;
+        height: 28px;
+    }
+    .seccionProfesion {
+        width: 100%;
+        padding: 3px 1px;
+    }
+    .filtroProfesion {
+        padding-left: 1%;
+    }
+    .seccionEspecialidad {
+        width: 100%;
+        padding: 3px 1px;
+    }
+    .filtroespecialidad {
+        padding-left: 1%;
+    }
+    .imagen-carrusel-home {
+        height: 100%;
+    }
+    .container-subitem {
+        width: 75%;
+        position: absolute;
+        height: 25vh;
+        left: 0;
+        right: 0;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-imagen-index {
+        margin-bottom: 10%;
+    }
+    .parallax {
+        height: 40vh;
+    }
+    .container-padre-carrusel {
+        height: 45vh;
+    }
+    .image-height {
+        height: 25vh;
+    }
+    .seccionProfesionales {
+        margin-top: 7vh;
+        margin-bottom: 0;
+    }
+    .contenedor-filtros {
+        padding-top: 0;
+        background-color: white;
+        height: 8vh;
+        margin-top: 10vh;
+    }
+    #carrousel-profesionales-home > .slick-list {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .seccionEspecialidad, .seccionProfesion, .seccionArea{
+        font-size: calc(0.3em + 1vw);
+    }
+    .titulo-carousel {
+        font-size: calc(1.2em + 1vw);
+        margin-bottom: 3vh;
+    }
+    .stylos-contenedor-areas-home .col-4 {
+        flex: 24%;
+        max-width: 24%;
+        height: 20%;
+        margin-bottom: 2%;
+    }
+    .titulo-subitem {
+        margin-top: 0%;
+    }
+    #carrousel-areas-home .slick-arrow{
+        top: 25%;
+    }
+}
+// Extra large devices (large desktops, 1500px and up)
+@media (min-width: 1600px) {
+    .container-subitem {
+        top: 50%;
+    }
+    .container-imagen-index {
+        height: 105vh;
+    }
+    .seccionProfesionales {
+        margin-bottom: 0;
+    }
+    .imagenCarruUniversidad {
+        height: 15vh !important;
+        width: 8vw;
+        padding: 10px;
+    }
+    #carrusel-publicidad-Pago > .slick-list {
+        width: 85%;
+        height: 19vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .titulo-carousel {
+        font-size: calc(1.2em + 1vw);
+        margin-bottom: 3vh;
+    }
+    .image-height {
+        height: 30vh;
+    }
+    #carrousel-profesionales-home > .slick-list {
+        width: 70%;
+    }
+    .texto-carrousel-home {
+        height: 10vh;
+        font-size: calc(0.2em + 1vw);
+    }
+    .seccionEspecialidad, .seccionProfesion, .seccionArea {
+        font-size: calc(0.1em + 1vw);
+    }
+    .stylos-contenedor-areas-home .col-4 {
+        flex: 24%;
+        max-width: 24%;
+        height: 20%;
+        margin-bottom: 1%;
+    }
+    .cajaNombreProfesion > .btn-primary {
+        font-size: calc(0.01em + 1vw);
+    }
+    .container-carrusel-publicidad {
+        margin-bottom: 3vh;
+        padding-top: 11%;
+        height: 50vh;
+        background-position: top center;
+    }
+    .titulo-subitem {
+        margin-top: 0%;
+    }
+    #carrousel-areas-home .slick-arrow {
+        top: 30%;
+    }
+    #carrousel-profesionales-home .slick-next{
+        right: 13%;
+    }
+    #carrousel-profesionales-home .slick-prev{
+        left: 13%;
+    }
+}
+// Extra large devices (large desktops, 2560px and up)
+@media (min-width: 2560px) {
+}

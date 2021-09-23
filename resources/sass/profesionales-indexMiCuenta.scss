@@ -1,0 +1,263 @@
+// ESTILOS SECCION MI CUENTA //
+.container-principal-indexMiCuenta {
+    padding: 0;
+    margin-top  : 13%;
+}
+.content-options-contenido-indexMiCuenta {
+    padding: 0;
+    margin: 3% 0 0 0;
+}
+.seccionMiCuenta {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: #f2f2f2;
+}
+.tipografiaMiCuenta {
+    font-size: 1.563em;
+    color: #186BD9;
+    margin-bottom: 0px;
+    padding-top: 2%;
+    font-weight: bold;
+}
+.tipografiaUsuario {
+    font-size: 1.563em;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-top: 2%;
+    color: #186BD9;
+    text-transform: uppercase;
+}
+
+
+.margenesUlMisDatos {
+    padding: 0%;
+    font-size: 1em;
+    line-height: 2.1;
+}
+.listaMisDatos>ul>li {
+    list-style: none;
+}
+.listaMisDatos>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+.margenesUlMisDatos>a {
+    color: #000000;
+    text-decoration: none;
+}
+.listaMisDatos>ul>a:hover {
+    color: #186BD9 !important;
+}
+.listaMisDatos>ul>li a:hover {
+    color: #186BD9 !important;
+}
+.imagen-botonMembresia-indexMiCuenta {
+    width: 90%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.imagen-botonMembresia-indexMiCuenta-noFooter {   ///Clase ubicada en la vista indexMiCuentaNoFooter.blade
+    width: 90%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.BtnGuardarMiCuenta {
+    border: solid 0.1em #adacac;
+    border-radius: 6px 6px;
+    width: 100% !important;
+    height: 100% !important;
+    padding: 10px !important;
+}
+.BtnGuardarMiCuenta:hover {
+    color: #ffffff;
+    background-color: #1558d6 !important;
+    border: #adacac;
+}
+.tipografiaMembresia {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+.img-membresia{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: relative;
+    right: 5px;
+    padding-top: 5px;
+    margin-top: 10px;
+    border-top: solid 2px #186BD9 !important;
+}
+.img-membresia > img{
+    width: 100%;
+    height: 50px;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+.divMiUsuario {
+    text-align: end;
+}
+.botonInferior-guardar-miBasico {
+    border: 1px solid;
+    border-radius: 30px;
+    width: 100% !important;
+    padding: 1%;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background: #1558d6;
+}
+// vista vertical celular
+@media (min-width: 320px) and (orientation: portrait) {
+    .container-principal-indexMiCuenta {
+        padding: 0 2%;
+        margin-top: 30%;
+    }
+    .imagen-botonMembresia-indexMiCuenta {
+        width: 40%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+    .imagen-botonMembresia-indexMiCuenta-noFooter {   ///Clase ubicada en la vista indexMiCuentaNoFooter.blade
+        width: 40%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+    ///SECCION IMAGEN PRINCIPAL jfk
+    .content-section-img-idImg-miBasico {
+        height: 100%;
+        width: 100%;
+    }
+    .content-section-img-propiedadesImg-miBasico {
+        height: 100%;
+    }
+     ///SECCION IMAGEN Y NOMBRE USUARIO jfk
+     .section-info-options-nameUser-miBasico {
+        font-size: 1.2em;
+    }
+    ///SECCION FILTRO AREA
+    .section-info-options-titulo-miBasico {
+        padding-left: 3%;
+        padding-top: 2%;
+        font-size: 1.1em;
+    }
+    .section-info-options-input-miBasico {
+        width: 100%;
+        height: 35px;
+        font-size: 1em;
+        border-radius: 6px;
+        background: white;
+    }
+   
+    .seccionMiCuenta {
+        margin: 0%;
+    }
+    .tipografiaMiCuenta {
+        font-size: 1em;
+        text-align: initial;
+    }
+    .tipografiaUsuario {
+        font-size: 1em;
+        text-align: center;
+    }
+   
+}
+// vista vertical celular jfk
+@media (min-width: 400px) and (orientation: portrait) {
+
+}  
+@media (min-width: 768px){
+    .container-principal-indexMiCuenta {
+        padding: 0;
+        margin-top: 20%;
+    }
+    .tipografiaMiCuenta {
+        font-size: 1.563em;
+        text-align: initial;
+    }
+    .tipografiaUsuario {
+        font-size: 1.563em;
+        text-align: center;
+    }
+    .imagen-botonMembresia-indexMiCuenta {
+        width: 20%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+    .imagen-botonMembresia-indexMiCuenta-noFooter {   ///Clase ubicada en la vista indexMiCuentaNoFooter.blade
+        width: 90%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+   
+}
+@media (min-width: 1024px){
+  ////propiedad para la vista 1024
+    ///SECCION BOTON INFERIOR GUARDAR
+    .content-botonInferior-guardar-miBasico {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .botonInferior-guardar-miBasico {
+        border: 1px solid;
+        border-radius: 30px;
+        width: 100% !important;
+        padding: 1%;
+        font-size: 1.5rem;
+        color: #ffffff;
+        background: #1558d6;
+    }
+    .tipografiaMiCuenta {
+        font-size: 1.563em;
+        margin-bottom: 0px;
+        padding-top: 2%;
+        font-weight: bold;
+    }
+    .imagen-botonMembresia-indexMiCuenta {
+        width: 90%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+    .imagen-botonMembresia-indexMiCuenta-noFooter {   ///Clase ubicada en la vista indexMiCuentaNoFooter.blade
+        width: 90%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+}
+@media (min-width: 1200px){
+    .container-principal-indexMiCuenta {
+        padding: 0;
+        margin-top: 11%;
+    }
+    .imagen-botonMembresia-indexMiCuenta {
+        width: 80%;
+    }
+    .imagen-botonMembresia-indexMiCuenta-noFooter {   ///Clase ubicada en la vista indexMiCuentaNoFooter.blade
+        width: 90%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+
+}
+@media (min-width: 1300px){
+    .container-principal-indexMiCuenta {
+        padding: 0;
+        margin-top: 10%;
+    }
+}
+@media (min-width: 1440px){
+  
+}
+@media (min-width: 1500px){
+    .container-principal-indexMiCuenta {
+        padding: 0;
+        margin-top: 8%;
+    }
+}

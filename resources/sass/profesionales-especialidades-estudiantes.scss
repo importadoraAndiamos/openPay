@@ -1,0 +1,403 @@
+
+.backgrund-verde{
+    background: #C6FCED;
+}
+.container-banner-profesional.especialidades-blade-mobile .icono-lupa{
+    display: block;
+    position: absolute;
+    z-index: 5;
+    background-image: url($urlZaabra+'img/universidades/icono_lupa.png');
+    width: 4%;
+    height: 6vh;
+    right: 1%;
+    top: 35vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid 2px #797577;
+    border-radius: 10px;
+    vertical-align: middle;
+    transition: .2s;
+    transition-timing-function: linear;
+}
+.mostrarinput{
+    display: block;
+}
+.container-banner-profesional.especialidades-blade-mobile .filaPrincipalImagenes{
+    width: 26%;
+    height: 3.8vh;
+    margin: 0;
+    display: none;
+    position: absolute;
+    z-index: 5;
+    right: 6%;
+    top: 36vh;
+    padding: 0;
+}
+
+.filaPrincipalImagenes > .container-fluid{
+    width: 100%;
+    height: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    background: #fff0 !important;
+}
+#busquedaEspecialidad{
+    background-color: #ffff;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#BuscadorEspecialidades::placeholder{
+    color: #B7B6B6;
+}
+
+.imagen-banner-especialidades-estudiantes{
+    width: 100%;
+}
+.imagen-filtro-carru-universidad{
+   width: 100%; 
+   box-shadow: 3px 3px 5px 0px #bdbdbf    
+}
+.imagen-resultado-filtro-espec-estudiantes{
+    width: 100%;
+}
+
+.contenedor-nombre-especialidad-estudiantes{
+    font-weight: bold; 
+}
+.contenedor-carrusel-estudiantes{
+    padding-top: 5%;
+    padding-bottom: 12%;
+}
+.titulo-carrusel-especialidad-estudiante{
+    font-size: 1em;
+}
+.color-gris-texto-Prof-estd{
+    color:  #736E6C;
+}
+.ruta-especilidad-estudiante{
+    color: #5AD6BB;
+}
+.contenedor-carrusel-estudiantes .slick-prev {
+    border: 0;
+    left: -3%;
+    font-size: 0.9em;
+    color: #fff0;
+    background: url($urlZaabra+"img/areas/flecha-hacia-atras-negra.svg");
+    background-size: contain;
+    position: absolute;
+}
+.contenedor-carrusel-estudiantes .slick-next {
+    border: 0;
+    right: -3%;
+    font-size: 0.9em;
+    color: #fff0;
+    background: url($urlZaabra+"img/areas/flecha-hacia-delante-negra.svg");
+    background-size: contain;
+    position: absolute;
+}
+.contenedor-carrusel-estudiantes .slick-arrow {
+    position: absolute;
+    top: 34%;
+    z-index: 1;
+    font-size: 0;
+    background-size: 100% 100%;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+ // vista vertical celular //
+@media (min-width: 320px) {
+
+    .imagen-banner-especialidades-estudiantes{
+        margin-top: 25.5%;
+        height: 25vh !important;
+    }
+    .ruta-especilidad-estudiante{
+        font-size: 1.2em;
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+    .imagen-filtro-carru-universidad{
+       margin-left: 1%;
+       height: 9vh;
+    }
+    .contenedor-carrusel-logos-filtro-univer{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 100%;
+        padding-right: 1%;
+        padding-left: 1%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .imagen-resultado-filtro-espec-estudiantes{
+        height: 30vh;
+    }
+    .contenedor-resultado-filtro-universidades{
+        margin-top: 10%;
+        width: 100%;
+        padding-right: 1%;
+        padding-left: 1%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contenedor-imagen-text-result-filtro-univ{
+        padding-bottom: 7%;
+    }
+    .div-representativo-para-espaciado{
+        height: 2vh;
+    }
+    .contenedor-nombre-especialidad-estudiantes{
+        margin-top: 7%;
+        margin-bottom: 2%;
+    }
+    .nombre-especialidad-especialidades-estudiantes{
+        font-size: 1em;
+    }
+    .container-img-galeria-universidades{
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+     }
+     .img-carru-univ-estudiant{
+      width: 93%;
+      height: 3.6em;
+      border-top-left-radius: 17px;
+      border-bottom-right-radius: 17px;
+     }
+     .contenedor-titulo-carrusel-especialidad-estudiante{
+         padding-top: 6%;
+     }
+     .contenedor-carrusel-estudiantes .slick-arrow {
+
+        width: 16px;
+        height: 15px;
+
+        margin-right: -4px;
+        margin-left: -7px;
+    }
+    .contenedor-carrusel-estudiantes{
+        margin-right: 2%;
+         margin-left: 3%;
+    }
+     
+}
+
+
+@media (min-width: 410px) {
+    .imagen-banner-especialidades-estudiantes {
+        margin-top: 26.5%;
+        height: 25vh !important;
+    }
+}
+
+@media (min-width: 410px) {
+    .imagen-banner-especialidades-estudiantes{
+        margin-top: 25.5%;
+        height: 25vh !important;
+    }
+    .imagen-filtro-carru-universidad{
+       margin-left: 1%;
+       height: 9vh;
+    }
+    .contenedor-carrusel-logos-filtro-univer{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .imagen-resultado-filtro-espec-estudiantes{
+        height: 26vh;
+    }
+    .contenedor-resultado-filtro-universidades{
+        margin-top: 10%;
+    }
+    .contenedor-imagen-text-result-filtro-univ{
+        padding-bottom: 7%;
+    }
+    .div-representativo-para-espaciado{
+        height: 2vh;
+    }
+    .contenedor-nombre-especialidad-estudiantes{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .nombre-especialidad-especialidades-estudiantes{
+        font-size: 1.1em;
+    }
+    .titulo-carrusel-especialidad-estudiante {
+        font-size: 1.2em;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .imagen-banner-especialidades-estudiantes{
+        margin-top: 16%;
+        height: 33vh !important;
+    }
+    .imagen-filtro-carru-universidad{
+       margin-left: 1%;
+       height: 9vh;
+    }
+    .contenedor-carrusel-logos-filtro-univer{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .imagen-resultado-filtro-espec-estudiantes{
+        border-bottom-right-radius: 40px;
+        border-top-left-radius: 40px;
+        height: 19vh;
+    }
+    .contenedor-resultado-filtro-universidades{
+        margin-top: 10%;
+    }
+    .contenedor-imagen-text-result-filtro-univ{
+        padding-bottom: 7%;
+    }
+    .div-representativo-para-espaciado{
+        height: 2vh;
+    }
+    .contenedor-nombre-especialidad-estudiantes{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .nombre-especialidad-especialidades-estudiantes{
+        font-size: 1.3em;
+    }
+    .container-img-galeria-universidades{
+        margin-right: 0.2%;
+        margin-left: 0.2%;
+     }
+     .ruta-especilidad-estudiante {
+        font-size: 1.9em;
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+    .img-carru-univ-estudiant {
+        width: 93%;
+        height: 6.6em;
+        border-top-left-radius: 17px;
+        border-bottom-right-radius: 17px;
+    }
+    .titulo-carrusel-especialidad-estudiante {
+        font-size: 1.6em;
+    }
+    .contenedor-titulo-carrusel-especialidad-estudiante {
+        padding-top: 4%;
+    }
+    .contenedor-carrusel-estudiantes {
+        padding-top: 5%;
+        padding-bottom: 6%;
+    }
+    .contenedor-carrusel-estudiantes .slick-arrow {
+        width: 20px;
+        height: 37px;
+        margin-right: -4px;
+        margin-left: -7px;
+    }
+    .contenedor-carrusel-estudiantes .slick-arrow {
+        width: 20px;
+        height: 37px;
+        margin-right: -4px;
+        margin-left: -7px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .imagen-banner-especialidades-estudiantes {
+        margin-top: 8%;
+        height: 54vh !important;
+    }
+    .ruta-especilidad-estudiante {
+        font-size: 2em;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .contenedor-carrusel-logos-filtro-univer {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        width: 100%;
+        padding-right: 10%;
+        padding-left: 10%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .imagen-filtro-carru-universidad {
+        margin-left: 0%;
+        height: 12vh;
+    }
+    .nombre-especialidad-especialidades-estudiantes {
+        font-size: 1.3em;
+    }
+    .imagen-resultado-filtro-espec-estudiantes {
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
+        height: 21vh;
+    }
+    .contenedor-imagen-text-result-filtro-univ {
+        padding-bottom: 2%;
+    }
+
+    .contenedor-resultado-filtro-universidades{
+    margin-top: 5%;
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    .container-img-galeria-universidades{
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+     }
+     .contenedor-titulo-carrusel-especialidad-estudiante {
+        padding-top: 3%;
+    }
+    .contenedor-carrusel-estudiantes {
+        padding-top: 2%;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .img-carru-univ-estudiant {
+        border-top-left-radius: 23px;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 23px;
+    }
+    .contenedor-carrusel-estudiantes .slick-arrow {
+        width: 19px;
+        height: 20px;
+        margin-right: -4px;
+        margin-left: -7px;
+    }
+}
+@media (min-width: 1280px) {
+    .imagen-banner-especialidades-estudiantes {
+        margin-top: 7%;
+        height: 64vh !important;
+    }
+}
+
+@media (min-width: 1366px) {
+    .imagen-banner-especialidades-estudiantes {
+        margin-top: 6%;
+        height: 73vh !important;
+    }
+    .imagen-resultado-filtro-espec-estudiantes {
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
+        height: 25vh;
+    }
+}
+@media (min-width: 1440px) {
+    .imagen-banner-especialidades-estudiantes {
+        margin-top: 6%;
+        height: 77vh !important;
+    }
+}
+@media (min-width: 1920px) {
+    .imagen-banner-especialidades-estudiantes {
+        margin-top: 6%;
+        height:85vh !important;
+    }
+}

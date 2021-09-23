@@ -1,0 +1,37 @@
+//
+// home.scss
+//
+
+/************************
+    7.  HOme
+************************/
+@mixin home-common {
+    background-size: cover;
+    align-self: center;
+    position: relative;
+    background-position: center center;
+}
+.bg-home {
+    height: 100vh;    
+    @include home-common();
+}
+.bg-half-260 {
+    padding: 260px 0;    
+    @include home-common();
+}
+.bg-half-170 {
+    padding: 170px 0;    
+    @include home-common();
+}
+
+.bg-half-100 {
+    padding: 100px 0;
+    @include home-common();
+}
+
+@media (max-width: 767px) {
+    .bg-home, .bg-half-170, .bg-half-260 {        
+        padding: 150px 0;
+        height: auto;
+    } 
+}

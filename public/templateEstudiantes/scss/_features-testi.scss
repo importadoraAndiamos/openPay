@@ -1,0 +1,75 @@
+//
+// features.scss
+//
+
+/************************
+    8.  Features & Testi
+************************/
+.features {
+    transition: all 0.5s ease;
+    .icons {
+        height: 80px;
+        transition: all 0.5s ease;
+        background: rgba($primary, 0.1);
+        margin: 0 auto;
+        i {
+            line-height: 80px;
+        }
+    }
+    .title {
+        font-size: 18px;
+        &:hover {
+            color: $primary !important;
+        }
+    }
+    &:hover {
+        box-shadow: $shadow-lg !important;
+    }
+}
+
+//Owl Slider
+.owl-theme .owl-dots .owl-dot span {
+    background: $primary !important;
+}
+.customer-testi {
+    cursor: e-resize;
+    .content {
+        &:before {
+            content: "";
+            position: absolute;
+            top: 30px;
+            left: 0;
+            margin-left: 13px;
+            box-sizing: border-box;
+            border: 8px solid $dark;
+            border-color: transparent $white $white transparent;
+            transform-origin: 0 0;
+            transform: rotate(135deg);
+            box-shadow: 2px 2px 2px -1px rgba($dark, 0.15);
+        }
+    }
+}
+.owl-theme {
+    .owl-dots {
+        .owl-dot {
+            span {
+                width: 6px;
+                height: 6px;
+                border-radius: 3px;
+                background: rgba($primary, 0.4) !important;
+                transition: all 0.5s ease;
+                opacity: 1;
+            }
+        }
+        .owl-dot.active span, 
+        &.clickable .owl-dot:hover span {
+            background: $primary !important;
+            width: 10px;
+        }
+    }
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+}

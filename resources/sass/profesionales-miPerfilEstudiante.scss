@@ -1,0 +1,664 @@
+.contenedor-principal-secciones-miPerfilEstudiantes {
+    background-color:white;
+    margin-top: 3%;
+    padding: 0 2%;
+}
+.textAreaDescripcionFormEstudiantes {
+    width: 100%;
+    border: #ADACAC solid 1px;
+    border-radius: 8px;
+    padding: 3% 3%;
+    color: #736E6C;
+}
+.OptionUserFormEstudiantes {
+    margin: 3% 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 25vh;
+}
+////SECCION DE CUADROS DE OPCIONES jfk
+/*.btnSelecOptFormProfesionales {
+    margin: 0%;
+}*/
+.seleccion-formEstudiantes {
+    text-align: center;
+    border: 1px solid #ADACAC;
+    color:  #736E6C;
+    margin: 0% 1% 1% 0%;
+    width: 32%;
+    height: 4vh;
+}
+.seleccion-formEstudiantes>a {
+    text-decoration: none;
+    color:  #736E6C;
+}
+.seleccion-formEstudiantes:hover {
+    border: 1px solid  #186BD9;
+}
+.seleccion-formEstudiantes>a:hover {
+    color:  #186BD9;
+}
+
+.contBtnInferiorFormEstudiantes {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 2% 0;
+}
+.marginSeccInputFormEstudiantes {
+    margin: 0%;
+}
+.seccionEstudiosFormEstudiantes {
+    font-size: 1em;
+    color: #736E6C;
+    width: 100%;
+    height: 35px !important;
+    border-radius: 8px !important;
+    padding: 0 1%;
+    opacity: 70%;
+}
+.diseñoAgregarBotonFormEstudiantes {
+    background: url($urlZaabra +'img/AgregarIconos.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: 5%;
+}
+.diseñoAgregarBotonCertificadosFormEstudiantes {
+    background: url($urlZaabra +'img/AgregarIconos.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: 5%;
+}
+.alturaImgPrincProfFormEstudiantes {
+    height: 40vh;
+    margin: auto;
+}
+.removImagenesFormEstudiantes>a {
+    text-decoration: none;
+}
+.contXDeCierreFormEstudiantes>a {
+    text-decoration: none;
+}
+////SECCION BOTON INFERIOR GUARDAR JFK 
+.BtnGuardarFormEstudiantes {
+    border: 1px solid;
+    border-radius: 8px;
+    width: 100% !important;
+    height: 43px;
+    padding: 1%;
+    font-size: 1em;
+    color: #ffffff;
+    background: #186BD9
+}
+// vista vertical celular jfk
+@media (min-width: 320px) and (orientation: portrait) {
+    .margTopImgDatoFormEstudiantes {
+        margin-top: 35%;
+    }
+    ///SECCIN CONTENEDOR IMAGEN PRINCIPAL jfk
+    .alturaImgPrincProfFormEstudiantes {
+        height: 43vh;
+        margin: auto;
+    }
+    ///Borde superior contenedor adicional de secciones jfk
+    .boderTopContAdicionalFormEstudiantes {
+        margin-top: 1%;
+        margin-bottom: 5%;
+        border-top: 2px solid #adacac;
+    }
+    .divFileFotoPerfilFormEstudiantes {
+        position: relative;
+        padding: 0%;
+        width: 150px;
+        background: url($urlZaabra +'img/AgregarIconos.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 5px !important;
+    }
+     ///SECCION DATOS DEL PROFESIONAL jfk
+     .contImgDatosIncialFormEstudiantes {
+        padding-left: 6%;
+    }
+    .fontNameFormEstudiantes {
+        font-size: 1em;
+        color: #736E6C;
+        padding: 0;
+    }
+    .fontCityFormEstudiantes {
+        font-size: 1em;
+        color: #736E6C;
+        padding: 0;
+    }
+    .fontLabelDatPersFormEstudiantes {
+        font-size: 1em;
+        color: #736E6C;
+        padding-left: 3%;
+    }
+    ///CAJAS DE TEXTO jfk
+    .seleccion-formEstudiantes {
+        font-size: .75em;
+        text-align: center;
+        border: 1px solid #ADACAC;
+        color:#736E6C;;
+        margin: 0;
+        width: 49%;
+        height: 7vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    ///SECCION DATOS PERSONALES jfk
+    .tituloSeccDatosPerFormEstudiantes {
+        padding: 0 3%;
+        margin-top: 5%;
+    }
+    .fontTituloSeccFormEstudiantes {
+        font-weight: bold;
+        font-size: 1em;
+        color: #736E6C;
+        margin: 0;
+    } 
+    .PropiedadIputDatPersFormEstudiantes {
+        font-size: 1em;
+        color: #736E6C;
+        height: 35px !important;
+        border-radius: 8px !important;
+        padding: 0 3%;
+    }
+    ///SECCION ESTUDIOS jfk
+    .estudios-option-semestre-miPerfilEstudiante {
+        padding: 0;
+        margin-top: 5%;
+    }
+    .contXDeCierreFormEstudiantes {
+        margin-left: auto;
+        margin-top: 2%;
+        padding: 0;
+        height: 1vh;
+    }
+    .BtnAgregarFormEstudiantes {
+        display: flex;
+        margin-top: 3%;
+    }
+    .imagen-estilos-predeterminados-FormEstudiantes {
+        border-radius: 8px !important;
+    }
+    ///SECCION EXPERIENCIA jfk
+    .diseñoAgregarBotonFormEstudiantes {
+        margin-left: 0;
+    }
+    .padSectInfoExperFormEstudiantes {
+        padding: 0%;
+    }
+    ///SECCION CERTIFICADOS jfk
+    .diseñoAgregarBotonCertificadosFormEstudiantes {
+        margin-left: 0;
+    }
+    .contImgCertifFormEstudiantes {
+        padding: 0%;
+    }
+    ///BOTON AGREGAR ARCHIVO jfk
+    .btnEstilosFormEstudiantes {
+        background-color: #186BD9;
+        border-radius: 8px !important;
+        margin-top: 0;
+    }
+    .textoImputFileFormEstudiantes {
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Quicksand';
+    }
+    .estilos-X-eliminacion-archivos-formEstudiantes {
+        color:  #736E6C;
+        font-weight: bolder;
+    }
+    .removImagenesFormEstudiantes {
+        text-align: center;
+        align-self: center;
+        padding-top: 1.7%;
+        border: 2px solid #1558d6;
+        border-radius: 25px;
+        height: 6vh;
+        margin-top: 1%;
+        margin-left: 4%;
+    }
+    ///SECCION GALERIA jfk
+    .section-titulos-cabedera-galeria-formEstudiantes {
+        padding: 0;
+        margin: 0;
+    }
+    .fontTituloSeccGaleriaFormEstudiantes {
+        font-weight: bold;
+        font-size: 1em;
+        color: #736E6C;
+        margin: 0 0 0 3%;   
+    }
+    .bordeInfGaleriasFormEstudiantes {
+        border-bottom: 2px solid #adacac;
+    }
+    .fontFraseGaleriaFormEstudiantes {
+        font-size: .75em;
+        color:  #736E6C;
+        padding-left: 3%;
+    }
+    .contCrearAlbunFormEstudiantes {
+        display: flex;
+        align-items: center;
+    }
+    .agregarDivImagenGaleriaEstudiantes {
+        padding: 3.5%;
+        margin-left: 1%;
+    }
+    .divFileFotosGaleriaFormEstudiantes {
+        position: relative;
+        width: 150px;
+        background-position: center;
+    }
+    .FormEstudiantes {
+        background: url($urlZaabra +'img/AgregarIconos.png') no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-left: 5%;
+        padding: 13%;
+    }
+    ///SECCION BOTON INFERIOR GUARDAR jfk
+    .contBtnInferiorFormEstudiantes {
+        padding: 0;
+        margin-bottom: 5%;
+    }
+    .BtnGuardarFormEstudiantes {
+        border: 1px solid;
+        border-radius: 8px;
+        width: 100% !important;
+        height: 35px !important;
+        padding: 1%;
+        font-size: 1em;
+        color: #ffffff;
+        background: #186BD9;
+    }
+    .margenRespectoAlFooter {
+        margin-bottom: 5%;
+    }
+}
+@media (min-width: 375px) and (orientation: portrait) {
+}
+@media (min-width: 425px) and (orientation: portrait) { 
+}
+@media (min-width: 768px) and (orientation: portrait) { 
+    ///SECCION IMAGEN PRINCIPAL jfk
+    .margTopImgDatoFormEstudiantes {
+        margin-top: 25%;
+    }
+    ///SECCION DATOS PRINCIPALES jfk
+    .contImgDatosIncialFormEstudiantes {
+        padding-left: 4%;
+    }
+    .fontNameFormEstudiantes {
+        font-size: 1.563em;
+    }
+    .fontCityFormEstudiantes {
+        font-size: 1.563em;
+    }
+    ///CAJAS DE TEXTO jfk
+    .seleccion-formEstudiantes {
+        font-size: 1.2em;
+        height: 6vh;
+    }
+    ///SECCION DATOS PERSONALES jfk
+    .fontTituloSeccFormEstudiantes {
+        font-size: 1.563em;
+        margin: 0;
+    }
+    .tituloSeccDatosPerFormEstudiantes {
+        padding: 0 3%;
+        margin-top: 0;
+    }
+    .diseñoAgregarBotonCertificadosFormEstudiantes {
+        margin-left: 2%;
+    }
+    .fontLabelDatPersFormEstudiantes {
+        font-size: 1.563em;
+    }
+    .PropiedadIputDatPersFormEstudiantes {
+        font-size: 1.563em;
+        height: 55px !important;
+    }
+    .textAreaDescripcionFormEstudiantes {
+        font-size: 1.563em;
+        padding: 3%;
+    }
+    ///SECCION ESTUDIOS jfk
+    .seccionEstudiosFormEstudiantes {
+        font-size: 1.563em;
+        color: #736E6C;
+        width: 100%;
+        height: 55px !important;
+        border-radius: 8px !important;
+        padding: 0 2.5%;
+        opacity: 70%;
+    }
+    .contXDeCierreFormEstudiantes {
+        margin-left: auto;
+        margin-top: 2%;
+        padding: 0;
+        height: 3vh;
+        font-size: 1.563em;
+    }
+    ///SECCION CERTIFICADOS jfk
+    .textoImputFileFormEstudiantes  {
+        font-size: 1.563em;
+    }
+    .diseñoContenedorFotoDocumentos {
+        text-align: center;
+        border-radius: 1px;
+        height: 40vh;
+    }
+    .btnEstilosFormEstudiantes {
+        height: 55px;
+    }
+    
+    .removImagenesFormEstudiantes {
+        font-size: 1.8rem;
+        padding-top: 0.2%;
+        height: 5vh;
+    }
+    
+    ///SECCION EXPERIENCIAS jfk
+    .agregarDivImagenExperiencia {
+        padding: 2.1% !important;
+        margin-left: 2% !important;
+    }
+    ///SEECION GALERIAS jfk
+    .fontTituloSeccGaleriaFormEstudiantes {
+        font-size: 1.563em;
+        margin: 0;
+        margin-left: 3%;
+    }
+    .agregarDivImagenGaleriaEstudiantes {
+        padding: 2%;
+        margin-left: 1%;
+        width: 5%;
+    }
+    .fontFraseGaleriaFormEstudiantes {
+        font-size: 1.563em;
+    }
+    ///SECCION DE FORMULARIO SIN DATOS jfk
+    .BtnGuardarFormEstudiantes {
+        border: 1px solid;
+        border-radius: 8px;
+        width: 100% !important;
+        height: 55px !important;
+        padding: 1%;
+        font-size: 1.563em;
+        color: #ffffff;
+        background: #186BD9;
+    }
+}
+@media (min-width: 1024px){ 
+    .margin-bottom-1024-formEstudiantes {
+        margin-bottom: 3%;
+    }
+    ///SECCION IMAGEN PRINCIPAL jfk
+    .margTopImgDatoFormEstudiantes {
+        margin-top: 13%;
+    }
+    .diseñoContenedorFotoPerfil {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contImgDatosIncialFormEstudiantes {
+        align-self: center;
+    }
+    ///SECCION IMAGEN NOMBRE Y CIUDAD USUARIO jfkj
+    .alturaImgPrincProfFormEstudiantes {
+        height: 40vh;
+        margin: auto;
+    }
+    .fontNameFormEstudiantes {
+        font-size: 1.563em;
+        color: #736E6C;
+    }
+    .fontCityFormEstudiantes {
+        font-size: 1.563em;
+        color: #736E6C;
+    }
+    ///CAJAS DE OPCIONES jfk
+    .OptionUserFormEstudiantes {
+        margin: 3% 0 0 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        height: 16vh;
+    }
+    .contenedor-principal-secciones-miPerfilEstudiantes {
+        background-color: white;
+        margin-top: 3%; 
+        padding: 0 2%;
+    }
+    .seleccion-formEstudiantes {
+        font-size: 1.25em;
+        height: 6vh;
+        border: 1px solid #ADACAC;
+        color:  #736E6C !important;
+        margin: 0;
+        width: 32%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    ///SECCION DATOS PERSONALES jfk
+    .tituloSeccDatosPerFormEstudiantes {
+        margin: 0;
+        padding: 0;
+    }
+    .fontTituloSeccFormEstudiantes {
+        font-size: 1.25em;
+        color: #736E6C;
+        font-weight: bold;
+        padding: 0 2%;
+    }
+    .fontLabelDatPersFormEstudiantes {
+        font-size: 1.25em;
+        color: #736E6C;
+        padding: 0 2%;
+        margin-left: 0;
+    }
+    .PropiedadIputDatPersFormEstudiantes {
+        font-size: 1em;
+        height: 40px !important;
+        padding: 0 2%;
+        border-radius: 8px !important;
+    }
+    .fontLabel1024formEstudiantes {
+        font-size: 1.25em;
+        color: #736E6C;
+        padding: 0 4%;
+        margin-left: 0;
+    }
+    .PropiedadIputDatPers1024FormEstudiantes {
+        font-size: 1em;
+        height: 40px !important;
+        padding: 0 4%;
+        border-radius: 8px !important;
+    }
+     .textAreaDescripcionFormEstudiantes {
+        height: 15vh;
+        padding: 1% 2%;
+        font-size: 1em;
+    }
+    ///SECCION ESTUDIOS jfk
+    .seccionEstudiosFormEstudiantes {
+        font-size: 1em;
+        color: #736E6C;
+        width: 100%;
+        height: 35px !important;
+        border-radius: 8px !important;
+        padding: 0 1.5%;
+        opacity: 70%;
+    }
+    ///SECCION CERTIFICADOS jfk
+    .contXDeCierreFormEstudiantes {
+        margin-left: auto;
+        margin-top: 2%;
+        padding: 0;
+        height: 1vh;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .contXDeCierre1024FormEstudiantes {
+        margin-left: auto;
+        margin-top: -2%;
+        padding: 0;
+        height: 1vh;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .contXDeCierreCertific1024FormEstudiantes {
+        margin-left: auto;
+        margin-top: -2%;
+        padding: 0;
+        height: 2.1vh;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .estilos-X-eliminacion-archivos-formEstudiantes {
+        color: #736E6C;
+        font-weight: bolder;
+    }
+    .contImgCertifFormEstudiantes {
+        padding: 0% 1%;
+        margin-top: 2%;
+    }
+    .diseñoAgregarBotonCertificadosFormEstudiantes {
+        padding: 1.3%;
+        margin-left: 1%;
+    }
+    ///SECCION EXPERIENCIA jfk
+    .padSectInfoExperFormEstudiantes {
+        padding: 1%;
+    }
+    .diseñoAgregarBotonFormEstudiantes  {
+        padding: 1.3%;
+        margin-left: 1%;
+    }
+    ///SECCION GALERIA jfk
+    .section-titulos-cabedera-galeria-formEstudiantes {
+        padding: 0;
+        margin-left: 2%;
+    }
+    .fontFraseGaleria1024FormEstudiantes {
+        font-size: 1em;
+        color: #736E6C;
+        padding-left: 0;
+        margin-bottom: 2%;
+    }
+    .fontTituloSeccGaleriaFormEstudiantes {
+        font-size: 1.25em;
+        color: #736E6C;
+        padding-left: 0;
+        margin-bottom: 0%;
+    }
+    .contCrearAlbunFormEstudiantes {
+        display: flex;
+    }
+    .diseñoContenedorFoto {
+        text-align: center;
+        border-radius: 1px;
+        height: 35vh;
+        padding: 0;
+    }
+    ///BOTON AGREGAR ARCHIVO jfk 
+    .btnEstilosFormEstudiantes {
+        background-color: #186BD9;
+        border-radius: 8px !important;
+        margin-top: 0;
+        height: 43px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .textoImputFileFormEstudiantes {
+        text-align: center;
+        font-size: 1em;
+        color: #ffffff;
+        font-family: 'Quicksand';
+    }
+    .removImagenesFormEstudiantes {
+        text-align: center;
+        align-self: center;
+        padding-top: 0.2%;
+        border: 2px solid #1558d6;
+        border-radius: 25px;
+        height: 6vh;
+        margin-top: 1%;
+        margin-left: 4%;
+    }
+    .BtnAgregarFormEstudiantes {
+        display: flex;
+        margin-top: 3%;
+    }
+ 
+}
+@media (min-width: 1200px){
+    .diseñoAgregarBotonCertificadosFormEstudiantes {
+        padding: 1%;
+        margin-left: .5%;
+    }
+    .diseñoAgregarBotonFormEstudiantes {
+        padding: 1%;
+        margin-left: .5%;
+    }
+}
+@media (min-width: 1300px){
+    .diseñoContenedorFoto {
+        text-align: center;
+        border-radius: 1px;
+        height: 40vh;
+        padding: 0;
+    }
+    ///SECCION CERTIFICADOS jfk
+    .contXDeCierreCertific1024FormEstudiantes {
+        margin-left: auto;
+        margin-top: -2%;
+        padding: 0;
+        height: 2.4vh;
+        display: flex;
+        justify-content: flex-end;
+    }
+    ///SECCION EXPERIENCIA jfk
+    .contXDeCierre1024FormEstudiantes {
+        margin-left: auto;
+        margin-top: -2%;
+        padding: 0;
+        height: 1.3vh;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+@media (min-width: 1440px){
+    .diseñoContenedorFoto {
+        text-align: center;
+        border-radius: 1px;
+        height: 36vh;
+        padding: 0;
+    }
+    ///SECCION CERTIFICADOS jfk
+    .contXDeCierreCertific1024FormEstudiantes {
+        margin-left: auto;
+        margin-top: -2%;
+        padding: 0;
+        height: 2vh;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+@media (min-width: 1500px){
+    .removImagenesFormEstudiantes {
+        padding-top: 1.2%;
+    }
+    .removImagenesFormEstudiantes > a {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,1121 @@
+.containerPrincipalHeader {
+    border-bottom: none;
+}
+.LogoHeaderLogin {
+    width: 100%;
+    height: 100%;
+}
+.servicioProfesionalLogin {
+    margin: 0;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.servicioProfesionalLogin > a {
+    text-decoration: none;
+}
+.palabraServicioLogin {
+    color: #1558d6;
+    font-size: 31pt;
+    margin: 0;
+}
+.alineSerHeaderLoginMob {
+    line-height: 138%;
+}
+.palabraProfesionalesLogin {
+    color: #1558d6;
+    font-size: 33pt;
+    margin: 0;
+}
+.alineProfHeaderLoginMob {
+    line-height: 0%;
+}
+.propiedadesCard-body {
+    padding: 0;
+    padding-top: 2vh;
+}
+.contenedorHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 100%;
+    max-width: 100%;
+    background: #ffffff;
+    margin: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4.5%;
+    padding-left: 0%;
+    padding-right: 0%;
+    border: none;
+}
+.propiedadesCard {
+    border: none;
+}
+.aliniacionLogin {
+    display: flex;
+    border-bottom: 4px solid #1558d6;
+    flex-direction: row;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #1558d6;
+}
+.aliniacionLogin2 {
+    display: flex;
+    border-bottom: 4px solid #1558d600;
+    flex-direction: row;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.aliniacionLogin,
+.aliniacionLogin2 > a {
+    text-decoration: none;
+    font-family: "Quicksand";
+}
+.tipografiaPalabras {
+    font-size: 1em;
+    font-weight: bolder;
+    color: #434142;
+    padding-left: 1%;
+}
+.tipografiaInicioSesion {
+    font-size: 1.5em;
+    color: #434142;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+.propiedadesLineaHr {
+    padding: 0%;
+}
+.lineaInicioSesion {
+    width: 100%;
+    border-bottom: 5px solid #1558d6;
+}
+.tipografiaCrearCuenta {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+    color: #434142;
+    font-weight: bolder;
+    font-family: "Quicksand";
+    text-decoration: none;
+}
+.lineaCrearCuenta {
+    width: 100%;
+    border-bottom: 5px solid #8e8e8e;
+}
+.contenedorEmail {
+    padding-right: 3%;
+}
+.padVersionCelularCont {
+    padding: 0%;
+    flex: 100%;
+    max-width: 100%;
+    margin-bottom: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cajaMensajePasword {
+    text-align: center;
+    height: 10vh;
+    padding-bottom: 0;
+}
+.cajaMensajePasword > a:hover {
+    color: #1558d6 !important;
+}
+.propiedadesBtnLogin {
+    font-size: 1.25em;
+    background: #1558d6 !important;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+    font-weight: bolder;
+}
+.lineaLogin {
+    margin-top: 4.5%;
+    width: 100%;
+    border-bottom: 2px solid #8e8e8e;
+}
+.margenFooter {
+    min-height: 73.96vh;
+}
+.contenedorIngresa {
+    text-align: center;
+}
+.tipografiaIngresa {
+    font-size: 1.4167rem;
+    margin-bottom: 3.5%;
+    color: #8e8e8e;
+}
+.propiedadesBtnIngreso {
+    font-size: 1.1667rem;
+    background: #ffffff !important;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #8e8e8e;
+    border-radius: 15px;
+    padding-top: 5.5% !important;
+    padding-bottom: 3.5% !important;
+    color: #8e8e8e;
+}
+.propiedadesBtnRedSocial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1667rem;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+    color: #8e8e8e;
+}
+.btnLoginFace,
+.btnLoginGoogle {
+    width: 28%;
+    margin-left: 50%;
+}
+.tipografiaRedSocial {
+    color: #ffff;
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+.contIconoPaswordLogin {
+    display: flex;
+    align-items: center;
+}
+.toggle-password1 {
+    font-size: 1.5rem;
+    color: #8e8e8e;
+    z-index: 1;
+    margin-left: 5%;
+    font-weight: 500 !important;
+}
+////ESTILOS DE LA VISTA RESTAURAR CONTRASEÑA
+.tipografiaRestaurarPassword {
+    color: #434142;
+    margin-bottom: 0px;
+    padding-top: 2%;
+    font-family: "Quicksand";
+    font-weight: bolder;
+    font-size: calc(1.1em + 1vw);
+}
+.aliniacionRestaurar {
+    text-align: center;
+}
+.lineaRestaurar {
+    width: 100%;
+    border-bottom: 5px solid #8e8e8e;
+}
+.anchoCajaEmail {
+    display: block;
+    width: 100%;
+    height: 4.2vh;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 1px rgb(136 136 136 / 49%);
+}
+.mensajeRestaurar {
+    font-size: calc(0.2em + 1vw);
+    font-family: 'Roboto';
+    padding-left: 0%;
+    padding-bottom: 4%;
+    color: #736E6C;
+    font-weight: bolder;
+    line-height: 1.1em;
+}
+.padBtnRestaurarPassword {
+    padding-top: 3%;
+    margin: 0;
+}
+.botonRegistrar {
+    width: 100%;
+    padding-top: 3%;
+}
+.mensajeTerminoCondicion {
+    font-size: 1.4167rem;
+    color: #8e8e8e;
+    padding-left: 2%;
+    padding-top: 6%;
+}
+.paddingRespectoFooder {
+    padding: 7.1%;
+}
+.padRigDesdk {
+    padding-right: 0.5%;
+}
+.padLeftDesdk {
+    padding-left: 0.5%;
+}
+.alinFontFace {
+    padding: 0% 0% 0% 14%;
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+.alinFontGoogle {
+    padding: 0% 0% 0% 16%;
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+.alinFontFace > a {
+    text-decoration: none;
+    height: 100%;
+}
+.alinFontGoogle > a {
+    text-decoration: none;
+    height: 100%;
+}
+.anchoCajaCorreo {
+    display: block;
+    width: 100%;
+    height: 4.2vh;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 1px rgba(136, 136, 136, 0.49);
+}
+.anchoCajaCorreo::placeholder,
+.anchoCajaPasword::placeholder,
+.anchoCajaEmail::placeholder {
+    font-size: calc(0.55em + 0.55vh);
+    color: #8e8e8e;
+    font-family: "Quicksand";
+    font-weight: bolder;
+}
+.anchoCajaPasword {
+    display: block;
+    width: 100%;
+    height: 4.2vh;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 1px rgba(136, 136, 136, 0.49);
+}
+.container-button-sesion {
+    flex: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7vh;
+}
+.tipografiaInicioSesion,
+.propiedadesBtnLogin,
+.palabraOlvidasteContraseña,
+.tipografiaRedSocial,
+.padLateralesVerCelular label {
+    font-family: "Quicksand";
+}
+.palabraOlvidasteContraseña {
+    color: #434142;
+    font-size: calc(0.6em + 1vw);
+}
+.padTamCelularLogin {
+    margin-left: auto;
+    margin-right: auto;
+}
+.continue-google .propiedadesBtnRedSocial {
+    height: 7vh;
+}
+.continue-face .propiedadesBtnRedSocial {
+    height: 7vh;
+}
+.tipografiaPalabrasReset {
+    font-weight: bolder;
+    color: #434142;
+    font-family: "Quicksand";
+}
+.fontBtnRecuperarPassword {
+    width: 100%;
+}
+.container-general-footer-PremiumLoginRegister {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-general-footer-PremiumLoginRegister
+    .content-puntosdPago-img-PremiunHome {
+    padding: 0;
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+}
+.container-general-footer-PremiumLoginRegister
+    .section-puntosdPago-img-inferior-style-PremiunHome {
+    width: 70%;
+    margin: auto;
+    object-fit: contain;
+    height: auto;
+}
+.container-general-footer-PremiumLoginRegister
+    .container-principal-footer-PremiunHome {
+    margin: 5% 0;
+    padding: 1% 1%;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-medios-pago,
+.container-bancos,
+.container-pagos-electronicos {
+    width: 30%;
+}
+.container-principal-mobile-PremiumLoginRegister {
+    display: none;
+}
+.container-recuperacontra {
+    margin-left: auto;
+    margin-right: auto;
+}
+.fontBtnRecuperarPassword {
+    height: 6.5vh;
+}
+// vista vertical celular
+@media (min-width: 320px) and (orientation: portrait) {
+    .margDereAHeader {
+        margin: 0%;
+    }
+    .padContLoginVerMobl {
+        padding: 35% 0% 5% 0%;
+    }
+    .padPasswordmob {
+        padding: 35% 10% 5% 10%;
+    }
+    .padPasswordRest{
+        padding: 35% 10% 5% 10%;
+    }
+    .LogoHeaderLogin {
+        width: 100%;
+    }
+    .palabraServicioLogin {
+        font-size: 0.8333rem;
+    }
+    .alineSerHeaderLoginMob {
+        line-height: 88%;
+    }
+    .palabraProfesionalesLogin {
+        font-size: 0.8333rem;
+    }
+    .alineProfHeaderLoginMob {
+        line-height: 100%;
+    }
+    .contenedorHeader {
+        display: flex;
+        margin-bottom: 0%;
+        padding-top: 0;
+        padding-bottom: 0%;
+        justify-content: center;
+        align-items: center;
+    }
+    .padTamCelularLogin {
+        margin-top: 10%;
+        padding: 0%;
+    }
+    .anchoCajaCorreo {
+        font-size: 0.8333rem;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        border-radius: 5px;
+        display: block;
+    }
+    .padRigDesdk {
+        padding-right: 0%;
+    }
+    .padLeftDesdk {
+        padding-left: 0%;
+    }
+    .cajaMensajePasword {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 8vh;
+    }
+    .propiedadesBtnLogin {
+        font-size: calc(0.7em + 1vw);
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        border-radius: 5px;
+    }
+    .tipografiaIngresa {
+        font-size: 1.3333rem;
+    }
+    .padRigHrTopFaceLogin {
+        padding-top: 0%;
+        padding-left: 5%;
+        padding-right: 0%;
+    }
+    .padRigHrTopGooLogin {
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-right: 5%;
+    }
+    .propiedadesBtnRedSocial {
+        border-radius: 5px;
+        font-size: 1rem;
+        padding: 0;
+        height: 100%;
+        border: 0;
+    }
+    .paddingRespectoFooder {
+        padding: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .continue-face,
+    .continue-google {
+        flex: 100%;
+        max-width: 100%;
+        height: 7vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+    }
+    .container-button-sesion {
+        height: 5.5vh;
+    }
+    .continue-google .propiedadesBtnRedSocial {
+        background-color: #af3521;
+        height: 5.5vh;
+    }
+    .continue-face .propiedadesBtnRedSocial {
+        background-color: #4868ad;
+        height: 5.5vh;
+    }
+    .toggle-password1 {
+        position: absolute;
+        right: 0;
+        font-size: 1rem;
+        margin-right: 2%;
+    }
+    .alinFontGoogle {
+        padding: 0% 0% 0% 8%;
+    }
+    .alinFontFace {
+        padding: 0% 0% 0% 5%;
+    }
+    .btnLoginFace,
+    .btnLoginGoogle {
+        width: 35%;
+        margin-left: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-general-footer-PremiumLoginRegister {
+        width: 100%;
+    }
+    .container-principal-mobile-PremiumLoginRegister {
+        display: block;
+        margin-bottom: 10%;
+    }
+    .container-principal-mobile-PremiumLoginRegister
+        .content-puntosdPago-imgs-PremiunHome {
+        height: 20vh;
+    }
+    .container-principal-mobile-PremiumLoginRegister
+        .section-puntosdPago-img-inferior-style-PremiunHome {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+    }
+    .container-general-footer-PremiumLoginRegister {
+        display: none;
+    }
+    .fontBtnRecuperarPassword {
+        height: 5vh;
+    }
+    ////ESTILOS DE LA VISTA RESTAURAR CONTRASEÑA
+    .tipografiaRestaurarPassword {
+        font-size: calc(0.8em + 1vw);
+    }
+    .mensajeRestaurar {
+        font-size: calc(0.6em + 1vw);
+        padding-left: 0%;
+        padding-bottom: 2%;
+    }
+    .mensajeTerminoCondicion {
+        font-size: 1rem;
+        color: #8e8e8e;
+        padding-left: 5%;
+        padding-top: 3%;
+    }
+    .padBtnRecuperarPassaword {
+        padding: 0% 5%;
+    }
+    .tipografiaRedSocial {
+        font-size: calc(0.7em + 1vw);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tipografiaInicioSesion {
+        font-size: calc(0.8em + 0.8vh);
+    }
+    .tipografiaCrearCuenta {
+        font-size: calc(0.8em + 0.8vh);
+    }
+    .tipografiaPalabrasReset {
+        font-size: calc(0.7em + 1vw);
+    }
+    .container-recuperacontra {
+        width: 100%;
+    }
+}
+// vista vertical celular
+@media (min-width: 375px) and (orientation: portrait) {
+    .palabraServicioLogin {
+        font-size: 0.9167rem;
+    }
+    .palabraProfesionalesLogin {
+        font-size: 0.9167rem;
+    }
+    .padContLoginVerMobl {
+        padding: 35% 3% 5% 3%;
+    }
+}
+// vista vertical celular
+@media (min-width: 425px) and (orientation: portrait) {
+    .alineProfHeaderLoginMob {
+        line-height: 90%;
+    }
+    .alineSerHeaderLoginMob {
+        line-height: 100%;
+    }
+    .palabraServicioLogin {
+        font-size: 1.14rem;
+    }
+    .palabraProfesionalesLogin {
+        font-size: 1.14rem;
+    }
+    .anchoCajaCorreo {
+        font-size: 1rem;
+    }
+    .anchoCajaPasword {
+        font-size: 1rem;
+    }
+    .padTamCelularLogin {
+        padding: 0%;
+    }
+    .padTopBotPass {
+        padding: 1% 0% 3% 0%;
+    }
+    .padRigHrTopFaceLogin {
+        padding-left: 4%;
+        padding-right: 0%;
+    }
+    .padRigHrTopGooLogin {
+        padding-left: 0%;
+        padding-right: 4%;
+    }
+    .toggle-password1 {
+        font-size: 1rem;
+        margin-left: -10%;
+    }
+
+    ////ESTILOS DE LA VISTA RESTAURAR CONTRASEÑA
+}
+// vista vertical celular
+@media (min-width: 768px) {
+    .targets-premiunHome-visible-en-cel {
+        display: none;
+    }
+    .padContLoginVerMobl {
+        padding: 10% 0% 0% 0%;
+    }
+    .containerPrincipalHeader {
+        padding-top: 5%;
+    }
+    .LogoHeaderLogin {
+        width: 85%;
+    }
+    .palabraServicioLogin {
+        font-size: 1.7rem;
+    }
+    .palabraProfesionalesLogin {
+        font-size: 1.7rem;
+    }
+    .positionLogoHeaderLogin {
+        padding-bottom: 1%;
+    }
+    .alineProfHeaderLoginMob {
+        line-height: 132%;
+    }
+    .alineSerHeaderLoginMob {
+        line-height: 117%;
+    }
+    .servicioProfesionalLogin {
+        padding: 0%;
+    }
+    .paddingRespectoFooder {
+        padding: 0%;
+        margin: 0%;
+    }
+    .padTamCelularLogin {
+        padding: 2.2% 0% 0% 0%;
+        flex: 80%;
+        max-width: 80%;
+    }
+    .contenedorHeader {
+        padding-top: 11.7%;
+    }
+    .cajaMensajePasword {
+        text-align: center;
+    }
+    .anchoCajaCorreo {
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+    }
+    .padTopBotPass {
+        padding: 1% 0% 3% 0%;
+    }
+    .padRigHrTopFaceLogin {
+        padding-top: 0%;
+        padding-left: 3%;
+        padding-right: 0%;
+    }
+    .padRigHrTopGooLogin {
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-right: 3%;
+    }
+    .toggle-password1 {
+        font-size: 1.4rem;
+        margin-left: -10%;
+    }
+    .padVersionCelularCont {
+        padding: 0%;
+        flex: 100%;
+        max-width: 100%;
+        margin-bottom: 3vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .alinFontGoogle {
+        padding: 0% 0% 0% 18%;
+    }
+    .alinFontFace {
+        padding: 0% 0% 0% 16%;
+    }
+    .btnLoginFace,
+    .btnLoginGoogle {
+        width: 30%;
+        margin-left: 50%;
+    }
+    .padPasswordmob {
+        padding: 20% 10% 5% 10%;
+    }
+    ////ESTILOS DE LA VISTA RESTAURAR CONTRASEÑA
+    .mensajeTerminoCondicion {
+        font-size: 1.3333rem;
+    }
+    .fontBtnRecuperarPassword {
+        font-size: 1.5rem;
+    }
+}
+// vista vertical celular
+@media (min-width: 1024px) {
+    .targets-premiunHome-visible-en-cel {
+        display: none;
+    }
+    .padContLoginVerMobl {
+        padding: 10% 0% 0% 0%;
+    }
+    .containerPrincipalHeader {
+        padding-top: 5%;
+    }
+    .LogoHeaderLogin {
+        width: 85%;
+    }
+    .palabraServicioLogin {
+        font-size: 1.7rem;
+    }
+    .palabraProfesionalesLogin {
+        font-size: 1.7rem;
+    }
+    .positionLogoHeaderLogin {
+        padding-bottom: 1%;
+    }
+    .alineProfHeaderLoginMob {
+        line-height: 132%;
+    }
+    .alineSerHeaderLoginMob {
+        line-height: 117%;
+    }
+    .servicioProfesionalLogin {
+        padding: 0%;
+    }
+    .paddingRespectoFooder {
+        padding: 0%;
+        margin: 0%;
+    }
+    .padTamCelularLogin {
+        padding: 2.2% 0% 0% 0%;
+        flex: 80%;
+        max-width: 80%;
+    }
+    .contenedorHeader {
+        padding-top: 11.7%;
+    }
+    .cajaMensajePasword {
+        text-align: center;
+    }
+    .anchoCajaCorreo {
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+    }
+    .padTopBotPass {
+        padding: 1% 0% 3% 0%;
+    }
+    .padRigHrTopFaceLogin {
+        padding-top: 0%;
+        padding-left: 3%;
+        padding-right: 0%;
+    }
+    .padRigHrTopGooLogin {
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-right: 3%;
+    }
+    .toggle-password1 {
+        font-size: 1.4rem;
+        margin-left: -10%;
+    }
+    .padVersionCelularCont {
+        padding: 0%;
+        flex: 100%;
+        max-width: 100%;
+        margin-bottom: 3vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .alinFontGoogle {
+        padding: 0% 0% 0% 18%;
+    }
+    .alinFontFace {
+        padding: 0% 0% 0% 16%;
+    }
+    .btnLoginFace,
+    .btnLoginGoogle {
+        width: 30%;
+        margin-left: 50%;
+    }
+    .padPasswordmob {
+        padding: 20% 10% 5% 10%;
+    }
+    ////ESTILOS DE LA VISTA RESTAURAR CONTRASEÑA
+    .mensajeTerminoCondicion {
+        font-size: 1.3333rem;
+    }
+    .fontBtnRecuperarPassword {
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 1024px) and (max-height: 800px) {
+    .padTamCelularLogin {
+        margin-top: 10%;
+        padding: 0%;
+    }
+    .padRigDesdk {
+        padding-right: 0%;
+    }
+    .padLeftDesdk {
+        padding-left: 0%;
+    }
+    .cajaMensajePasword {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 8vh;
+    }
+    .propiedadesBtnLogin {
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        border-radius: 5px;
+        font-weight: bolder;
+    }
+    .padRigHrTopFaceLogin {
+        padding-top: 0%;
+        padding-left: 5%;
+        padding-right: 0%;
+    }
+    .padRigHrTopGooLogin {
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-right: 5%;
+    }
+    .propiedadesBtnRedSocial {
+        border-radius: 5px;
+        font-size: 1rem;
+        padding: 0;
+        height: 100%;
+        border: 0;
+    }
+    .paddingRespectoFooder {
+        padding: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .continue-face,
+    .continue-google {
+        flex: 100%;
+        max-width: 100%;
+        height: 6vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+    }
+    .continue-google .propiedadesBtnRedSocial {
+        background-color: #af3521;
+    }
+    .continue-face .propiedadesBtnRedSocial {
+        background-color: #4868ad;
+    }
+    .toggle-password1 {
+        position: absolute;
+        right: 0;
+        font-size: 1rem;
+        margin-right: 2%;
+    }
+    .padTamCelularLogin {
+        margin-top: 15%;
+        flex: 55%;
+        max-width: 55%;
+    }
+    .alinFontFace > a {
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .alinFontGoogle > a {
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .padContLoginVerMobl {
+        margin-bottom: 4%;
+        padding: 0;
+    }
+    .container-recuperacontra {
+        width: 60%;
+    }
+    .palabraOlvidasteContraseña {
+        font-size: calc(0.2em + 1vw);
+    }
+    .padPasswordmob {
+        padding: 10% 10% 5% 10%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .padRigDesdk {
+        padding-right: 0%;
+    }
+    .padLeftDesdk {
+        padding-left: 0%;
+    }
+    .cajaMensajePasword {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 8vh;
+    }
+    .propiedadesBtnLogin {
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        border-radius: 5px;
+        font-weight: bolder;
+    }
+    .paddingRespectoHr {
+        padding: 0% 7% 1% 7%;
+    }
+    .tipografiaIngresa {
+        font-size: 1.3333rem;
+    }
+    .padRigHrTopFaceLogin {
+        padding-top: 0%;
+        padding-left: 5%;
+        padding-right: 0%;
+    }
+    .padRigHrTopGooLogin {
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-right: 5%;
+    }
+    .propiedadesBtnRedSocial {
+        border-radius: 5px;
+        font-size: 1rem;
+        padding: 0;
+        height: 100%;
+        border: 0;
+    }
+    .paddingRespectoFooder {
+        padding: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .continue-face,
+    .continue-google {
+        flex: 100%;
+        max-width: 100%;
+        height: 6vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+    }
+    .continue-google .propiedadesBtnRedSocial {
+        background-color: #af3521;
+    }
+    .continue-face .propiedadesBtnRedSocial {
+        background-color: #4868ad;
+    }
+    .toggle-password1 {
+        position: absolute;
+        right: 0;
+        font-size: 1rem;
+        margin-right: 2%;
+    }
+    .padTamCelularLogin {
+        margin-top: 15%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    .alinFontFace > a {
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .alinFontGoogle > a {
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .padContLoginVerMobl {
+        margin-bottom: 4%;
+        padding: 0;
+    }
+    .padTamCelularLogin {
+        padding: 2.4% 0% 0% 0%;
+    }
+    #carrousel-areas-home {
+        width: 80vw;
+        margin: auto;
+    }
+    .container-recuperacontra {
+        width: 60%;
+    }
+    .palabraOlvidasteContraseña {
+        font-size: calc(0.2em + 1vw);
+    }
+}
+// vista vertical celular
+@media (min-width: 1440px) {
+    .LogoHeaderLogin {
+        width: 70%;
+    }
+    .palabraServicioLogin {
+        font-size: 2.2rem;
+    }
+    .palabraProfesionalesLogin {
+        font-size: 2.2rem;
+    }
+    .contenedorHeader {
+        padding-top: 1.7%;
+        margin-bottom: 1.2%;
+    }
+    .alineSerHeaderLoginMob {
+        line-height: 110%;
+    }
+    .alineProfHeaderLoginMob {
+        line-height: 169%;
+    }
+    .anchoCajaCorreo {
+        font-size: 1.1rem;
+    }
+    .anchoCajaPasword {
+        font-size: 1.1rem;
+    }
+    .alinFontFace {
+        text-align: center;
+    }
+    .alinFontGoogle {
+        text-align: center;
+    }
+    .tipografiaRedSocial {
+        font-size: 1.25rem;
+        padding-left: 0%;
+    }
+    .propiedadesBtnRedSocial {
+        padding: 0%;
+    }
+    ///Estilos del ojo caja de texto LOGIN
+    .lineaLogin {
+        margin-top: 3.5%;
+    }
+    .toggle-password1 {
+        font-size: 1.5rem;
+        margin-left: -8%;
+    }
+
+    ////ESTILOS DE LA VISTA RESTAURAR CONTRASEÑA
+}
+// vista vertical celular
+@media (min-width: 1600px) {
+    .propiedadesCard {
+        padding-top: 0%;
+    }
+    .mensajeRestaurar{
+        font-size: calc(0.05em + 1vw);
+    }
+}
+// vista vertical celular
+@media (min-width: 2560px) {
+    .palabraServicioLogin {
+        font-size: 2.2rem;
+    }
+    .palabraProfesionalesLogin {
+        font-size: 2.2rem;
+    }
+}

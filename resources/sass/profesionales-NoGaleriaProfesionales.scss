@@ -1,0 +1,169 @@
+.imgFondo {
+background-image: url($urlZaabra +'img/vistaSinEspecialidad/Fondo-SinEspecialidad1440.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.margenSuperior {
+    margin-top: 3.5%;
+    margin-bottom: 12%;
+}
+.alineacionTextoSinESP {
+    text-align: center;
+}
+.tituloSinEspecialidad {
+    color: #adacac;
+    font-size: 6rem;
+}
+.subtituloSinEspecialidad {
+    color: #adacac;
+    font-size: 5rem;
+}
+.propiedadTituloiSinEsp {
+    height: 11vh;
+}
+.propiedadSinEsp {
+    padding-bottom: 2.5%;
+}
+// vista vertical celular //
+@media (min-width: 320px) and (orientation: portrait) {
+    .margenSuperior {
+        margin-top: 70%;
+        margin-bottom: 0%;
+    }
+    .imgSinEspecialidad {
+        width: 52%;
+        height: 20vh;
+    }
+    .propiedadTituloiSinEsp {
+        height: 4vh;
+    }
+    .tituloSinEspecialidad {
+        font-size: 2rem;
+    }
+    .subtituloSinEspecialidad {
+        color: #adacac;
+        font-size: 1.6667rem;
+    }
+    .logoSinEspecialidad {
+        width: 22%;
+    }
+}
+
+// vista horizontal celular
+@media (min-width: 320px) and (orientation: landscape) {
+    
+}
+
+// vista vertical celular//
+@media (min-width: 375px) and (orientation: portrait) {
+    .imgSinEspecialidad {
+        width: 45%;
+        height: 20vh;
+    }
+    .logoSinEspecialidad {
+        width: 18%;
+    }
+}
+
+// vista horizontal celular 
+@media (min-width: 375px) and (orientation: landscape) {
+    
+}
+
+// vista vertical celular
+@media (min-width: 425px) and (orientation: portrait) {
+    .imgSinEspecialidad {
+        width: 40%;
+        height: 20vh;
+    }
+    .logoSinEspecialidad {
+        width: 20%;
+    }
+}
+
+// vista horizontal celular//
+@media (min-width: 425px) and (orientation: landscape) {
+  
+}
+
+// vista vertical tablec
+@media (min-width: 768px) and (orientation: portrait) {
+    .margenSuperior {
+        margin-top: 30.5%;
+        margin-bottom: 42%;
+    }
+    .imgSinEspecialidad {
+        width: 60%;
+        height: 40vh;
+    }
+    .tituloSinEspecialidad {
+        font-size: 3.5rem;
+        }
+    .subtituloSinEspecialidad {
+        font-size: 2.6197rem;
+    }
+    .propiedadTituloiSinEsp {
+        height: 7vh;
+    }
+    .logoSinEspecialidad {
+        width: 20%;
+    }
+
+}
+
+// vista horizontal tablec//
+@media (min-width: 768px) and (orientation: landscape) {
+    
+}
+
+// vista horizontal tablec
+@media (min-width: 1024px) {
+    .margenSuperior {
+        margin-top: 5.5%;
+        margin-bottom: 34%;
+    }
+    .imgSinEspecialidad {
+        width: 80%;
+        height: 50vh;
+    }
+    .tituloSinEspecialidad {
+        font-size: 5.1667rem;
+    }
+    .subtituloSinEspecialidad {
+        font-size: 4.1667rem;
+    }
+    .propiedadTituloiSinEsp {
+        height: 9vh;
+    }
+}
+
+// vista horizontal tablec
+@media (min-width: 1200px) {
+   
+}
+
+// vista horizontal tablec
+@media (min-width: 1440px) {
+    .margenSuperior {
+        margin-top: 5.5%;
+        margin-bottom: 19%;
+    }
+    .imgSinEspecialidad {
+        width: 60%;
+        height: 50vh;
+    }
+}
+
+// vista horizontal tablec
+@media (min-width: 1600px) {
+    .margenSuperior {
+        margin-top: 4.5%;
+        margin-bottom: 12%;
+    }
+    .imgSinEspecialidad {
+        width: 50%;
+        height: 50vh;
+    }
+}

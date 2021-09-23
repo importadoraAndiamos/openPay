@@ -1,0 +1,1182 @@
+///  CONTAINER FLUID jfk
+.container-inicial-PremiunHome {
+    background: #ffffff;
+    text-align: center;
+}
+.content-sections-cabecera-tarjetas-PremiunHome {
+    margin-top: 6%;
+}
+///  CABECERA DE LAS TARJETAS jfk
+.section-titulo-cabecera-font-PremiunHome {
+    font-size: 1.563em;
+    color:#186BD9;
+    padding: 0;
+    margin: 0 0 4% 0;
+}
+.section-titulo2-cabecera-font-PremiunHome {
+    font-size: 1.563em;
+    color:#186BD9;
+    margin: 5% 0 2% 0;
+    padding: 0;
+}
+.container-principal-tarjetas-PremiunHome {
+    padding: 0%;
+    margin: 0;
+} 
+///  SECCION CHECKBOX jfk
+.seccion-checkbox-margen-tarjetas-PremiunHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0;
+}
+.seccion-checkRadio-input-tarjetas-PremiunHome {
+    height: 3vh;
+    width: 3vh;
+    margin-right: 5%;
+}
+.section-SubTitulo-cabecera-PremiunHome {
+    color: #736E6C;
+    font-size: 1em;
+    margin-bottom: 5%;
+}
+.margen-entre-tarjetas-PremiunHome {
+    margin-left: -10%;
+}
+.contenedor-principal-tarjetas-premiunHome {
+    padding: 0;
+    margin: auto;
+    justify-content: space-around;
+}
+/// SECCION TARJETA -- PLAN INICIAL -- jfk
+.content-tarjeta-planInicial-PremiunHome {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.tarjeta-planInicial-titulo-PremiunHome {
+    font-size: 1.563em;
+    color: #736E6C;
+    margin: 4% 0 0 0;
+}
+.tarjeta-planInicial-valor-PremiunHome {
+    margin: 9% 0 0 0;
+    font-size: 1.563em;
+    color: #736E6C;
+    text-align: center;
+}
+.tarjeta-planInicial-subTitulo-sinCosto-PremiunHome {
+    font-size: .75em;
+    color: #736E6C;
+    text-align: center;
+    margin: 1% 0 5% 0;
+}
+.boton-seleccionar-PlanIncial-PremiunHome {
+    background:#186BD9;
+    width: 57%;
+    height: 4vh;
+    font-size: .75em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.content-planInicial-imgOption-PremiunHome {
+    margin: 3% 0 0 0;
+}
+.contImgOpcionPremiunHome {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.contPerfilPremiunHome {
+    padding-right: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.option-planInicial-titulo-textoInfo-PremiunHome {
+    font-size: 1em;
+    color: #736E6C;
+    text-align: initial;
+    padding-left: 0%;
+}
+.option-planInicial-content-textoInfo-PremiunHome {
+    padding-right: 0;
+}
+.option-planInicial-textoInfo-PremiunHome {
+    font-size: 1em;
+    color: #736E6C;
+    text-align: initial;
+    margin-left: 4%;
+}
+/// SECCION TARJETA -- MEMBRESIA -- jfk
+.content-tarjeta-membresia-PremiunHome {
+    padding: 0 3% 0 2%;
+    background: #F5F5F5;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.tarjeta-membresia-titulo-PremiunHome {
+    font-size: 1.563em;
+    margin: 4% 0 0 0;
+    color:#186BD9;
+}
+.tarjeta-membresia-texto-inferior-titulo-PremiunHome {
+    font-size: .75em;
+    color: #736E6C;
+}
+.tarjeta-membresia-valor-PremiunHome {
+    margin: 5.8% 0 0 0;
+    font-size: 1.563em;
+    color: #736E6C;
+    text-align: center;
+}
+.tarjeta-membresia-subTitulo-planAnual-PremiunHome {
+    font-size: .75em;
+    color: #736E6C;
+    text-align: center;
+    margin: 1% 0 5% 0;
+}
+.btn-membresia-PremiunHome {
+    background:#186BD9;
+    width: 57%;
+    height: 4vh;
+    font-size: .75em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    color: #ffffff !important;
+}
+.content-membresia-imgOption-PremiunHome {
+    margin: 3.5% 0 0 0;
+}
+.section-optionsPerfil-users-membresia-PremiunHome {
+    padding: 0;
+    margin: 0;
+}
+.tipografiaPerefilPremiumHome {
+    font-size: .625em;
+    color: #736E6C;
+    text-align: initial;
+    margin-bottom: 1.5%;
+    padding: 0 0 0 2%;
+}
+.option-membresia-content-textoInfo-PremiunHome {
+    padding-right: 0;
+}
+.option-membresia-textoInfo-PremiunHome {
+    font-size: .625em;
+    color: #736E6C;
+    text-align: initial;
+    margin-left: 4%;
+    margin-bottom: 0;
+    padding-right: 2%;
+}
+.propiedadesBtnCollapseMemHome {
+    border: none;   
+    background: #f5f5f5;
+    padding: 0;
+}
+.iconPremMemHome {
+    width: 33px;
+}
+////   ICON CHEVRON CON FUNCIONALIDAD jfk  /////
+.positionChevronMemHome {
+    float: right;
+    color:#186BD9;
+    font-weight: bolder;
+}
+.rotacion {
+    -moz-transition: all 0.25s ease-out;
+    -ms-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s ease-out;
+}
+.rotacionBtn:hover .rotacion {
+    -moz-transform: rotate(9ghbbnbh0deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+.chevron-option7-tecno-position-PremiunHome {
+    margin-top: -4%;
+}
+/////  MEDIOS DE PAGO PREMIUN HOME jfk  /////
+///SECCION CUENTAS DE MEDIOS DE PAGO jfk.
+.containerFluid-principal-mediosdPago-PremiunHome {
+    background: #F5F5F5;
+}
+.container-principal-footer-PremiunHome {
+    margin: 5% 0; 
+    padding: 3% 3% 3% 1%;
+    background: #F5F5F5;
+    display: flex;
+}
+.content-mediosdPagos-style-PremiunHome {
+    display: flex;
+    padding: 0;
+}
+.section-medioPago-transfer-PremiunHome {
+    padding-left: 2%;
+}
+.seccion-mediosdPagos-titulo-PremiunHome {
+    font-size: 1em;
+    color: #434142;
+    text-align: initial;
+}
+.seccion-mediosdPagos-subTitulo-PremiunHome {
+    font-size: .75em;
+    color: #434142;
+    text-align: initial;
+}
+.seccion-mediosdPagos-content-imgCelulares-PremiunHome {
+    height: 8vh;
+    display: flex;
+}
+.seccion-mediosdPagos-content-imgCelulares-style-PremiunHome {
+    height: 100%;
+}
+.seccion-mediosdPagos-subTitulo-bancos-PremiunHome {
+    font-size: 1em;
+    color: #434142;
+    text-align: initial;
+}
+.seccion-mediosdPagos-cuenta-texto-PremiunHome {
+    font-size: .75em;
+    color: #434142;
+    text-align: initial;
+}
+///SECCION IMAGENES DE MEDIOS DE PAGO jfk
+.content-puntosdPago-imgs-PremiunHome {
+    padding: 0;
+}
+.section-icons-mediosdPago-PremiunHome {
+    padding: 0;
+    display: flex;
+}
+.content-puntosdPago-img-PremiunHome {
+    padding: 0;
+    height: 17vh;
+}
+.section-puntosdPago-texto-style-PremiunHome {
+    font-size: 1em;
+    color: #434142;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.section-puntosdPago-img-inferior-style-PremiunHome {
+    height: 100%;
+}
+/////  MODAL POPUP DE ESPERA PARA PAGO ubicado en la vista indexNoFooter.blade jfk  /////
+ .modal-dialogPopUpPremiunHome {
+    margin-top: 18%;
+}
+.modal-contentPropiedPopUpPremiunHome {
+    border: 0 solid lightgray;
+    border-radius: 8px;
+    width: 80%;
+    background: linear-gradient(180deg, white 16%, #e7e2e2 50%, #cccbcb 100%);
+}
+.modalBodyContentPrincipalPopUpPremiunHome {
+    display: flex;
+}
+.modalHeaderPropiedPopUpPremiunHome {
+    padding: 0;
+    margin: 0;
+    border-bottom: none;
+}
+.headerBtnCierrePopUpPremiunHome {
+    padding: inherit;
+    font-size: 1.563em;
+}
+.modal-bodyPopUpPremiunHome {
+    padding: 0;
+}
+.modalBodyContentLogoPopUpPremiunHome {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 3% 0 0;
+}
+.modalBodyLogoPopUpPremiunHome {
+    width: 60%;
+}
+.modalBodyContentServProfPopUpPremiunHome {
+    padding: 0%;
+    margin-block: auto;
+    height: 5vh;
+    text-align: initial;
+}
+.modalBodyServProfFontPopUpPremiunHome {
+    color:#186BD9;
+    font-size: 1.5em;
+    line-height: .7;
+}
+.modalBodyContentAvisoPopUpPremiunHome {
+    text-align: center;
+    padding: 0;
+    margin-top: 5%;
+}
+.modalBodyAvisoFontPopUpPremiunHome {
+    font-size: 1em;
+    line-height: 1;
+}
+.modalFooterPropiedPopUpPremiunHome {
+    border-top: none;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+} 
+.ball {
+    width: 16px;
+    height: 16px;
+    border-radius: 11px;
+    margin: 0 10px;    
+    animation: 2s bounce ease infinite;
+} 
+.blue {
+    background-color: #1558D6;
+} 
+.red {
+    background-color: #4D7EDB;
+    animation-delay: .25s;
+} 
+.yellow {
+    background-color: #7398DE;
+    animation-delay: .5s;
+} 
+.green {
+    background-color: #AEBEDE;
+    animation-delay: .75s;
+} 
+@keyframes bounce {  
+    50% {
+        transform: translateY(25px);
+    }
+}
+//////------jfk-------//////
+// vista vertical celular
+@media (min-width: 320px) and (orientation: portrait) {
+     ///SECCION PAGO POPUP jfk
+     .modal-dialogPopUpPremiunHome {
+        margin-top: 55%;
+    }
+    .modal-contentPropiedPopUpPremiunHome {
+        margin-left: 10%;
+    }
+    .modalBodyLogoPopUpPremiunHome {
+        width: 60%;
+    }
+    .modalBodyContentServProfPopUpPremiunHome {
+        padding: 0%;
+        margin-block: auto;
+        height: 4vh;
+        text-align: initial;
+    }
+    .modalBodyServProfFontPopUpPremiunHome {
+        color:#186BD9;
+        font-size: 1em;
+        display: block;
+        line-height: .5;
+    }
+    .modalBodyAvisoFontPopUpPremiunHome {
+        display: block;
+        font-size: 1em;
+        line-height: .8;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+    }
+    /////////////
+    .margen-respecto-header-PremiunHomeCell {
+        margin-top: 32%;
+        padding: 0;
+    }
+    .targets-premiunHome-visible-en-pc {
+        display: none;
+    }
+    .targets-premiunHome-visible-en-cel {
+        display: block;
+    }
+    .seccion-checkbox-margen-tarjetas-PremiunHome {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    ///CABECERA DE LAS TARJETAS jfk
+    .section-cabecera-titulosPrincipales-PremiunHomeCell {
+        padding: 0;
+        margin: 0 0 6% 0;
+    }
+    .section-titulo-cabecera-h1Top-PremiunHomeCell {
+        font-size: 1em;
+        color:#186BD9;
+        margin: 0;
+        padding: 0;
+    }
+    .section-titulo-cabecera-h1bottom-PremiunHomeCell {
+        font-size: 1em;
+        color:#186BD9;
+        margin: 0;
+        padding: 0;
+    }
+    .seccion-checkbox-prof-margen-tarjetas-PremiunHomeCell {
+        display: flex;
+        flex-direction: row;
+        justify-content: initial;
+        margin: 0 0 3% 0;
+        padding: 0 0 0 8%;
+    }
+    .seccion-checkbox-tecno-margen-tarjetas-PremiunHomeCell {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 0 3% 0;
+        padding: 0;
+    }
+    .seccion-checkbox-docent-margen-tarjetas-PremiunHomeCell {
+        display: flex;
+        flex-direction: row;
+        justify-content: initial;
+        margin: 0;
+        padding: 0 0 0 8%;
+    }
+    .seccion-checkbox-estud-margen-tarjetas-PremiunHomeCell {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        padding: 0 0 0 1%;
+    }
+    .seccion-checkRadio-sectionTexto-tarjetas-PremiunHome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: .75em;
+        color: #736E6C;
+        margin: 0;
+    }
+    .seccion-checkRadio-sectionTexto-styleInput-tarjetas-PremiunHome {
+        margin-right: 4%;
+        margin-bottom: 2%;
+        height: 4vh;
+        width: 4vh;
+    }
+    .section-titulo2-cabecera-PremiunHomeCell {
+        font-size: 1em;
+        color:#186BD9;
+        margin: 7% 0 0 0;
+        padding: 0;
+    }
+    .section-SubTitulo-cabecera-PremiunHomeCell {
+        font-size: .75em;
+        margin: 0;
+        padding: 0;
+        color: #736E6C;
+    }
+    ///CONTAINER TARJETA MEMBRESIA jfk
+    .contenedor-principal-tarjetas-planIni-memb-PremiunHome {
+        padding: 0 4%;
+        margin: 0;
+    }
+    .content-tarjeta-membresia-PremiunHome {
+        background: #F5F5F5;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+        margin: auto;
+        padding: 0 2%;
+        margin-top: 6%;
+    }
+    .tarjeta-membresia-titulo-PremiunHome {
+        font-size: 1em;
+        color:#186BD9;
+        margin: 0;
+        padding-top: 5%;
+    }
+    .tarjeta-membresia-texto-inferior-titulo-PremiunHome {
+        font-size: .7em;
+    }
+    .tarjeta-membresia-valor-PremiunHome {
+        margin: 5% 0;
+        font-size: 1em;
+        text-align: center;
+    }
+    .tarjeta-membresia-subTitulo-planAnual-PremiunHome {
+        font-size: .7em;
+        text-align: center;
+        margin: 0 0 4.8% 0;
+    }
+    .btn-membresia-PremiunHome {
+        background:#186BD9;
+        width: 67%;
+        height: 6vh;
+        font-size: .7em;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        color: #ffffff !important;
+        padding: 2% 0;
+        transition: #ffffff;
+    }
+    .iconPremMemHome {
+        width: 30px;
+    }
+    .propiedadesBtnCollapseMemHome.rotacionBtn {
+        padding-top: 0;
+        margin-left: 2%;
+        margin-bottom: 1.5%
+    }
+    .tipografiaPerefilPremiumHome {
+        font-size: .7em;
+        margin-bottom: 0%;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .option-membresia-textoInfo-PremiunHome {
+        font-size: .7em;
+        text-align: initial;
+        margin-left: 4%;
+        padding-right: 6%;
+    }
+    .positionChevronMemHome {
+        color:#186BD9;
+    }
+    .margen-top-chevron-option-prof-PremiunHomeCell {
+        margin-top: -6%;
+    }
+    .margen-top-chevron-option-tecn-PremiunHomeCell{
+        margin-top: -6%;
+    }
+    .margen-top-chevron-option-docent-PremiunHomeCell {
+        margin-top: -6%;
+    }
+    .margen-top-chevron-option-student-PremiunHomeCell {
+        margin-top: -6%;
+    }
+    /////SECCION TARJETA PLAN INICIAL jfk
+    .content-tarjeta-planInicial-PremiunHome {
+        height: 60vh;
+        background: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+        margin: auto;
+        margin-top: 7%;
+        padding: 0 2%;
+    } 
+    .tarjeta-planInicial-titulo-PremiunHome {
+        font-size: 1em;
+        margin: 5% 0;
+        padding-top: 5%;
+    }
+    .tarjeta-planInicial-valor-PremiunHome {
+        margin: 10.5% 0 0 0;
+        font-size: 1em;
+        text-align: center;
+    }
+    .tarjeta-planInicial-subTitulo-sinCosto-PremiunHome {
+        font-size: .7em;
+        text-align: center;
+        margin: 5% 0;
+    }
+    .boton-seleccionar-PlanIncial-PremiunHome {
+        background:#186BD9;
+        width: 67%;
+        height: 6vh;
+        font-size: .7em;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        margin-bottom: 5%;
+        padding: 0;
+    }
+    .option-planInicial-titulo-textoInfo-PremiunHome {
+        font-size: .7em;
+        text-align: initial;
+        margin-bottom: 0%;
+        padding-left: 0%;
+        margin-left: 2%;
+        margin-bottom: 1.5%;
+    }
+    ///SECCION FOOTER MEDIOS DE PAGO jfk
+    .container-principal-footer-PremiunHome {
+        display: block;
+        padding: 10% 4%;
+        margin: 7% 0 0 0; 
+    }
+    .content-mediosdPagos-style-PremiunHome {
+        display: flex;
+        padding: 0;
+        margin: auto;
+    }
+    .seccion-mediosdPagos-content-imgCelulares-PremiunHome {
+        height: 8vh;
+        display: flex;
+    }
+    .content-mediosdPagos-bancosCuentas-PremiunHome {
+        padding: 0 0 0 3%;
+    }
+    .seccion-mediosdPagos-titulo-PremiunHome {
+        font-size: 1em;
+        color: #434142;
+        text-align: initial;
+    }
+    .seccion-mediosdPagos-subTitulo-PremiunHome {
+        font-size: .75em;
+        color: #434142;
+        text-align: initial;
+    }
+    .seccion-mediosdPagos-subTitulo-bancos-PremiunHome {
+        font-size: 1em;
+        color: #434142;
+        text-align: initial;
+    }
+    .seccion-mediosdPagos-cuenta-texto-PremiunHome {
+        font-size: .7em;
+        color: #434142;
+        text-align: initial;
+    } 
+    .seccion-mediosdPagos-cuenta-nameNit-PremiunHome {
+        padding: 0;
+        margin: 5% 0;
+    }
+    .seccion-mediosdPagos-cuenta-nameNit-texto-PremiunHome {
+        font-size: 0.75em;
+        color: #434142;
+        text-align: center;
+    }
+    .content-puntosdPago-imgs-PremiunHome {
+        padding: 0;
+    }
+    .section-puntosdPago-texto-style-PremiunHome {
+        font-size: 1em;
+    }
+    .content-puntosdPago-img-PremiunHome {
+        padding: 0;
+        height: 18vh;
+    }
+}
+// vista horizontal celular
+@media (min-width: 320px) and (orientation: landscape) {    
+}
+// vista vertical celular
+@media (min-width: 360px) and (orientation: portrait) {
+    ///SECCION PAGO POPUP jfk
+     .modal-dialogPopUpPremiunHome {
+        margin-top: 60%;
+    }
+   .option-membresia-textoInfo-PremiunHome {
+    margin-left: 5%;
+    }
+    .margen-top-chevron-option-prof-PremiunHomeCell {
+        margin-top: -4%;
+    }
+    .margen-top-chevron-option-tecn-PremiunHomeCell {
+        margin-top: -4%;
+    }
+    .margen-top-chevron-option-docent-PremiunHomeCell {
+        margin-top: -4%;
+    }
+    .margen-top-chevron-option-student-PremiunHomeCell {
+        margin-top: -4%;
+    }
+}
+// vista vertical celular
+@media (min-width: 375px) and (orientation: portrait) {
+    ///SECCION MODAL POP UP DE PAGO jfk
+    .modalBodyLogoPopUpPremiunHome {
+        width: 60%;
+    }
+    ///SECCION CHEK BOX RADIO jfk
+    .seccion-checkRadio-sectionTexto-styleInput-tarjetas-PremiunHome {
+        height: 3.5vh;
+        width: 3.5vh;
+    }
+    ///SECCION LISTADO DE OPCIONES TARJETA MEMBRESIA jfk
+    .propiedadesBtnCollapseMemHome.rotacionBtn {
+        margin-left: 0%;
+    }
+    .tipografiaPerefilPremiumHome {
+        font-size: .75em;
+    }
+    ///SECCION OPCION DE TARJETA PLAN INICIAL jfk
+    .option-planInicial-titulo-textoInfo-PremiunHome {
+        margin-left: 0%;
+        font-size: .75em;
+    }
+    .content-mediosdPagos-bancosCuentas-PremiunHome {
+        padding: 0 0 0 8%;
+    }
+    .option-membresia-textoInfo-PremiunHome {
+        margin-left: 4%;
+    }
+}
+// vista horizontal celular
+@media (min-width: 375px) and (orientation: landscape) { 
+}
+// vista vertical celular
+@media (min-width: 400px) and (orientation: portrait) {  
+       ///SECCION MODAL POP UP DE PAGO jfk
+       .modalBodyLogoPopUpPremiunHome {
+        width: 55%;
+    }
+    .modalBodyContentServProfPopUpPremiunHome {
+        padding: 0%;
+        margin-block: auto;
+        height: 3vh;
+        text-align: initial;
+    }
+    ///SECCION CHECK BOX RADIO jfk
+    .seccion-checkRadio-sectionTexto-styleInput-tarjetas-PremiunHome {
+        height: 3vh;
+        width: 3vh;
+    }
+    .option-membresia-textoInfo-PremiunHome {
+        margin-left: 4%;
+    }
+    .btn-membresia-PremiunHome {
+        padding: 3% 0;
+    }
+    ///SECCION DE OPCIONES TARJETAS MEMBRESIA jfk
+    .margen-top-chevron-option-prof-PremiunHomeCell {
+        margin-top: 1%;
+    }
+    .margen-top-chevron-option-tecn-PremiunHomeCell{
+        margin-top: -4%;
+    }
+    .margen-top-chevron-option-docent-PremiunHomeCell {
+        margin-top: 1%;
+    }
+    .margen-top-chevron-option-student-PremiunHomeCell {
+        margin-top: 1%;
+    }
+}
+// vista vertical celular
+@media (min-width: 425px) and (orientation: portrait) {
+    
+}
+// vista vertical tablec
+@media (min-width: 768px) and (orientation: portrait) {
+    .modalBodyLogoPopUpPremiunHome {
+        width: 60%;
+    }
+    .modalBodyContentServProfPopUpPremiunHome {
+        padding: 0%;
+        margin-block: auto;
+        height: 4vh;
+        text-align: initial;
+    }
+    .modalBodyAvisoFontPopUpPremiunHome {
+        display: block;
+        font-size: 1.5em;
+        line-height: 0.8;
+    }
+    .modalBodyServProfFontPopUpPremiunHome {
+        color: #186BD9;
+        font-size: 1.5em;
+        display: block;
+        line-height: .7;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+    }
+    .modal-dialogPopUpPremiunHome {
+        margin-top: 50%;
+    }
+    .targets-premiunHome-visible-en-pc {
+        display: none;
+    }
+    .targets-premiunHome-visible-en-cel {
+        display: block;
+    }
+    .seccion-checkRadio-sectionTexto-styleInput-tarjetas-PremiunHome {
+        height: 4vh;
+        width: 4vh;
+    }
+    .seccion-checkbox-estud-margen-tarjetas-PremiunHomeCell {
+        padding: 0 0 0 .6%;
+    }
+    ///SECCION CABECERA DE LAS TARJETAS jfk
+    .margen-respecto-header-PremiunHomeCell {
+        margin-top: 24%;
+        padding: 0%;
+    }
+    .section-titulo-cabecera-h1Top-PremiunHomeCell {
+        font-size: 2.5em;
+        color:#186BD9;
+        margin: 0;
+        padding: 0;
+    }
+    .section-titulo-cabecera-h1bottom-PremiunHomeCell {
+        font-size: 2.5em;
+        color:#186BD9;
+        margin: 0;
+        padding: 0;
+    }
+    .section-cabecera-titulosPrincipales-PremiunHomeCell {
+        padding: 0;
+        margin: 0 0 3% 0;
+    }
+    .seccion-checkbox-margen-tarjetas-PremiunHome { 
+        display: block;
+        margin: 0;
+        padding: 0 0 0 10%;
+    }
+    .seccion-checkbox-docent-margen-tarjetas-PremiunHomeCell {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        padding: 0 12% 0 0;
+    }
+    .seccion-checkRadio-sectionTexto-tarjetas-PremiunHome {
+        display: flex;
+        align-items: center;
+        font-size: 2em;
+        margin: 0;
+    }
+    .section-titulo2-cabecera-PremiunHomeCell {
+        font-size: 2.5em;
+        color:#186BD9;
+        margin: 7% 0 0 0;
+        padding: 0;
+    }
+    .section-SubTitulo-cabecera-PremiunHomeCell {
+        font-size: 2em;
+        margin: 0;
+        padding: 0;
+    }
+    ///SECCION TARJETA MEMBRESIA jfk
+    .tarjeta-membresia-titulo-PremiunHome {
+        font-size: 2.5em;
+        color:#186BD9;
+        margin: 0;
+        padding-top: 5%;
+    }
+    .tarjeta-membresia-texto-inferior-titulo-PremiunHome {
+        font-size: 2em;
+    }
+    .tarjeta-membresia-valor-PremiunHome {
+        margin: 5% 0;
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .tarjeta-membresia-subTitulo-planAnual-PremiunHome {
+        font-size: 2em;
+        text-align: center;
+        margin: 0 0 4.8% 0;
+    }
+    .btn-membresia-PremiunHome {
+        background:#186BD9;
+        width: 72%;
+        height: 7vh;
+        font-size: 2em;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        color: #ffffff !important;
+        padding: 2% 0;
+    }
+    .iconPremMemHome {
+        width: 50px;
+    }
+    .tipografiaPerefilPremiumHome {
+        font-size: 1.3em;
+    }
+    .option-membresia-textoInfo-PremiunHome {
+        font-size: 1.1em;
+        margin-left: 6%;
+    }
+    ///SECCION TARJETA PLAN INICIAL jfk
+    .tarjeta-planInicial-titulo-PremiunHome {
+        font-size: 2.5em;
+        margin: 5% 0;
+        padding-top: 5%;
+    }
+    .tarjeta-planInicial-valor-PremiunHome {
+        margin: 10.5% 0 0 0;
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .tarjeta-planInicial-subTitulo-sinCosto-PremiunHome {
+        font-size: 2em;
+        text-align: center;
+        margin: 5% 0;
+    }
+    .boton-seleccionar-PlanIncial-PremiunHome {
+        background:#186BD9;
+        width: 72%;
+        height: 7vh;
+        font-size: 2em;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        color: #ffffff !important;
+    }
+    .option-planInicial-titulo-textoInfo-PremiunHome {
+        font-size: 1.5em;
+        margin-left: 0;
+    }   
+    ///SECCION FOOTER MEDIOS DE PAGO jfk
+    .section-puntosdPago-texto-style-PremiunHome {
+        font-size: 2em;
+    }
+    .content-puntosdPago-img-PremiunHome {
+        padding: 0;
+        height: 20vh;
+    }
+    .seccion-mediosdPagos-titulo-PremiunHome {
+        font-size: 2em;
+    }   
+    .seccion-mediosdPagos-subTitulo-PremiunHome {
+        font-size: 1.2em;
+    }
+    .seccion-mediosdPagos-subTitulo-bancos-PremiunHome {
+        font-size: 2em;
+    }
+    .seccion-mediosdPagos-cuenta-texto-PremiunHome {
+        font-size: 1.563em;
+    }
+    .seccion-mediosdPagos-cuenta-nameNit-texto-PremiunHome {
+        font-size: 1.563em;
+    }
+}
+// vista horizontal tablec
+@media (min-width: 768px) and (orientation: landscape) {
+}
+
+@media (min-width: 1024px) {
+    ///SECCION MODAL POPUP jfk
+    .modal-dialogPopUpPremiunHome {
+        margin-top: 26%;
+        margin-left: 33%;
+    }
+    .content-sections-cabecera-tarjetas-PremiunHome {
+        margin-top: 8%;
+    }
+    
+    .container-general-footer-PremiunHome {
+        background: #f5f5f5;
+        margin: auto;
+        padding: 0;
+        width: 80%;
+    }
+    ///SECCION CABECERA DE LAS TARJETAS jfk
+    .section-titulo-cabecera-PremiunHomeCell {
+        font-size: 2em;
+        color:#186BD9;
+        margin: 5% 0 0 0;
+        padding: 0;
+    }
+   
+    .seccion-checkRadio-sectionTexto-tarjetas-PremiunHome {
+        font-size: 1em;
+        color: #736E6C;
+        margin: 0;
+    }
+    .seccion-checkRadio-input-tarjetas-PremiunHome {
+        height: 2.5vh;
+        width: 2.5vh;
+        margin-right: 0;
+    }
+    ///TARJETA PLAN IINICIAL jfk
+    .content-tarjeta-planInicial-PremiunHome {
+        padding: 0 1%;
+    }
+    .option-planInicial-titulo-textoInfo-PremiunHome {
+        font-size: .625em;
+        text-align: initial;
+        margin-bottom: 1%;
+        padding-left: 0%;
+    }
+    .option-planInicial-textoInfo-PremiunHome {
+        font-size: .625em;
+        text-align: initial;
+        margin-left: 4%;
+    }
+    ///FOOTER TARJETAS PREMIUN HOME jfk
+    .section-puntosdPago-img-inferior-style-PremiunHome {
+        height: 85%;
+    }
+}
+@media (min-width: 1200px) {
+     //// MODAL POPUP espera para pago jfk
+    .modal-dialogPopUpPremiunHome {
+        margin-top: 20%;
+        margin-left: 37%;
+    }
+    ///////////////
+    .content-sections-cabecera-tarjetas-PremiunHome {
+        margin-top: 7%;
+    }
+    .tarjeta-planInicial-valor-PremiunHome {
+        margin: 9.5% 0 0 0;
+    } 
+    .tarjeta-planInicial-subTitulo-sinCosto-PremiunHome {
+        margin: 1% 0 4.7% 0;
+    }
+    .section-puntosdPago-img-inferior-style-PremiunHome {
+        height: 90%;
+    }
+    .option-membresia-textoInfo-PremiunHome {
+        margin-left: 5%;
+    }
+}
+@media (min-width: 1300px) {
+     //// MODAL POPUP espera para pago jfk
+     .modal-dialogPopUpPremiunHome {
+        margin-top: 18%;
+        margin-left: 37%;
+    }
+    ///////////////
+    .tarjeta-planInicial-valor-PremiunHome {
+        margin: 9% 0 0 0;
+    } 
+    .tarjeta-planInicial-subTitulo-sinCosto-PremiunHome {
+        margin: 1% 0 4.9% 0;
+    }
+}
+
+@media (min-width: 1440px) {
+    ///SECCION MODAL POPUP jfk
+    .modal-dialogPopUpPremiunHome {
+        margin-top: 21%;
+        margin-left: 37%;
+    }
+    .modalBodyContentServProfPopUpPremiunHome {
+        padding: 0%;
+        margin-block: auto;
+        height: 4.5vh;
+        text-align: initial;
+    }
+    ////////////////
+    .content-sections-cabecera-tarjetas-PremiunHome {
+        margin-top: 8%;
+    }
+    .targets-premiunHome-visible-en-pc {
+        display: block;
+    }
+    .targets-premiunHome-visible-en-cel {
+        display: none;
+    } 
+    .section-puntosdPago-img-inferior-style-PremiunHome {
+        height: 88%;
+    }
+    .content-puntosdPago-img-PremiunHome {
+        padding: 0;
+        height: 14vh;
+    }
+    .option-planInicial-titulo-textoInfo-PremiunHome {
+        font-size: .7em;
+    }
+    .option-planInicial-textoInfo-PremiunHome {
+        font-size: .7em;
+    }
+    .tipografiaPerefilPremiumHome {
+        font-size: .7em;
+    }
+    .option-membresia-textoInfo-PremiunHome {
+        font-size: .7em;
+    } 
+    .tarjeta-planInicial-subTitulo-sinCosto-PremiunHome {
+        margin: 1% 0 4.6% 0;
+    }
+}
+
+@media (min-width: 1500px) {  
+    //// MODAL POPUP espera para pago jfk
+    .modalBodyContentServProfPopUpPremiunHome {
+        padding: 0%;
+        margin-block: auto;
+        height: 4vh;
+    }
+    .modal-dialogPopUpPremiunHome {
+        margin-top: 17%;
+        margin-left: 40%;
+    }
+    ///////////////
+    .content-sections-cabecera-tarjetas-PremiunHome {
+        margin-top: 6%;
+    } 
+    .tarjeta-planInicial-valor-PremiunHome {
+        margin: 8% 0 0 0;
+    }
+    .tarjeta-planInicial-subTitulo-sinCosto-PremiunHome {
+        margin: 1% 0 5.7% 0;
+    }
+    .option-membresia-textoInfo-PremiunHome {
+        font-size: .8em;
+        margin-left: 7%;
+        padding-right: 3%;
+    }
+    .option-planInicial-textoInfo-PremiunHome {
+        margin-left: 5%;
+    }
+    .section-titulo-cabecera-font-PremiunHome {
+        font-size: 2em;
+        margin: 0 0 3% 0;
+    }
+    .seccion-checkRadio-sectionTexto-tarjetas-PremiunHome {
+        font-size: 1.563em;
+    }
+    .section-titulo2-cabecera-font-PremiunHome {
+        font-size: 2em;
+    }
+    .section-SubTitulo-cabecera-PremiunHome {
+        font-size: 1.563em;
+    }
+    .tarjeta-planInicial-titulo-PremiunHome {
+        font-size: 2em;
+    }
+    .tarjeta-planInicial-valor-PremiunHome {
+        font-size: 2em;
+    }
+    .tarjeta-planInicial-subTitulo-sinCosto-PremiunHome {
+        font-size: 1em;
+    }
+    .boton-seleccionar-PlanIncial-PremiunHome {
+        font-size: 1em;
+    }
+
+    .option-planInicial-titulo-textoInfo-PremiunHome {
+        font-size: .9em;
+    }
+    .option-planInicial-textoInfo-PremiunHome {
+        font-size: .8em;
+    }
+    .tarjeta-membresia-titulo-PremiunHome {
+        font-size: 2em;
+    }
+    .tarjeta-membresia-texto-inferior-titulo-PremiunHome {
+        font-size: 1em;
+    }
+    .tarjeta-membresia-valor-PremiunHome {
+        font-size: 2em;
+    }
+    .tarjeta-membresia-subTitulo-planAnual-PremiunHome {
+        font-size: 1em;
+    }
+    .btn-membresia-PremiunHome {
+        font-size: 1em;
+    }
+    .tipografiaPerefilPremiumHome {
+        font-size: .9em;
+    }
+ 
+}

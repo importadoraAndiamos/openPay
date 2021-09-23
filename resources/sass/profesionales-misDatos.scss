@@ -1,0 +1,466 @@
+.container-principal-formulario-misDatos {
+    padding: 0;
+}
+.margContPlanPremMovl .seccionArea {
+    width: 100%;
+    font-size: 0.5833rem;
+    padding: 0%;
+    height: 30px;
+}
+.margContPlanPremMovl .seccionProfesion{
+    width: 100%;
+    font-size: 0.5833rem;
+    padding: 0%;
+    height: 30px;
+}
+.margContPlanPremMovl .seccionEspecialidad{
+    width: 100%;
+    font-size: 0.5833rem;
+    padding: 0%;
+    height: 30px;
+}
+.imgPrincipalMisDatos {
+    height: 100% !important;
+    width: 100%;
+    display: block;
+}
+.margContPlanPremMovl .filtroArea {
+    align-self: center;
+    padding: 0%;
+    opacity: 95%;
+    margin-bottom: 7%;
+}
+.margContPlanPremMovl .textAreaDescripcion {
+    width: 85%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    border: #ADACAC solid 1px;
+    border-radius: 15px;
+    margin-bottom: 4%;
+}
+.container-image-user-miCuenta {
+    position: relative;
+    padding: 10px;
+    height: 44vh;
+    width: 150px;
+    background: url($urlZaabra +'img/AgregarIconos.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px !important;
+    margin-top: 10px;
+}
+///ESTILOS NUEVO DISEÑO jfk
+///SECCION IMAGEN PRINCIPAL jfk
+.container-image-user-sectionImage-miCuenta {
+    text-align: center;
+    border-radius: 1px;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-image-user-content-image-miCuenta {
+    height: 100%;
+}
+
+///INFORMACION CABECERA jfk
+.section-info-cabecera-cajasdeTexto-miCuenta {
+    align-self: center;
+    margin-bottom: 0%;
+    padding: 0%;
+    opacity: 80%;
+}
+.section-info-cabecera-input-miCuenta {
+    width: 90%;
+    font-size: 0.8333rem;
+    border-radius: 15px;
+    opacity: 70%;
+    padding: 3px 4px;
+}
+.section-info-cabecera-content-miCuenta {
+    align-self: center;
+    margin-bottom: 0%;
+    padding: 0%;
+    opacity: 80%;
+}
+.section-info-body-textArea-miCuenta {
+    width: 100%;
+    border: #ADACAC solid 1px;
+    border-radius: 8px;
+    padding: 3%;
+    font-size: 1em;
+}
+.content-btnMembresia-indexMiCuenta > img {
+    width: 40%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.content-btnMembresia-indexMiCuenta {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    right: 5px;
+    padding-top: 5px;
+    margin-top: 10px;
+    border-top: solid 2px #1558de !important;
+}
+.seccionMiCuenta {
+    margin: 0;
+}
+.section-info-cabecera-filtro-miCuenta {
+    padding: 0;
+}
+///SECCION BOTON INFERIOR GUARDAR jfk
+.content-botonInferior-guardar-misDatos {
+    margin-top: 2%;
+    margin-bottom: .5%;
+}
+.section-botonInferior-guardar-misDatos {
+    padding-right: 0;
+    margin-left: auto;
+}
+.botonInferior-guardar-miCuenta {
+    border: 1px solid;
+    border-radius: 8px;
+    height: 35px;
+    width: 100% !important;
+    padding: 0;
+    font-size: 1em;
+    color: #ffffff;
+    background: #186BD9;
+}
+// vista vertical celular jfk
+@media (min-width: 320px) and (orientation: portrait) {
+    .content-section-img-miBasico {
+        margin: auto;
+        height: 40vh;
+    }
+    ///SECCION IMAGEN Y NOMBRE USUARIO jfk
+    .section-info-options-nameUser-miCuenta {
+        font-size: 1.2em;
+    }
+    .container-image-user-miCuenta {
+        height: 40vh;
+        padding: 0;
+    }
+    ///SECCION FILTRO AREA jfk
+    .section-info-options-titulo-miCuenta {
+        padding-left: 3%;
+        padding-top: 2%;
+        font-size: 1em;
+    }
+    .section-info-options-input-miCuenta {
+        width: 100%;
+        height: 5vh;
+        font-size: 1em;
+        border-radius: 6px;
+        background: white;
+    }
+    ///SECCIONES BODY OPTIONS jfk
+    .section-info-body-options-input-miCuenta {
+        font-size: 1em;
+        height: 5vh !important;
+        border-radius: 8px !important;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .seccionMiCuenta {
+        margin: 0%;
+    }
+    .listaMisDatos {
+        margin: 0;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 1em;
+    }
+    .margContPlanPremMovl {
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: 0%;
+    }
+    .margContPlanPremMovl .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .content-btnMembresia-indexMiCuenta {
+        right: 0;
+        border-top: solid 2px #1558de !important;
+        border-bottom: solid 2px #1558de !important;
+        padding-bottom: 5px;
+    }
+    .content-btnMembresia-indexMiCuenta > img {
+        width: 50%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+    .section-botonInferior-guardar-misDatos {
+        padding: 0;
+    }
+    .content-botonInferior-guardar-misDatos {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+// vista vertical celular
+@media (min-width: 375px) and (orientation: portrait) {
+    ///SECCION IMAGEN Y NOMBRE USUARIO jfk
+    .container-image-user-miCuenta {
+        height: 40vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }   
+}
+// vista vertical celular jfk
+@media (min-width: 400px) and (orientation: portrait) {
+    .content-btnMembresia-indexMiCuenta > img {
+        width: 55%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+    .content-btnMembresia-indexMiCuenta {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        right: 5px;
+        padding-top: 5px;
+        margin-top: 10px;
+        border-top: solid 2px #1558de !important;
+    }
+    .margContPlanPremMovl .fontIndicesMiCuenta {
+        font-size: 1.5rem;
+    }
+
+}    
+// vista vertical tablet jfk
+@media (min-width: 768px){
+    .container-image-user-miCuenta {
+        height: 34vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    .listaMisDatos {
+        padding-left: 0;
+        padding-right: 1%;
+    }
+    .content-btnMembresia-indexMiCuenta {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        right: 5px;
+        padding-top: 5px;
+        margin-top: 10px;
+        border-top: solid 2px #1558de !important;
+    }
+    .content-btnMembresia-indexMiCuenta > img {
+        width: 35%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+    /////CONTENEDOR PRINCIPAL jfk
+    .margContPlanPremMovl {
+        padding-left: 0%;
+        padding-right: 0%;
+        margin: 0%;
+    }
+    .section-info-body-textArea-miCuenta {
+        height: 83%;
+    }
+    .section-info-options-input-miCuenta {
+        width: 100%;
+        height: 4vh;
+        font-size: 1em;
+        border-radius: 6px;
+        background: white;
+    }
+    .section-info-body-options-input-miCuenta {
+        font-size: 1em;
+        height: 4vh !important;
+        border-radius: 8px !important;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .botonInferior-guardar-miCuenta {
+        border: 1px solid;
+        border-radius: 8px;
+        height: 4vh;
+        width: 96% !important;
+        padding: 0;
+        font-size: 1em;
+        color: #ffffff;
+        background: #186BD9;
+    }
+    .content-botonInferior-guardar-misDatos {
+        margin-top: 3%;
+        margin-bottom: 2%;
+        padding: 0;
+    }
+    .section-botonInferior-guardar-misDatos {
+        padding: 0 0 0 2%;
+        margin: auto;
+    }
+}
+// vista vertical desktop jfk
+@media (min-width: 1024px){
+    ///LISTA DE OPCIONES DE MI CUENTA jfk
+    .listaMisDatos {
+        margin: 0;
+        padding: 0;
+    }
+    .margContPlanPremMovl .fontIndicesMiCuenta {
+        font-size: 1em;
+        margin: 0;
+    }
+      ///BOTON MEMBRTESIA jfk
+      .content-btnMembresia-indexMiCuenta {
+        width: 100%;
+        height: 5%;
+        display: flex;
+        position: absolute;
+        right: 0;
+        padding-top: 0;
+        margin-top: 0;
+        border-top: solid 2px #1558de !important;
+    }
+    ///SECCION IMAGEN PRINCIPAL jfk
+    .container-image-user-miCuenta {
+        height: 35vh;
+        margin: auto;
+        padding: 0;
+    }
+    .content-section-img-propiedadesImg-miBasico {
+        height: 100%;
+    }
+
+    .content-btnMembresia-indexMiCuenta > img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+    ///SECCION IMAGEN Y DATOS PRINCIPALES jfk
+    .marRespectHeader {
+        margin-top: 10%;
+        padding: 0;
+    }
+    
+    ///SECCION FILTROS jfk
+    .section-info-options-input-miCuenta {
+        width: 100%;
+        height: 35px;
+        font-size: 1em;
+        border-radius: 6px;
+        background: white;
+    }
+    ///TEXT AREA jfk
+    .section-info-body-textArea-miCuenta {
+        height: 83%;
+        font-size: 1em;
+    }
+    .descripcion-text-area {
+        margin-top: 0%;
+    }
+   
+    ///sECCION BODY DATOS jfk
+    .seccion-filtros-padRight-miCuenta {
+        padding: 0 0 0 .5%;
+    }
+    .container-image-user-filtros-miCuenta {
+        margin-left: 1%;
+        padding-right: 1%;
+        padding-left: 0;
+    }
+    .section-info-options-titulo-miCuenta {
+        padding-left: 3%;
+        padding-top: 2%;
+        font-size: 1em;
+    }
+    .section-info-body-options-input-miCuenta {
+        font-size: 1em;
+        height: 35px !important;
+        border-radius: 8px !important;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .section-botonInferior-guardar-misDatos {
+        padding: 0 0 0 1.8%;
+        margin-right: 0;
+    }
+    .botonInferior-guardar-miCuenta {
+        border: 1px solid;
+        border-radius: 8px;
+        height: 35px;
+        width: 96% !important;
+        padding: 0;
+        font-size: 1em;
+        color: #ffffff;
+        background: #186BD9;
+    }
+    .content-botonInferior-guardar-misDatos {
+        margin-top: 2%;
+        margin-bottom: 1%;
+        padding: 0;
+    }
+}
+// vista vertical desktop jfk
+@media (min-width: 1200px){
+    .content-btnMembresia-indexMiCuenta > img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+    .container-image-user-miCuenta {
+        height: 40vh;
+        margin: auto;
+        padding: 0;
+    }
+    .section-botonInferior-guardar-misDatos {
+        padding: 0 0 0 1.5%;
+    }
+    .botonInferior-guardar-miCuenta {
+        border: 1px solid;
+        border-radius: 8px;
+        height: 35px;
+        width: 97% !important;
+        padding: 0;
+        font-size: 1em;
+        color: #ffffff;
+        background: #186BD9;
+    }
+    
+}
+// vista vertical desktop jfk
+@media (min-width: 1300px){
+}
+// vista vertical desktop jfk
+@media (min-width: 1440px){
+    .container-image-user-miCuenta {
+        height: 36vh;
+        margin: auto;
+        padding: 0;
+    } 
+
+}
+// vista vertical desktop jfk
+@media (min-width: 1500px){
+    .container-image-user-miCuenta {
+        height: 32vh;
+        margin: auto;
+        padding: 0;
+    }   
+    .content-botonInferior-guardar-misDatos {
+        margin-top: 2%;
+    }
+}

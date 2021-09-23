@@ -1,0 +1,787 @@
+.header {
+    background: #e8e8e8;
+    padding: 0% 0% 1% 0%;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    display: inline-flex;
+}
+.container-color {
+    display: inline-flex;
+    z-index: 15;
+    position: fixed;
+    width: 100%;
+    background-color: #1558d6;
+}
+//Seccion logo header
+.logoHeaderSProfesionales {
+    width: 100%;
+    height: auto;
+}
+.marAHeader {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+//Seccion servicios profesionales
+.contSerProHeader {
+    padding: 0;
+}
+.contSerProHeader > a {
+    text-decoration: none;
+}
+
+.fontSerProHeader {
+    color: #1558d6;
+    font-size: calc(1em + 1vh);
+    font-family: 'Quicksand';
+    font-weight: bold;
+}
+//seccion barra de busqueda
+.contBuscadorHeader {
+    align-self: center;
+    padding: 0%;
+    flex: 30%;
+    max-width: 30%;
+}
+.seccionBuscadorHeader {
+    display: contents;
+}
+.BarraBusquedaHeader {
+    border-radius: 5px;
+    width: 92%;
+    height: 60%;
+    margin: auto;
+    background-color: white;
+    height: 3.5vh;
+}
+#barra_buscar {
+    border-radius: 15px 0 0 15px;
+    border: none !important;
+}
+.inputBarraBusquedad {
+    width: 90%;
+    height: 100% !important;
+    padding-left: 3%;
+    border-radius: 50px !important;
+    font-size: 17px;
+    color: #b7b6b6;
+    border: none;
+}
+.heigFormHeader {
+    height: 100%;
+}
+
+//ESTILOS LUPA BARRA DE BUSQUEDA HEADER
+.contenedorLupa {
+    background: url($urlZaabra +'img/Lupa_Iconos.png') no-repeat;
+    background-size: 27px;
+    background-position: right;
+    background-color: white;
+    padding: 0;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    height: auto;
+    width: 10%;
+    position: relative;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: auto;
+    right: 0;
+    align-items: flex-end;
+}
+.padContBuscadorOculto {
+    background: #e8e8e8e8;
+}
+//seccion boton usuario
+.propiedadesBotonUsuario {
+    width: 65%;
+    height: 100%;
+    border-radius: 5px;
+    border: 0;
+    background-color: white;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(142, 142, 142, 1);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(142, 142, 142, 1);
+    box-shadow: 5px 5px 10px 0px rgba(142, 142, 142, 1);
+}
+.positionBtnUsuarioHeader {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    height: 4.5vh;
+}
+.contImgIngresar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.alineacionBtnUsuario {
+    text-align: center;
+}
+.iconoUsuarioHeader {
+    width: 2.3vh;
+    height: 2.3vh;
+}
+.palabraIngresarUsuario {
+    font-size: calc(0.1em + 1vw);
+    color: #434142;
+    vertical-align: bottom;
+    vertical-align: middle;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    font-family: 'Quicksand';
+    font-weight: bolder;
+}
+.dropdown-toggle::after {
+    border-top: 0em !important;
+    border: none !important;
+}
+.colorFontDropDownMenuHeader {
+    /*color de letras MI CUENTA e INGRESAR del menu INGRESAR*/
+    color: #282828;
+}
+.colorIcono {
+    /*color de los ICONOS de MI CUENTA e INGRESAR del menu INGRESAR*/
+    color: #282828;
+    margin-right: 10px;
+}
+.colorIconoOutLog {
+    margin-right: 7px;
+}
+.anchoDropDown {
+    width: 100%;
+}
+.btn-secondary:hover {
+    background-color: #e8e8e8 !important;
+    border: solid 0.13em #f77f00;
+}
+.show > .btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #545b62;
+    border-color: #f77f00 !important;
+}
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.85);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.fe-pulse {
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes pulse2 {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.fe-pulse2 {
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+//ESTILOS BOTON PREMIUM
+.imgMembresiaHeader {
+    width: 55%;
+}
+.imgMembresiaHeaderMobl {
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.contbtnMembresia {
+    align-self: center;
+    text-align-last: justify;
+}
+.padBtnMemHeader {
+    padding: 0% 0%;
+}
+//buscador oculto header version movil
+.header-visible-en-pc {
+    height: 6vh !important;
+    margin-top: 2.9%;
+    padding-top: 0 !important;
+}
+.padContBuscadorOculto {
+    display: none;
+}
+.contain-logo{
+    margin-left: 5%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 320px) {
+    .container-color {
+        height: 5%;
+    }
+    .header-visible-en-pc {
+        display: none;
+    }
+    .header-visible-en-cel {
+        display: block;
+        height: 9vh;
+        padding: 0.5% 0% 0 0%;
+        margin-top: 4vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .ajusteContenido {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        margin-left: 3%;
+    }
+    .logo-zaabra-header-cel {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .contSerProHeader {
+        padding: 0;
+        display: flex;
+        height: 100%;
+        padding-left: 0;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 2%;
+    }
+    .contSerProHeader > a {
+        height: 100%;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .positionIConoLupaHeader {
+        align-self: center;
+        -moz-text-align-last: end;
+        text-align-last: end;
+        margin-right: -4%;
+    }
+    .positVerticalUserHeader {
+        align-self: initial;
+        margin-right: -8%;
+    }
+    .contbtnMembresia {
+        align-self: center;
+        -moz-text-align-last: justify;
+        text-align-last: justify;
+        width: 18%;
+    }
+    .padBtnMembHeaderMob {
+        width: 10.5vh;
+    }
+    .fontSerProHeader {
+        color: #1558d6;
+        font-size: calc(0.4em + 1vh);
+        line-height: 01em;
+        font-weight: bold;
+    }
+    .btnLupaHeaderMovil {
+        width: 100%;
+        border: 0;
+        background-color: #e8e8e8;
+    }
+    .lupaHeaderMovil {
+        width: 69%;
+    }
+    .userHeaderMovil {
+        width: 66%;
+    }
+    .btnUserHeader {
+        width: 95%;
+        border: 0;
+        background-color: #e8e8e8;
+    }
+    .bloqueA {
+        height: 8vh;
+    }
+    .contenedorLupa {
+        height: 4.5vh !important;
+        width: 10% !important;
+    }
+    .propiedadesBotonUsuario {
+        width: 65%;
+        height: 87%;
+        border-radius: 5px;
+        border: 0;
+        background-color: #ffffff00;
+        box-shadow: none;
+    }
+    .contain-logo {
+        margin-left: 0%;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .logoHeaderSProfesionales {
+        width: 50vw;
+        height: 100%;
+    }
+}
+@media (min-width: 375px) {
+    .header-visible-en-pc {
+        display: none;
+    }
+    .contSerProHeader{
+        padding-top: 1%;
+    }
+    .positionIConoLupaHeader {
+        align-self: center;
+        -moz-text-align-last: end;
+        text-align-last: end;
+        margin-right: -2%;
+    }
+    .positVerticalUserHeader {
+        align-self: initial;
+        margin-right: -5%;
+    }
+    .imgMembresiaHeaderMobl {
+        width: 61%;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 30%);
+    }
+    .lupaHeaderMovil {
+        width: 64%;
+    }
+    .userHeaderMovil {
+        width: 60%;
+    }
+    .imgMembresiaHeaderMobl {
+        width: 52%;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 30%);
+    }
+}
+// vista horizontal celular
+@media (min-width: 480px) {
+    .header-visible-en-pc {
+        display: none;
+    }
+    .header-visible-en-cel {
+        display: block;
+        height: 8vh;
+        padding: 0;
+    }
+    .ajusteContenido {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo-zaabra-header-cel {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .contSerProHeader {
+        padding: 0;
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+    .contSerProHeader > a {
+        height: 100%;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .alineProfHeaderMob {
+        line-height: 0%;
+    }
+    .fontSerProHeader {
+        font-size: 0.8333rem;
+    }
+    .positionIConoLupaHeader {
+        align-self: center;
+        text-align-last: end;
+    }
+    .btnLupaHeaderMovil {
+        border: none;
+        background: #e8e8e8;
+    }
+    .lupaHeaderMovil {
+        width: 55%;
+    }
+    .positVerticalUserHeader {
+        align-self: center;
+    }
+    .btnUserHeader {
+        background: #e8e8e8;
+        border: none;
+    }
+    .imgMembresiaHeaderMobl {
+        width: 50%;
+    }
+    .btnUsermICuentaCel {
+        background: #e8e8e8;
+        padding: 0%;
+        border: none;
+    }
+    .positionIConoUserHeader {
+        text-align: center;
+    }
+    .padBtnMembHeaderMob {
+        padding: 0%;
+    }
+    .BarraBusquedaHeader {
+        border-radius: 5px;
+        width: 80%;
+        background-color: white;
+        display: block;
+        margin: auto;
+    }
+    .inputBarraBusquedad {
+        width: 85%;
+        height: 100% !important;
+        padding-left: 3%;
+        border-radius: 50px !important;
+        font-size: 17px;
+        color: #b7b6b6;
+        border: none;
+    }
+    .propiedadesBotonUsuario {
+        width: 65%;
+        height: 100%;
+        border-radius: 5px;
+        border: 0;
+        background-color: #ffffff00;
+        box-shadow: none;
+    }
+
+}
+
+// vista horizontal celular
+
+// vista horizontal tablec//
+@media (min-width: 768px) {
+    .header-visible-en-pc {
+        display: none;
+    }
+    .header-visible-en-cel {
+        display: block;
+        height: 7vh;
+        padding: 0;
+        margin-top: 4vh;
+    }
+    .ajusteContenido {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .lupaHeaderMovil {
+        width: 100%;
+    }
+    .positVerticalUserHeader {
+        width: 7%;
+        align-self: initial;
+    }
+    .userHeaderMovil {
+        width: 100%;
+    }
+    .imgMembresiaHeaderMobl {
+        width: 36%;
+    }
+    .propiedadesBotonUsuario {
+        width: 56%;
+        height: 87%;
+        border-radius: 5px;
+        border: 0;
+        background-color: #ffffff00;
+        box-shadow: none;
+    }
+    .fontSerProHeader {
+        font-size: 1.3em;
+    }
+    .contSerProHeader{
+        margin-left: -3%;
+    }
+    .contbtnMembresia{
+        width: 10%;
+    }
+    .positionIConoLupaHeader{
+        width: 8%;
+        margin-left: 30%;
+    }
+    .contain-logo {
+        margin-left: 0%;
+        display: flex;
+        height: 60%;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+    }
+    .positVerticalUserHeader {
+        align-self: initial;
+        margin-right: -3%;
+    }
+    .positionIConoLupaHeader {
+        align-self: center;
+        -moz-text-align-last: end;
+        text-align-last: end;
+        margin-right: -4%;
+    }
+}
+@media (min-width: 1024px){
+    .fontSerProHeader {
+        font-size: 1.5em;
+    }
+    .header-visible-en-pc {
+        margin-top: 5vh;
+    }
+    .container-color {
+        height: 3.9%;
+    }
+}
+// vista horizontal desktop S
+@media (min-width: 1024px) and (max-height: 800px) {
+    .header-visible-en-pc {
+        height: 12vh;
+        display: flex;
+        padding: 0;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 3.8vh;
+    }
+    .header-visible-en-cel {
+        display: none;
+    }
+    .contBuscadorHeader {
+        align-self: center;
+        padding: 0%;
+        flex: 30%;
+        max-width: 75%;
+        height: 100%;
+        margin-right: 4.5%;
+    }
+    .fontSerProHeader {
+        font-size: calc(0.7em + 1vh);
+    }
+    .imgMembresiaHeader {
+        width: 66%;
+    }
+    .palabraIngresarUsuario {
+        vertical-align: top;
+    }
+    /*Margen de la lista de opciones
+    con respecto a la barra de busqueda jfk*/
+    .autocomplete-items {
+        margin-top: 0.3%;
+    }
+    .contenedorLupa {
+        background-size: 16px;
+        position: absolute;
+        height: 3.5vh !important;
+        right: 1vw;
+        margin-top: 0;
+    }
+    .seccionArea {
+        width: 85%;
+    }
+    .contSerProHeader{
+        margin-left: 0;
+    }
+    .contSerProHeader > a {
+        height: 100%;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.5em;
+        padding-top: 5px;
+    }
+    .margenRespectoHeader {
+        margin-top: 14vh;
+    }
+    .bloqueA {
+        height: 100%;
+    }
+    .propiedadesBotonUsuario{
+        background-color: #ffff;
+    }
+    .BarraBusquedaHeader{
+        width: 88%;
+    }
+    .contain-logo {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+        margin-left: 5%;
+    }
+    .logoHeaderSProfesionales {
+
+        width: 80%;
+        height: 5vh;
+    }
+}
+
+// vista horizontal tablec
+@media (min-width: 1200px) {
+    .header-visible-en-pc {
+        height: 12vh;
+        display: flex;
+        padding: 0;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 3.9vh;
+    }
+    .header-visible-en-cel {
+        display: none;
+    }
+    .contBuscadorHeader {
+        align-self: center;
+        padding: 0%;
+        flex: 30%;
+        max-width: 75%;
+        height: 100%;
+        margin-right: 4.5%;
+        margin-top: 0.2%;
+    }
+    .fontSerProHeader {
+        font-size: calc(0.7em + 1vh);
+    }
+    .imgMembresiaHeader {
+        width: 75%;
+    }
+    .palabraIngresarUsuario {
+        vertical-align: top;
+    }
+    /*Margen de la lista de opciones
+    con respecto a la barra de busqueda jfk*/
+    .autocomplete-items {
+        margin-top: 0.3%;
+    }
+    .contenedorLupa {
+        background-size: 25px;
+        position: absolute;
+        height: 3.5vh !important;
+        right: 2vw;
+        margin-top: 0;
+    }
+    .seccionArea {
+        width: 85%;
+    }
+    .contSerProHeader{
+        margin-left: 0;
+    }
+    .contSerProHeader > a {
+        height: 100%;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.5em;
+        padding-top: 5px;
+    }
+    .bloqueA{
+        height: 100%;
+    }
+    .propiedadesBotonUsuario{
+        background-color: #ffff;
+    }
+    .BarraBusquedaHeader{
+        width: 90%;
+    }
+    .contain-logo {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        margin-left: 5%;
+        margin-top: 0.2%;
+    }
+    .logoHeaderSProfesionales {
+        width: 100%;
+        height: 5.5vh;
+    }
+    .positionBtnUsuarioHeader{
+        margin-top: 0.2%;
+    }
+    .contbtnMembresia{
+        margin-top: 0.2%;
+    }
+
+}
+
+// vista horizontal tablec
+@media (min-width: 1440px) {
+    .header-visible-en-pc {
+        display: flex;
+    }
+    .header-visible-en-cel {
+        display: none;
+    }
+    .imgMembresiaHeader {
+        width: 80%;
+    }
+    .bloqueA{
+        height: 100%;
+    }
+    .header-visible-en-pc {
+        height: 6.5vh !important;
+    }
+}
+
+// vista horizontal tablec
+@media (min-width: 1600px) {
+    .header-visible-en-pc {
+        display: flex;
+        margin-top: 3.6vh;
+    }
+    .header-visible-en-cel {
+        display: none;
+    }
+    .imgMembresiaHeader {
+        width: 64%;
+    }
+    .bloqueA{
+        height: 100%;
+    }
+    /*Margen de la lista de opciones
+    con respecto a la barra de busqueda jfk*/
+    .autocomplete-items {
+        margin-top: 0.3%;
+    }
+}
+
+@media (min-width: 2560px) {
+    .header-visible-en-pc {
+        display: flex;
+    }
+    .header-visible-en-cel {
+        display: none;
+    }
+    .fontSerProHeader {
+        font-size: 1.8rem;
+    }
+    .bloqueA{
+        height: 100%;
+    }
+}
